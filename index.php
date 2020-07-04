@@ -10,19 +10,19 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     
     
-    <link rel="stylesheet" href="/js/carousel/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="/js/carousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="js/carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/carousel/dist/assets/owl.theme.default.min.css">
 
 
 
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
 
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 </head>
 
 <body>
-    <?php require "/templates/_navigation.php"; ?>
+    <?php require "templates/_navigation.php"; ?>
     <main>
         <div class="first-block">
 
@@ -125,8 +125,8 @@
         </div>
 
     </main> 
-    <script src="/js/jquery-mousewheel-master/jquery.mousewheel.js"></script>
-    <script src="/js/carousel/dist/owl.carousel.min.js"></script>
+    <script src="js/jquery-mousewheel-master/jquery.mousewheel.js"></script>
+    <script src="js/carousel/dist/owl.carousel.min.js"></script>
     <script>
     var owl = $('.owl-carousel');
 owl.owlCarousel({
@@ -161,8 +161,8 @@ owl.on('mousewheel', '.owl-stage', function (e) {
     e.preventDefault();
 });
 </script>
-    <script src="/js/particles.js-master/particles.js"></script>
-    <script src="/js/js.js"></script>
+    <script src="js/particles.js-master/particles.js"></script>
+    <script src="js/js.js"></script>
 </body>
 
 </html>
