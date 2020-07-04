@@ -5,11 +5,11 @@
     <title></title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-    <link href="/fonts/font-awesome/css/all.css" rel="stylesheet">
+   
 
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/css/_navigation.css">
-    <link rel="stylesheet" type="text/css" href="/css/_feedback.css">
+    
+    
     <link rel="stylesheet" href="/js/carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="/js/carousel/dist/assets/owl.theme.default.min.css">
 
