@@ -5,24 +5,24 @@
     <title></title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-    <link href="fonts/font-awesome/css/all.css" rel="stylesheet">
+    <link href="/fonts/font-awesome/css/all.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/_navigation.css">
-    <link rel="stylesheet" type="text/css" href="css/_feedback.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/_navigation.css">
+    <link rel="stylesheet" type="text/css" href="/css/_feedback.css">
     <link rel="stylesheet" href="/js/carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="/js/carousel/dist/assets/owl.theme.default.min.css">
 
 
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 
 
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 </head>
 
 <body>
-    <?php require "templates/_navigation.php"; ?>
+    <?php require "/templates/_navigation.php"; ?>
     <main>
         <div class="first-block">
 
@@ -161,8 +161,8 @@ owl.on('mousewheel', '.owl-stage', function (e) {
     e.preventDefault();
 });
 </script>
-    <script src="js/particles.js-master/particles.js"></script>
-    <script src="js/js.js"></script>
+    <script src="/js/particles.js-master/particles.js"></script>
+    <script src="/js/js.js"></script>
 </body>
 
 </html>
