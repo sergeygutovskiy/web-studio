@@ -1,0 +1,162 @@
+.carousel {
+	position: relative;
+	width: calc(100% - 60px * 2);
+	margin: auto;
+}
+.carousel .owl-theme .custom-nav {
+	position: absolute;
+	top: 35%;
+	left: 0;
+	right: 0;
+}
+.carousel .owl-theme .custom-nav .owl-prev,
+.carousel .owl-theme .custom-nav .owl-next {
+	position: absolute;
+	height: 52px;
+	width: 52px;
+	margin: 0;
+	padding: 0;
+	border-radius: 50%;
+	color: inherit;
+	background: none;
+	border: none;
+	z-index: 100;
+}
+
+.carousel .owl-theme .custom-nav .owl-prev {
+	left: -60px;
+	
+}
+
+.carousel .owl-theme .custom-nav .owl-next {
+	right: -60px;
+	
+}
+
+.carousel .owl-theme .custom-nav .carousel-btn {
+	width: 100%;
+	height: 100%;
+	background-color: #4C8FFC;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.carousel .owl-theme .custom-nav .carousel-btn-left i{
+	
+	color:white;
+	position: absolute; top: 24%; left: 33%;
+	font-size: 30px;
+}
+
+.carousel .owl-theme .custom-nav .carousel-btn-right i {
+	
+	color:white;
+	position: absolute; top: 24%; left: 40%;
+	font-size: 30px;
+	
+}
+
+.carousel .owl-theme .custom-dots button {
+	border: none;
+	background-color: #E5E5E5;
+	min-width: 40px;
+	border-radius: 2px;
+	transition: background-color .3s linear;
+}
+
+.carousel .owl-theme .custom-dots button.active {
+	background-color: #4C8FFC;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 425px) 
+{
+	.carousel {
+		width: 100%;
+	}
+
+	.cards-primary .card { 
+		width: 95%;
+		max-width: 320px;
+	}
+
+	.carousel .owl-theme .custom-nav .owl-prev,
+	.carousel .owl-theme .custom-nav .owl-next {
+		width: 36px;
+		height: 36px;
+	}
+
+	.carousel .owl-theme .custom-nav .owl-prev {
+	  left: -44px;
+	}
+
+	.carousel .owl-theme .custom-nav .owl-next {
+	  right: -44px;
+	}
+
+	.carousel .owl-theme .custom-nav {
+		display: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.video-carousel {
+	width: 800px;
+	margin: auto;
+}
+
+.video-carousel .item {
+	width: 720px;
+	margin: auto;
+}
+
+.video-carousel .item > div {
+	position: relative;
+	padding-top: 56.25%;
+}
+
+.video-carousel .item iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 1024px)
+{
+	.video-carousel {
+		width: calc(100% - 120px);
+	}
+
+	.video-carousel .item {
+		width: calc(100% - 20px);
+	}
+}
+
+@media screen and (max-width: 425px)
+{
+	.video-carousel {
+		width: 100%;
+	}
+}
