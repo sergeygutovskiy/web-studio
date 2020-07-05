@@ -2,7 +2,7 @@
     .first-block{
       
       
-      
+    
     height: 100vh;
     }
 
@@ -40,7 +40,7 @@
   height: 470px;
   object-fit: cover;
   border-radius: 5px;
-  background-color: black;
+  background-color:black;
 }
 .slide-box h3 {
   position: absolute;

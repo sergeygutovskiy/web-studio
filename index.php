@@ -7,7 +7,7 @@
 
    
 
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     
     
     <link rel="stylesheet" href="js/carousel/dist/assets/owl.carousel.min.css">
