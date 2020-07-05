@@ -12,7 +12,7 @@
     
     <link rel="stylesheet" href="js/carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="js/carousel/dist/assets/owl.theme.default.min.css">
-
+ш
 
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
