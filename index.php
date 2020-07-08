@@ -5,14 +5,14 @@
     <title></title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-   
+    <link rel="stylesheet" href="fonts/font-awesome/css/all.css">
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
     
     
     <link rel="stylesheet" href="js/carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="js/carousel/dist/assets/owl.theme.default.min.css">
-ш
+
 
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -123,7 +123,9 @@
             </div>
 
         </div>
-
+        <i class="fa fa-fighter-jet" ></i>
+        <i class="fas fa-phone fa-rotate-90"></i>
+        <i class="fa fa-telegram" ></i>
     </main> 
     <script src="js/jquery-mousewheel-master/jquery.mousewheel.js"></script>
     <script src="js/carousel/dist/owl.carousel.min.js"></script>

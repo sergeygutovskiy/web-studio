@@ -1,3 +1,10 @@
+<div class="progress-box">
+  <div class="progressbar"></div>
+</div>
+<header>
+
+  
+
 <div class="overlay-navigation">
   <nav role="navigation">
     <ul>
@@ -10,14 +17,17 @@
   </nav>
 </div>
 
-<section class="home">
-  
+<div class="home">
+
   <div class="open-overlay">
     <span class="bar-top"></span>
     <span class="bar-middle"></span>
     <span class="bar-bottom"></span>
   </div>
-</section>
+</div>
+
+</header>
+
 
 <style>
     
@@ -184,8 +194,8 @@ Burger king
 
 .open-overlay {
   position: absolute;
-  right: 2.5rem;
-  top: 1.5rem;
+  right: 2rem;
+  top: 1rem;
   z-index: 100;
   width: 34px;
   display: block;
@@ -420,4 +430,38 @@ Animation keyframes
     nav_item_5.removeClass('slide-in-nav-item-delay-4').addClass('slide-in-nav-item-delay-4-reverse');
   }
 })
+</script>
+<style>
+  .progress-box {
+  border-top: 4px solid rgba(255, 255, 255, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  min-height: 4px;
+}
+
+.progressbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background: var(--main-blue-color);
+}
+  </style>
+<script>
+  $(document).ready(function() {
+  var pageHeight = $(document).height();
+  var wHeight = $(window).height();
+  var difHeight = pageHeight - wHeight;
+
+  $(window).scroll(function() {
+    var x = ($(window).scrollTop() / difHeight) * 100;
+    $('.progressbar').css({
+      'width': + x + '%'
+    });
+  })
+});
 </script>
