@@ -10,6 +10,12 @@
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 
+	<!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"> -->
+	<link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+	<!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <link rel="stylesheet" href="fonts/font-awesome/css/all.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -55,7 +61,7 @@
 	</section>
 
 	<section class="services">
-		<div class="main-container services__content">
+		<div class="services__content">
 			<ul class="services__items">
 				<li class="services__item">сайты</li>
 				<li class="services__item">приложения</li>
@@ -63,6 +69,72 @@
 				<li class="services__item">продвижение</li>
 				<li class="services__item">презентации</li>
 			</ul>
+		</div>
+	</section>
+
+	<section class="main-container project">
+		<div class="project__content">
+			<div class="project__left">
+				<div>
+					<span class="project__tag">Многостраничный сайт</span>
+					<span class="project__tag">Продвижение</span>
+				</div>
+
+				<h3 class="project__name">ЭраСтройМонтаж</h3>
+				<a href="https://ersm-spb.ru" class="project__link">
+					<i class="fal fa-link"></i>
+					<span>ersm-spb.ru<span>
+				</a>
+
+				<p class="project__desc">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				</p>
+
+				<div class="project__gallery">
+					<div class="project__buttons">
+						<button class="project__button project__button--prev" onclick="prevSlide()">
+							<i class="fas fa-caret-left"></i>
+						</button>
+						<button class="project__button project__button--next" onclick="nextSlide()">
+							<i class="fas fa-caret-right"></i>
+						</button>
+					</div>
+					<div class="project__images-previews">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide project__slide">
+								<img class="project__images-preview" src="imgs/1.png">
+							</div>
+							<div class="swiper-slide project__slide">
+								<img class="project__images-preview" src="imgs/2.png">
+							</div>
+							<div class="swiper-slide project__slide">
+								<img class="project__images-preview" src="imgs/1.png">
+							</div>
+							<div class="swiper-slide project__slide">
+								<img class="project__images-preview" src="imgs/2.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="project__images">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide project__slide">
+							<img class="project__image" src="imgs/1.png">
+						</div>
+						<div class="swiper-slide project__slide">
+							<img class="project__image" src="imgs/2.png">
+						</div>
+						<div class="swiper-slide project__slide">
+							<img class="project__image" src="imgs/1.png">
+						</div>
+						<div class="swiper-slide project__slide">
+							<img class="project__image" src="imgs/2.png">
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -101,7 +173,66 @@
 	</section>
 
 	<script>
+		let first_project_gallery_proview = null;
+		let it_project_gallery = null;
+		let last_active_index = null;
+
 		$(document).ready(function () {
+			updateTimeSpan();
+			setTimeout(updateTimeSpan, 1000 * 60)
+	
+			first_project_gallery_proview = new Swiper('.project__images-previews', {
+				slidesPerView: 1,
+				spaceBetween: 12,
+				autoHeight: true,
+
+				breakpoints: {
+					0: {
+						slidesPerView: 1
+					},
+					768: {
+						slidesPerView: 3
+					}
+				}
+			})
+
+			first_project_gallery = new Swiper('.project__images', {
+				slidesPerView: 1,
+				spaceBetween: 12,
+				effect: "fade"
+			})
+
+			last_active_index = first_project_gallery_proview.activeIndex;
+			$(".swiper-slide").eq(last_active_index).addClass("project__slide--active");
+		});
+
+		function nextSlide() {
+			if (first_project_gallery_proview.slides.length != last_active_index + 1)
+			{
+				last_active_index++;
+
+				$(".swiper-slide").eq(last_active_index - 1).removeClass("project__slide--active");
+				$(".swiper-slide").eq(last_active_index    ).addClass(   "project__slide--active");
+
+				first_project_gallery_proview.slideNext();
+				first_project_gallery.slideNext();
+			}
+		}
+
+		function prevSlide() {
+			if (last_active_index > 0)
+			{
+				last_active_index--;
+
+				$(".swiper-slide").eq(last_active_index + 1).removeClass("project__slide--active");
+				$(".swiper-slide").eq(last_active_index    ).addClass(   "project__slide--active");
+
+				first_project_gallery_proview.slidePrev();
+				first_project_gallery.slidePrev();
+			}
+		}
+
+		function updateTimeSpan() {
 			let date = new Date();
 
 			var minutes = date.getMinutes();
@@ -109,8 +240,9 @@
 
 			if (hour    < 10) hour    = "0" + String(hour);
 			if (minutes < 10) minutes = "0" + String(minutes);
-			$("#contacts__current-time").text(hour + ":" + minutes);
-		});
+			$("#contacts__current-time").text(hour + ":" + minutes);			
+		}
+
 	</script>
 </body>
 </html>
