@@ -72,7 +72,7 @@
 		</div>
 	</section>
 
-	<section class="main-container project">
+	<section class="main-container project" id="ersm">
 		<div class="project__content">
 			<div class="project__left">
 				<div>
@@ -92,10 +92,10 @@
 
 				<div class="project__gallery">
 					<div class="project__buttons">
-						<button class="project__button project__button--prev" onclick="prevSlide()">
+						<button class="project__button project__button--prev">
 							<i class="fas fa-caret-left"></i>
 						</button>
-						<button class="project__button project__button--next" onclick="nextSlide()">
+						<button class="project__button project__button--next">
 							<i class="fas fa-caret-right"></i>
 						</button>
 					</div>
@@ -177,60 +177,130 @@
 		let it_project_gallery = null;
 		let last_active_index = null;
 
+		class ProjectImagesManager 
+		{
+			constructor(id_prefix, preview_swiper_params, main_swiper_params) 
+			{
+				this.prefix = id_prefix;
+				this.index = 0;
+
+				this.preview_swiper = new Swiper(
+					this.prefix + " .project__images-previews", preview_swiper_params
+				); 
+				this.swiper = new Swiper(
+					this.prefix + " .project__images", main_swiper_params
+				);
+			
+				$(this.prefix + " .project__button--prev").click(() => this.slidePrev());
+				$(this.prefix + " .project__button--next").click(() => this.slideNext());
+				$(this.prefix + " .swiper-slide").eq(this.index).addClass("project__slide--active");
+			} 
+
+			slideNext()
+			{
+				if (this.preview_swiper.slides.length != this.index + 1)
+				{
+					this.index++;
+
+					$(this.prefix + " .swiper-slide").eq(this.index - 1).removeClass("project__slide--active");
+					$(this.prefix + " .swiper-slide").eq(this.index    ).addClass(   "project__slide--active");
+
+					this.preview_swiper.slideNext();
+					this.swiper.slideNext();
+				}
+			} 
+
+			slidePrev()
+			{
+				if (this.index > 0)
+				{
+					this.index--;
+
+					$(this.prefix + " .swiper-slide").eq(this.index + 1).removeClass("project__slide--active");
+					$(this.prefix + " .swiper-slide").eq(this.index    ).addClass(   "project__slide--active");
+
+					this.preview_swiper.slidePrev();
+					this.swiper.slidePrev();
+				}
+			}
+		}
+
 		$(document).ready(function () {
 			updateTimeSpan();
 			setTimeout(updateTimeSpan, 1000 * 60)
-	
-			first_project_gallery_proview = new Swiper('.project__images-previews', {
-				slidesPerView: 1,
-				spaceBetween: 12,
-				autoHeight: true,
 
-				breakpoints: {
-					0: {
-						slidesPerView: 1
-					},
-					768: {
-						slidesPerView: 3
+			first_project_manager = new ProjectImagesManager("#ersm", 
+				{
+					slidesPerView: 1,
+					spaceBetween: 12,
+					autoHeight: true,
+
+					breakpoints: {
+						0: {
+							slidesPerView: 1
+						},
+						768: {
+							slidesPerView: 3
+						}
 					}
+				},
+				{
+					slidesPerView: 1,
+					spaceBetween: 12,
+					effect: "fade"
 				}
-			})
+			);
+	
+			// first_project_gallery_proview = new Swiper('.project__images-previews', {
+			// 	slidesPerView: 1,
+			// 	spaceBetween: 12,
+			// 	autoHeight: true,
 
-			first_project_gallery = new Swiper('.project__images', {
-				slidesPerView: 1,
-				spaceBetween: 12,
-				effect: "fade"
-			})
+			// 	breakpoints: {
+			// 		0: {
+			// 			slidesPerView: 1
+			// 		},
+			// 		768: {
+			// 			slidesPerView: 3
+			// 		}
+			// 	}
+			// })
 
-			last_active_index = first_project_gallery_proview.activeIndex;
-			$(".swiper-slide").eq(last_active_index).addClass("project__slide--active");
+			// first_project_gallery = new Swiper('.project__images', {
+			// 	slidesPerView: 1,
+			// 	spaceBetween: 12,
+			// 	effect: "fade"
+			// })
+
+			// last_active_index = first_project_gallery_proview.activeIndex;
+			// $(".swiper-slide").eq(last_active_index).addClass("project__slide--active");
 		});
 
-		function nextSlide() {
-			if (first_project_gallery_proview.slides.length != last_active_index + 1)
-			{
-				last_active_index++;
+		// function nextSlide() {
+		// 	if (first_project_gallery_proview.slides.length != last_active_index + 1)
+		// 	{
+		// 		last_active_index++;
 
-				$(".swiper-slide").eq(last_active_index - 1).removeClass("project__slide--active");
-				$(".swiper-slide").eq(last_active_index    ).addClass(   "project__slide--active");
+		// 		$(".swiper-slide").eq(last_active_index - 1).removeClass("project__slide--active");
+		// 		$(".swiper-slide").eq(last_active_index    ).addClass(   "project__slide--active");
 
-				first_project_gallery_proview.slideNext();
-				first_project_gallery.slideNext();
-			}
-		}
+		// 		first_project_gallery_proview.slideNext();
+		// 		first_project_gallery.slideNext();
+		// 	}
+		// }
 
-		function prevSlide() {
-			if (last_active_index > 0)
-			{
-				last_active_index--;
+		// function prevSlide() {
+		// 	if (last_active_index > 0)
+		// 	{
+		// 		last_active_index--;
 
-				$(".swiper-slide").eq(last_active_index + 1).removeClass("project__slide--active");
-				$(".swiper-slide").eq(last_active_index    ).addClass(   "project__slide--active");
+		// 		$(".swiper-slide").eq(last_active_index + 1).removeClass("project__slide--active");
+		// 		$(".swiper-slide").eq(last_active_index    ).addClass(   "project__slide--active");
 
-				first_project_gallery_proview.slidePrev();
-				first_project_gallery.slidePrev();
-			}
-		}
+		// 		first_project_gallery_proview.slidePrev();
+		// 		first_project_gallery.slidePrev();
+		// 	}
+		// }
 
 		function updateTimeSpan() {
 			let date = new Date();

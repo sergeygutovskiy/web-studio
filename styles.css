@@ -533,7 +533,7 @@ nav {
 .contacts__link {
 	margin-top: 32px;
 
-	display: block;
+	display: inline-block;
 	font-size: 36px;
 	color: #6753FF;
 }
