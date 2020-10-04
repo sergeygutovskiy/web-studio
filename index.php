@@ -48,7 +48,7 @@
 			<div class="header__left">
 				<div class="header__title">
 					<span>digital</span> <br>
-					<span>агенство</span>
+					<span>агентство</span>
 				</div>
 			
 				<button class="header__button">оставить заявку</button>
@@ -227,7 +227,7 @@
 
 		$(document).ready(function () {
 			updateTimeSpan();
-			setTimeout(updateTimeSpan, 1000 * 60)
+			setTimeout(updateTimeSpan, 1000 * 10)
 
 			first_project_manager = new ProjectImagesManager("#ersm", 
 				{
@@ -305,8 +305,8 @@
 		function updateTimeSpan() {
 			let date = new Date();
 
-			var minutes = date.getMinutes();
-			var hour = date.getHours();
+			let minutes = date.getMinutes();
+			let hour    = date.getHours();
 
 			if (hour    < 10) hour    = "0" + String(hour);
 			if (minutes < 10) minutes = "0" + String(minutes);

@@ -1,5 +1,5 @@
 nav {
-	padding-top: 52px;
+	padding-top: 26px;
 	width: 100%;
 	background-color: white;
 }
@@ -582,6 +582,13 @@ nav {
     padding: 14px 24px;
     border: 1px solid #9898FF;
     background-color: #FAFAFA;
+
+    transition: all 100ms linear; 
+}
+
+.contacts__input:focus {
+	border: 1px solid #6753FF;
+	color: #6753FF;
 }
 
 .contacts__input:not(:first-child) {
@@ -596,6 +603,7 @@ nav {
 	border: none;
 	box-shadow: 6px 6px 1px #35465E;
 
+	text-transform: uppercase;
 	color: white;
 	font-size: 14px;
 	letter-spacing: 0.04em;
