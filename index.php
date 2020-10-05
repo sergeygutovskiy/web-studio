@@ -138,6 +138,119 @@
 		</div>
 	</section>
 
+	<section class="main-container project project--right" id="eva">
+		<div class="project__content">
+			<div>
+				<div class="project__images">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide project__slide">
+							<img class="project__image" src="imgs/1.png">
+						</div>
+						<div class="swiper-slide project__slide">
+							<img class="project__image" src="imgs/2.png">
+						</div>
+						<div class="swiper-slide project__slide">
+							<img class="project__image" src="imgs/1.png">
+						</div>
+						<div class="swiper-slide project__slide">
+							<img class="project__image" src="imgs/2.png">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="project__right">
+				<div>
+					<span class="project__tag">Многостраничный сайт</span>
+					<span class="project__tag">Продвижение</span>
+				</div>
+
+				<h3 class="project__name">Ева Борисова</h3>
+				<a href="https://evaborisova.ru" class="project__link">
+					<i class="fal fa-link"></i>
+					<span>evaborisova.ru<span>
+				</a>
+
+				<p class="project__desc">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				</p>
+
+				<div class="project__gallery">
+					<div class="project__buttons">
+						<button class="project__button project__button--prev">
+							<i class="fas fa-caret-left"></i>
+						</button>
+						<button class="project__button project__button--next">
+							<i class="fas fa-caret-right"></i>
+						</button>
+					</div>
+					<div class="project__images-previews">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide project__slide">
+								<img class="project__images-preview" src="imgs/1.png">
+							</div>
+							<div class="swiper-slide project__slide">
+								<img class="project__images-preview" src="imgs/2.png">
+							</div>
+							<div class="swiper-slide project__slide">
+								<img class="project__images-preview" src="imgs/1.png">
+							</div>
+							<div class="swiper-slide project__slide">
+								<img class="project__images-preview" src="imgs/2.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="main-container about">
+		<div class="about__content">
+			<div class="about__info">
+				<div class="about__title">
+					<h2>О НАС</h2>
+				</div>
+				<div class="about__text">
+					<p>
+						Мы хорошо понимаем важность задач, которые вы стремитесь решить обращаясь к нам. Смотрим на эти задачи с точки зрения бизнеса, а не с точки зрения разработчиков.
+					</p>
+					<p>
+						Мы хорошо понимаем важность задач, которые вы стремитесь решить обращаясь к нам. Смотрим на эти задачи с точки зрения бизнеса, а не с точки зрения разработчиков.
+					</p>
+				</div>
+			</div>
+			<div class="about__logos">
+				<div class="about__logo">
+					<i class="fab fa-js"></i>
+				</div>
+				<div class="about__logo">
+					<i class="fab fa-opencart"></i>
+				</div>
+				<div class="about__logo">
+					<i class="fab fa-php"></i>
+				</div>
+				<div class="about__logo">
+					<i class="fab fa-wordpress"></i>
+				</div>
+				<div class="about__logo">
+					<i class="fab fa-laravel"></i>
+				</div>
+				<div class="about__logo">
+					<i class="fab fa-html5"></i>
+				</div>
+				<div class="about__logo">
+					<i class="fab fa-css3-alt"></i>
+				</div>
+				<div class="about__logo">
+					<i class="fab fa-github"></i>
+				</div>
+				<div class="about__logo">
+					<i class="fab fa-vuejs"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="contacts">
 		<div class="main-container contacts__content">
 			<h2>хотите сотрудничать с нами?</h2>
@@ -165,6 +278,36 @@
 						<input class="contacts__input" type="text" placeholder="Имя">
 						<input class="contacts__input" type="text" placeholder="Почта">
 						<input class="contacts__input" type="text" placeholder="Телефон">
+						<div class="dropdown">
+							<input type="checkbox" class="dropdown__switch" id="filter-switch" hidden />
+							<label for="filter-switch" class="dropdown__options-filter">
+								<ul class="dropdown__filter" role="listbox" tabindex="-1">
+									<li class="dropdown__filter-selected" aria-selected="true">
+										Как с вами связаться?
+									</li>
+									<li>
+										<ul class="dropdown__select">
+											<li class="dropdown__select-option" role="option">
+												Позвоните по телефону
+											</li>
+											<li class="dropdown__select-option" role="option">
+												Напишите на почту
+											</li>
+											<li class="dropdown__select-option" role="option">
+												WhatsApp
+											</li>
+											<li class="dropdown__select-option" role="option">
+												Telegram
+											</li>
+											<li class="dropdown__select-option" role="option">
+												Viber
+											</li>
+										</ul>
+									</li>
+									<i class="fas fa-caret-down"></i>
+								</ul>			
+							</label>
+						</div>
 						<button class="contacts__button">отправить</button>
 					</form>
 				</div>
@@ -173,9 +316,25 @@
 	</section>
 
 	<script>
-		let first_project_gallery_proview = null;
-		let it_project_gallery = null;
-		let last_active_index = null;
+		let first_project_manager  = null;
+		let second_project_manager = null;
+
+		let project_gallery_preview = {
+			slidesPerView: 1,
+			spaceBetween: 12,
+			autoHeight: true,
+
+			breakpoints: {
+				0: { slidesPerView: 1 },
+				768: { slidesPerView: 3 }
+			}
+		};
+
+		let project_gallery = {
+			slidesPerView: 1,
+			spaceBetween: 12,
+			effect: "fade"
+		};
 
 		class ProjectImagesManager 
 		{
@@ -193,7 +352,9 @@
 			
 				$(this.prefix + " .project__button--prev").click(() => this.slidePrev());
 				$(this.prefix + " .project__button--next").click(() => this.slideNext());
-				$(this.prefix + " .swiper-slide").eq(this.index).addClass("project__slide--active");
+				$(this.prefix + " .project__images-previews .swiper-slide")
+					.eq(this.index)
+					.addClass("project__slide--active");
 			} 
 
 			slideNext()
@@ -202,8 +363,12 @@
 				{
 					this.index++;
 
-					$(this.prefix + " .swiper-slide").eq(this.index - 1).removeClass("project__slide--active");
-					$(this.prefix + " .swiper-slide").eq(this.index    ).addClass(   "project__slide--active");
+					$(this.prefix + " .project__images-previews .swiper-slide")
+						.eq(this.index - 1)
+						.removeClass("project__slide--active");
+					$(this.prefix + " .project__images-previews .swiper-slide")
+						.eq(this.index)
+						.addClass("project__slide--active");
 
 					this.preview_swiper.slideNext();
 					this.swiper.slideNext();
@@ -216,8 +381,12 @@
 				{
 					this.index--;
 
-					$(this.prefix + " .swiper-slide").eq(this.index + 1).removeClass("project__slide--active");
-					$(this.prefix + " .swiper-slide").eq(this.index    ).addClass(   "project__slide--active");
+					$(this.prefix + " .project__images-previews .swiper-slide")
+						.eq(this.index + 1)
+						.removeClass("project__slide--active");
+					$(this.prefix + " .project__images-previews .swiper-slide")
+						.eq(this.index)
+						.addClass("project__slide--active");
 
 					this.preview_swiper.slidePrev();
 					this.swiper.slidePrev();
@@ -227,80 +396,49 @@
 
 		$(document).ready(function () {
 			updateTimeSpan();
-			setTimeout(updateTimeSpan, 1000 * 10)
+			setInterval(updateTimeSpan, 1000 * 10)
 
-			first_project_manager = new ProjectImagesManager("#ersm", 
-				{
-					slidesPerView: 1,
-					spaceBetween: 12,
-					autoHeight: true,
+			first_project_manager  = new ProjectImagesManager("#ersm", project_gallery_preview, project_gallery);
+			second_project_manager = new ProjectImagesManager("#eva" , project_gallery_preview, project_gallery);
 
-					breakpoints: {
-						0: {
-							slidesPerView: 1
-						},
-						768: {
-							slidesPerView: 3
-						}
-					}
-				},
+			$(".contacts__form input").change(function() {
+				if ($(this).val() == "")
 				{
-					slidesPerView: 1,
-					spaceBetween: 12,
-					effect: "fade"
+					$(this).addClass("contacts__input--error");
+					$(this).removeClass("contacts__input--success");
 				}
-			);
-	
-			// first_project_gallery_proview = new Swiper('.project__images-previews', {
-			// 	slidesPerView: 1,
-			// 	spaceBetween: 12,
-			// 	autoHeight: true,
+				else
+				{
+					$(this).removeClass("contacts__input--error");
+					$(this).addClass("contacts__input--success");
+				}
+			});
 
-			// 	breakpoints: {
-			// 		0: {
-			// 			slidesPerView: 1
-			// 		},
-			// 		768: {
-			// 			slidesPerView: 3
-			// 		}
-			// 	}
-			// })
+			// Change option selected
+			const label = document.querySelector('.dropdown__filter-selected');
+			const options = Array.from(document.querySelectorAll('.dropdown__select-option'));
 
-			// first_project_gallery = new Swiper('.project__images', {
-			// 	slidesPerView: 1,
-			// 	spaceBetween: 12,
-			// 	effect: "fade"
-			// })
+			options.forEach(option => {
+				option.addEventListener('click', () => {
+					label.textContent = option.textContent;
+					$(".dropdown__filter").addClass("dropdown__filter--success");
+				});
+			});
 
-			// last_active_index = first_project_gallery_proview.activeIndex;
-			// $(".swiper-slide").eq(last_active_index).addClass("project__slide--active");
+			// Close dropdown onclick outside
+			document.addEventListener('click', e => {
+				const toggle = document.querySelector('.dropdown__switch');
+				const element = e.target;
+
+				if (element == toggle) return;
+
+				const isDropdownChild = element.closest('.dropdown__filter');
+
+				if (!isDropdownChild) {
+					toggle.checked = false;
+				}
+			});
 		});
-
-		// function nextSlide() {
-		// 	if (first_project_gallery_proview.slides.length != last_active_index + 1)
-		// 	{
-		// 		last_active_index++;
-
-		// 		$(".swiper-slide").eq(last_active_index - 1).removeClass("project__slide--active");
-		// 		$(".swiper-slide").eq(last_active_index    ).addClass(   "project__slide--active");
-
-		// 		first_project_gallery_proview.slideNext();
-		// 		first_project_gallery.slideNext();
-		// 	}
-		// }
-
-		// function prevSlide() {
-		// 	if (last_active_index > 0)
-		// 	{
-		// 		last_active_index--;
-
-		// 		$(".swiper-slide").eq(last_active_index + 1).removeClass("project__slide--active");
-		// 		$(".swiper-slide").eq(last_active_index    ).addClass(   "project__slide--active");
-
-		// 		first_project_gallery_proview.slidePrev();
-		// 		first_project_gallery.slidePrev();
-		// 	}
-		// }
 
 		function updateTimeSpan() {
 			let date = new Date();
