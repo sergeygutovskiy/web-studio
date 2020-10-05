@@ -204,6 +204,42 @@
 		</div>
 	</section>
 
+	<section class="work">
+		<h2 class="work__title">КАК МЫ РАБОТАЕМ?</h2>
+
+		<div class="work__timeline">
+			<div class="work__timeline-row">
+				<div class="work__timeline-col">
+					<div class="work__timeline-number">01</div>
+					<div class="work__timeline-title">ОБСУЖДЕНИЕ <br> РАБОТ</div>
+				</div>
+				<div class="work__timeline-col">
+					<div class="work__timeline-number">02</div>
+					<div class="work__timeline-title">ПРОЕКТИРОВАНИЕ <br> СТРУКТУРЫ</div>
+				</div>
+				<div class="work__timeline-col">
+					<div class="work__timeline-number">03</div>
+					<div class="work__timeline-title">ВИЗУАЛИЗАЦИЯ <br> ПРОТОТИПА</div>
+				</div>
+			</div>
+			<div class="work__timeline-line"></div>
+			<div class="work__timeline-row">
+				<div class="work__timeline-col">
+					<div class="work__timeline-number">04</div>
+					<div class="work__timeline-title">ВЁРСТКА <br> СТРАНИЦ</div>
+				</div>
+				<div class="work__timeline-col">
+					<div class="work__timeline-number">05</div>
+					<div class="work__timeline-title">ДОБАВЛЕНИЕ <br >КОНТЕНТА</div>
+				</div>
+				<div class="work__timeline-col">
+					<div class="work__timeline-number">06</div>
+					<div class="work__timeline-title">ТЕСТИРОВАНИЕ <br> И ЗАПУСК В РЕЛИЗ</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="main-container about">
 		<div class="about__content">
 			<div class="about__info">
