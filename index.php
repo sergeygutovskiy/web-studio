@@ -10,15 +10,14 @@
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 
-	<!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"> -->
 	<link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-	<!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <link rel="stylesheet" href="fonts/font-awesome/css/all.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/_navigation.css">
 </head>
 
 <body>
@@ -34,12 +33,15 @@
 				<div></div>
 			</button>
 
-			<ul class="nav__links">
-				<li class="nav__link"><a href="">о нас</a></li>
-				<li class="nav__link"><a href="">услуги</a></li>
-				<li class="nav__link"><a href="">цены</a></li>
-				<li class="nav__link"><a href="">контакты</a></li>
-			</ul>
+			<div class="nav__links-container">
+				<ul class="nav__links">
+					<li class="nav__link"><a href=""> главная  </a></li>
+					<li class="nav__link"><a href=""> о нас    </a></li>
+					<li class="nav__link"><a href=""> услуги   </a></li>
+					<li class="nav__link"><a href=""> цены     </a></li>
+					<li class="nav__link"><a href=""> контакты </a></li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 
@@ -62,7 +64,7 @@
 
 	<section class="services">
 		<div class="services__content">
-			<ul class="services__items">
+			<ul class="services__items services__items--right">
 				<li class="services__item">сайты</li>
 				<li class="services__item">приложения</li>
 				<li class="services__item">брендинг</li>
@@ -102,13 +104,13 @@
 					<div class="project__images-previews">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide project__slide">
-								<img class="project__images-preview" src="imgs/1.png">
+								<img class="project__images-preview" src="imgs/3.png">
 							</div>
 							<div class="swiper-slide project__slide">
 								<img class="project__images-preview" src="imgs/2.png">
 							</div>
 							<div class="swiper-slide project__slide">
-								<img class="project__images-preview" src="imgs/1.png">
+								<img class="project__images-preview" src="imgs/3.png">
 							</div>
 							<div class="swiper-slide project__slide">
 								<img class="project__images-preview" src="imgs/2.png">
@@ -121,13 +123,13 @@
 				<div class="project__images">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide project__slide">
-							<img class="project__image" src="imgs/1.png">
+							<img class="project__image" src="imgs/3.png">
 						</div>
 						<div class="swiper-slide project__slide">
 							<img class="project__image" src="imgs/2.png">
 						</div>
 						<div class="swiper-slide project__slide">
-							<img class="project__image" src="imgs/1.png">
+							<img class="project__image" src="imgs/3.png">
 						</div>
 						<div class="swiper-slide project__slide">
 							<img class="project__image" src="imgs/2.png">
@@ -240,49 +242,70 @@
 		</div>
 	</section>
 
-	<section class="main-container about">
-		<div class="about__content">
-			<div class="about__info">
-				<div class="about__title">
-					<h2>О НАС</h2>
-				</div>
-				<div class="about__text">
-					<p>
-						Мы хорошо понимаем важность задач, которые вы стремитесь решить обращаясь к нам. Смотрим на эти задачи с точки зрения бизнеса, а не с точки зрения разработчиков.
-					</p>
-					<p>
-						Мы хорошо понимаем важность задач, которые вы стремитесь решить обращаясь к нам. Смотрим на эти задачи с точки зрения бизнеса, а не с точки зрения разработчиков.
-					</p>
+	<section class="office main-container">
+		<div class="office__images-container">
+			<div class="office__buttons">
+				<button class="office__button office__button--prev">
+					<i class="far fa-long-arrow-left"></i>
+				</button>
+				<button class="office__button office__button--next">
+					<i class="far fa-long-arrow-right"></i>
+				</button>
+			</div>
+			<div class="office__images">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide office__slide">
+						<img class="office__image" src="imgs/3.png">
+					</div>
+					<div class="swiper-slide office__slide">
+						<img class="office__image" src="imgs/2.png">
+					</div>
+					<div class="swiper-slide office__slide">
+						<img class="office__image" src="imgs/1.png">
+					</div>
+					<div class="swiper-slide office__slide">
+						<img class="office__image" src="imgs/2.png">
+					</div>
 				</div>
 			</div>
-			<div class="about__logos">
-				<div class="about__logo">
-					<i class="fab fa-js"></i>
-				</div>
-				<div class="about__logo">
-					<i class="fab fa-opencart"></i>
-				</div>
-				<div class="about__logo">
-					<i class="fab fa-php"></i>
-				</div>
-				<div class="about__logo">
-					<i class="fab fa-wordpress"></i>
-				</div>
-				<div class="about__logo">
-					<i class="fab fa-laravel"></i>
-				</div>
-				<div class="about__logo">
-					<i class="fab fa-html5"></i>
-				</div>
-				<div class="about__logo">
-					<i class="fab fa-css3-alt"></i>
-				</div>
-				<div class="about__logo">
-					<i class="fab fa-github"></i>
-				</div>
-				<div class="about__logo">
-					<i class="fab fa-vuejs"></i>
-				</div>
+		</div>
+		<div class="office__text-container">
+			<div class="office__text">
+				Сегодня в TEREXOV работает 11 человек. <br>  
+				Все они сосредоточены в офисе на Петроградке
+			<div>
+		</div>
+	</section>
+
+	<section class="stats main-container">
+		<div class="stats__row">
+			<div class="stats__item">
+				<div>>100</div>
+				<div>проектов</div>
+			</div>
+			<div class="stats__item">
+				<div>4</div>
+				<div>место в среднем по выдаче сайтов</div>
+			</div>
+		</div>
+		<div class="stats__row">
+			<div class="stats__item">
+				<div>215%</div>
+				<div>в среднем увеличение прибыли</div>
+			</div>
+			<div class="stats__item">
+				<div>5</div>
+				<div>Лет опыта <br> в IT-индустрии</div>
+			</div>
+			<div class="stats__item">
+				<div>11</div>
+				<div>КРУТЫХ <br> СОТРУДНИКОВ</div>
+			</div>
+		</div>
+		<div class="stats__row">
+			<div class="stats__item">
+				<div>3350</div>
+				<div>Страниц в ТОП-5</div>
 			</div>
 		</div>
 	</section>
@@ -311,9 +334,9 @@
 				<div class="contacts__right">
 					<h3>или оставьте заявку:</h3>
 					<form class="contacts__form">
-						<input class="contacts__input" type="text" placeholder="Имя">
-						<input class="contacts__input" type="text" placeholder="Почта">
-						<input class="contacts__input" type="text" placeholder="Телефон">
+						<input class="contacts__input" type="text" id="name-input" placeholder="Имя">
+						<input class="contacts__input" type="text" id="email-input" placeholder="Почта">
+						<input class="contacts__input" type="text" id="phone-input" placeholder="Телефон">
 						<div class="dropdown">
 							<input type="checkbox" class="dropdown__switch" id="filter-switch" hidden />
 							<label for="filter-switch" class="dropdown__options-filter">
@@ -369,7 +392,8 @@
 		let project_gallery = {
 			slidesPerView: 1,
 			spaceBetween: 12,
-			effect: "fade"
+			effect: "fade",
+			autoHeight: true,
 		};
 
 		class ProjectImagesManager 
@@ -434,19 +458,28 @@
 			updateTimeSpan();
 			setInterval(updateTimeSpan, 1000 * 10)
 
-			first_project_manager  = new ProjectImagesManager("#ersm", project_gallery_preview, project_gallery);
-			second_project_manager = new ProjectImagesManager("#eva" , project_gallery_preview, project_gallery);
+			first_project_manager  = new ProjectImagesManager(
+				"#ersm", project_gallery_preview, project_gallery
+			);
+			second_project_manager = new ProjectImagesManager(
+				"#eva", project_gallery_preview, project_gallery
+			);
 
-			$(".contacts__form input").change(function() {
-				if ($(this).val() == "")
-				{
-					$(this).addClass("contacts__input--error");
-					$(this).removeClass("contacts__input--success");
+			let office_swiper = new Swiper(".office__images", { 
+				slidesPerView: 1, 
+				effect: "fade",
+				autoHeight: true,
+				navigation: {
+					nextEl: '.office__button--next',
+					prevEl: '.office__button--prev'
 				}
-				else
+			});
+
+			$("#email-input").focusout(function() {
+				if (!validateEmail( $(this).val() )) 
 				{
-					$(this).removeClass("contacts__input--error");
-					$(this).addClass("contacts__input--success");
+					console.log( $(this).val() );
+					$(this).addClass("contacts__input--error");
 				}
 			});
 
@@ -474,6 +507,19 @@
 					toggle.checked = false;
 				}
 			});
+
+			$(".nav__menu").click(function() {
+				$("nav").toggleClass("nav--active");
+				$(".nav__menu").toggleClass("nav__menu--active");
+			
+				$(".nav__link").each(function(index) {
+					let current = $(this);
+
+					setTimeout(function() {
+						current.toggleClass("nav__link--active");
+					}, 100 + index * 50);		
+				});
+			});
 		});
 
 		function updateTimeSpan() {
@@ -487,6 +533,11 @@
 			$("#contacts__current-time").text(hour + ":" + minutes);			
 		}
 
+		function validateEmail(email)
+		{
+			return /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+				.test(email);
+		}
 	</script>
 </body>
 </html>
