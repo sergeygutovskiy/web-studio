@@ -13,33 +13,36 @@
 	
 	
     <!-- <link rel="stylesheet" href="fonts/font-awesome/css/all.css"> -->
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="services.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/services.css">
+    <link rel="stylesheet" type="text/css" href="css/_navigation.css">
 
 </head>
 
 <body>
+    <nav>
+        <div class="nav__content">
+            <div class="nav__logo">
+                <a href="">terexov.</a>
+            </div>
 
-<nav>
-		<div class="nav__content">
-			<div class="nav__logo">
-				<a href="">terexov.</a>
-			</div>
+            <button class="nav__menu">
+                <div></div>
+                <div></div>
+            </button>
 
-			<button class="nav__menu">
-				<div></div>
-				<div></div>
-			</button>
-
-			<ul class="nav__links">
-				<li class="nav__link"><a href="">о нас</a></li>
-				<li class="nav__link"><a href="services.php">услуги</a></li>
-				<li class="nav__link"><a href="">цены</a></li>
-				<li class="nav__link"><a href="">контакты</a></li>
-			</ul>
-		</div>
-	</nav>
+            <div class="nav__links-container">
+                <ul class="nav__links">
+                    <li class="nav__link"><a href=""> главная  </a></li>
+                    <li class="nav__link"><a href=""> о нас    </a></li>
+                    <li class="nav__link"><a href=""> услуги   </a></li>
+                    <li class="nav__link"><a href=""> цены     </a></li>
+                    <li class="nav__link"><a href=""> контакты </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <main class="main-container">
         <p id="scrollDownText">&#10094; SCROLL DOWN</p>

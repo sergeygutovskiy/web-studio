@@ -508,10 +508,7 @@
 				}
 			});
 
-			$(".nav__menu").click(function() {
-				$("nav").toggleClass("nav--active");
-				$(".nav__menu").toggleClass("nav__menu--active");
-			
+			$(".nav__menu").click(function() {			
 				$(".nav__link").each(function(index) {
 					let current = $(this);
 
@@ -519,6 +516,9 @@
 						current.toggleClass("nav__link--active");
 					}, 100 + index * 50);		
 				});
+
+				$("nav").toggleClass("nav--active");
+				$(".nav__menu").toggleClass("nav__menu--active");
 			});
 		});
 
