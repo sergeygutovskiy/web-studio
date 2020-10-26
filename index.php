@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <title></title>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+	<title></title>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
 
 	<link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
@@ -11,39 +11,18 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 
 	<link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
-
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <link rel="stylesheet" href="fonts/font-awesome/css/all.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/_navigation.css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/all.css">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/_navigation.css">
+	<link rel="stylesheet" type="text/css" href="css/_footer.css">
 </head>
 
 <body>
-
-	<nav>
-		<div class="nav__content">
-			<div class="nav__logo">
-				<a href="">terexov.</a>
-			</div>
-
-			<button class="nav__menu">
-				<div></div>
-				<div></div>
-			</button>
-
-			<div class="nav__links-container">
-				<ul class="nav__links">
-					<li class="nav__link"><a href=""> главная  </a></li>
-					<li class="nav__link"><a href=""> о нас    </a></li>
-					<li class="nav__link"><a href=""> услуги   </a></li>
-					<li class="nav__link"><a href=""> цены     </a></li>
-					<li class="nav__link"><a href=""> контакты </a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+	<?php require "templates/_navigation.php"; ?>
 
 	<section class="header">
 		<div class="main-container header__content">
@@ -374,6 +353,8 @@
 		</div>
 	</section>
 
+	<?php require "templates/_footer.php"; ?>
+
 	<script>
 		let first_project_manager  = null;
 		let second_project_manager = null;
@@ -506,19 +487,6 @@
 				if (!isDropdownChild) {
 					toggle.checked = false;
 				}
-			});
-
-			$(".nav__menu").click(function() {			
-				$(".nav__link").each(function(index) {
-					let current = $(this);
-
-					setTimeout(function() {
-						current.toggleClass("nav__link--active");
-					}, 100 + index * 50);		
-				});
-
-				$("nav").toggleClass("nav--active");
-				$(".nav__menu").toggleClass("nav__menu--active");
 			});
 		});
 

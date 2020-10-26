@@ -104,8 +104,10 @@ nav {
 }
 
 .nav--active .nav__links-container {
-	height: 100vh;
-	max-height: 100vh;
+	/*height: 100vh;*/
+	/*max-height: 100vh;*/
+
+	transform: translateY(0);
 }
 
 @media screen and (max-width: 768px)
@@ -144,12 +146,16 @@ nav {
 		z-index: 10;
 
 		width: 100%;
-		max-height: 0;
+		height: 100vh;
+	
 		overflow: hidden;
-
 		background-color: #6753FF;
 
-		transition: max-height 500ms ease-out;
+		transform: translateY(-100vh);
+		transition: transform 500ms ease-out;
+
+		/*transition: max-height 500ms ease-out;*/
+		/*transition: top 500ms ease-out;*/
 	}
 
 	.nav__links {

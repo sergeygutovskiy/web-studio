@@ -5,19 +5,21 @@
     <title></title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-	<link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
 
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 
-	
-	
-    <!-- <link rel="stylesheet" href="fonts/font-awesome/css/all.css"> -->
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/all.css">
+
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/services.css">
     <link rel="stylesheet" type="text/css" href="css/_navigation.css">
-
+    <link rel="stylesheet" type="text/css" href="css/_footer.css">
 </head>
 
 <body>
