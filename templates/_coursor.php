@@ -2,13 +2,19 @@
 <div class="ppk-dot-outline"></div>
 <div class="ppk-dot"></div>
 <style>
-    
+    @media handheld{
+        .ppk-dot,
+  .ppk-dot-outline{
+      display:none;
+  }
+    }
     *{
         cursor:none;
     }
   /* Custom Cursor */
   .ppk-dot,
   .ppk-dot-outline {
+    overflow:hidden;
 	z-index: 999;
 	pointer-events: none;
 	position: absolute;
@@ -26,13 +32,13 @@
   .ppk-dot {
 	width: 8px;
 	height: 8px;
-	background-color: #feac43;
+	background-color: #7437FF;
   }
   
   .ppk-dot-outline {
 	width: 40px;
 	height: 40px;
-	background-color: rgba(254, 172, 67, 0.5);
+	background-color: rgb(116, 55, 255,0.15 );
   }
   
 </style>
