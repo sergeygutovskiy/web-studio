@@ -2,12 +2,8 @@
 <div class="ppk-dot-outline"></div>
 <div class="ppk-dot"></div>
 <style>
-    @media handheld{
-        .ppk-dot,
-  .ppk-dot-outline{
-      display:none;
-  }
-    }
+   
+    
     *{
         cursor:none;
     }
@@ -27,7 +23,8 @@
 	transition: opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-  }
+   
+}
   
   .ppk-dot {
 	width: 8px;

@@ -20,7 +20,7 @@
 
 <body>
 <?php require "templates/_navigation.php"; ?>
-<?php require "templates/_coursor.php"; ?>
+
 
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
