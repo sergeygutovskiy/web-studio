@@ -3,6 +3,8 @@
 	margin: 0px;
 	padding: 0px;
 	outline: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	
 }
 
 body {
@@ -87,3 +89,7 @@ h3 {
 		font-size: 18px;
 	}
 }
+
+
+  
+  

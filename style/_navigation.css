@@ -8,7 +8,7 @@ nav {
 
 .nav__content {
 	margin: 0 83px;
-	max-width: 1366px;
+	max-width: 1920px;
 	margin: auto;
 	padding: 0px 83px;
 	display: flex;
@@ -48,9 +48,15 @@ width: 120px;
 
 	font-weight: 400;
 	color: #ffffff;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 22px;
 	letter-spacing: 0.04em;
+}
+.nav__link > a:hover {
+	
+	color:#6753FF; 
+	transition: all 300ms linear; 
+	
 }
 .nav__phone{
 	margin-left: 120px;
@@ -114,7 +120,7 @@ width: 120px;
 	transform: translateY(0);
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 910px)
 {
 	nav {
 		position: fixed;
@@ -153,7 +159,7 @@ width: 120px;
 		align-items: center;
 		justify-content: center;
 	}
-	
+
 	.nav__menu {
 		visibility: visible;
 	}
