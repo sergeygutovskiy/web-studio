@@ -1,26 +1,23 @@
 * {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	outline: none;
 }
 
 body {
 	margin: 0;
 
-	background-color: #F9F9FE;
+	background-color:#22272A;
 
-	font-family: "Prosto One";
+	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 }
 
-button {
-	font-family: "Prosto One";
-}
 
 input, input::placeholder {
-	font-family: 'Montserrat', sans-serif;
+	
 	font-size: 18px;
 	letter-spacing: 0.04em;
 	color: #9898FF;
@@ -31,27 +28,33 @@ ul {
 	padding: 0;
 }
 
-@font-face {
-	font-family: MonumentExtended;
-	src: url(../fonts/MonumentExtended/MonumentExtended-Regular.otf);
-	font-weight: 400;
-}
-
-@font-face {
-	font-family: MonumentExtended;
-	src: url(../fonts/MonumentExtended/MonumentExtended-Ultrabold.otf);
-	font-weight: 800;
-}
 
 h2, h3 {
-	text-transform: uppercase;
+	
 	font-weight: 400;
 	letter-spacing: 0.04em;
-	color: #6753FF;
+	
 }
+h1{
+	font-size: 60px;
+line-height: 76px;
+/* or 127% */
+font-weight: 300;
+letter-spacing: 0.04em;
 
+color: #FFFFFF;
+}
 h2 {
 	font-size: 48px;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #7437FF;
 }
 
 h3 {
@@ -59,10 +62,11 @@ h3 {
 }
 
 .main-container {
-	position: relative;
+	
 	z-index: 0;
-
-	margin: 0 83px;
+	max-width: 1366px;
+	margin: auto;
+	
 }
 
 @media screen and (max-width: 768px)

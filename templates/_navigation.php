@@ -1,21 +1,23 @@
 <nav>
 	<div class="nav__content">
 		<div class="nav__logo">
-			<a href="">terexov.</a>
+			<a href=""></a>
 		</div>
 
-		<button class="nav__menu">
-			<div></div>
-			<div></div>
-		</button>
+		<div class="nav__radius">
+			<button class="nav__menu">
+				<div></div>
+				<div></div>
+			</button>
+		</div>
 
 		<div class="nav__links-container">
 			<ul class="nav__links">
-				<li class="nav__link"><a href=""> главная  </a></li>
-				<li class="nav__link"><a href=""> о нас    </a></li>
-				<li class="nav__link"><a href=""> услуги   </a></li>
-				<li class="nav__link"><a href=""> цены     </a></li>
-				<li class="nav__link"><a href=""> контакты </a></li>
+				<li class="nav__link"><a href=""> Работы  </a></li>
+				<li class="nav__link"><a href=""> О нас    </a></li>
+				<li class="nav__link"><a href=""> Услуги   </a></li>
+				<li class="nav__link"><a href=""> Контакты </a></li>
+				<li class="nav__link nav__phone"><a href=""> <i class="fas fa-phone"></i></a></li>
 			</ul>
 		</div>
 	</div>
