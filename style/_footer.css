@@ -1,0 +1,16 @@
+.footer{
+    background-color: #4B2F95;
+}
+.footer__menu {
+    display: flex;
+    padding: 24px 0;
+}
+.footer__item {
+    margin-right: 90px;
+}
+.footer__link {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    font-family: 'Oswald', sans-serif; 
+}

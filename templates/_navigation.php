@@ -1,3 +1,4 @@
+<div class="container-main">
 <nav>
 	<div class="nav__content">
 		<div class="nav__logo">
@@ -22,6 +23,7 @@
 		</div>
 	</div>
 </nav>
+</div>
 
 <script>
 $(".nav__menu").click(function() {			

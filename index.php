@@ -14,6 +14,8 @@
 <link rel="stylesheet" type="text/css" href="style/main.css">
 <link rel="stylesheet" type="text/css" href="style/index.css">
 <link rel="stylesheet" type="text/css" href="style/_navigation.css">
+<link rel="stylesheet" href="style/slick.css">
+<!-- <link rel="stylesheet" href="css/general.css"> -->
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 </head>

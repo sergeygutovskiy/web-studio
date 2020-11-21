@@ -10,7 +10,7 @@ nav {
 	margin: 0 83px;
 	max-width: 1920px;
 	margin: auto;
-	padding: 0px 83px;
+	/* padding: 0px 83px; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
