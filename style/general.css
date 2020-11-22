@@ -8,18 +8,13 @@ html {
     box-sizing: inherit;
 }
 
-input, input::placeholder {
-	
-	font-size: 18px;
-	letter-spacing: 0.04em;
-	color: #9898FF;
-}
-
 a {
     text-decoration: none;
     color:inherit;
 }
-
+p{
+    margin: 0;
+}
 ul,
 li {
     list-style: none;
@@ -50,12 +45,12 @@ body {
     margin: 0 auto;
 }
 .container-about{
-    max-width: 1700px;
+    max-width: 1920px;
     width: 100%;
     margin: 0 auto;
 }
 .container-main{
-	max-width: 1643px;
+	max-width: 1670px;
 	width: 100%;
 	padding: 0 15px;
 	margin: 0 auto;

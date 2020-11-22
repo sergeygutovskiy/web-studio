@@ -1,4 +1,4 @@
-<div class="container-main">
+
 <nav>
 	<div class="nav__content">
 		<div class="nav__logo">
@@ -23,9 +23,9 @@
 		</div>
 	</div>
 </nav>
-</div>
 
-<script>
+
+<!-- <script>
 $(".nav__menu").click(function() {			
 	$(".nav__link").each(function(index) {
 		let current = $(this);
@@ -38,4 +38,4 @@ $(".nav__menu").click(function() {
 	$("nav").toggleClass("nav--active");
 	$(".nav__menu").toggleClass("nav__menu--active");
 });
-</script>
+</script> -->

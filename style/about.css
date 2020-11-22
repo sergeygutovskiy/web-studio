@@ -1,6 +1,6 @@
 
 .about__inner{
-    margin-top: 124px;
+    padding-top: 124px;
 }
 .about__slider-wrapper {
     margin-top: 168px;
@@ -117,7 +117,6 @@
     -webkit-text-fill-color: transparent;
 }
 
-/* :) */
 
 .aboutwork__descr {
     font-family: 'Oswald', sans-serif;

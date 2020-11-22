@@ -9,19 +9,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="fonts/font-awesome/css/all.css">
-  <link rel="stylesheet" type="text/css" href="style/main.css">
-  <link rel="stylesheet" type="text/css" href="style/index.css">
-  <link rel="stylesheet" type="text/css" href="style/_navigation.css">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/index.css">
+  <link rel="stylesheet" href="style/_navigation.css">
   <link rel="stylesheet" href="style/slick.css">
   <link rel="stylesheet" href="style/general.css">
   <link rel="stylesheet" href="style/about.css">
-
-  
   
 </head>
 <body>
   
 <?php require "templates/_navigation.php"; ?>
+
     <section class="about">
         <div class="container-about">
             <div class="about__inner">
@@ -52,7 +51,7 @@
                         </div>
                         <div class="about__slider-text">
                             Клиенты обращаются к нам за экспертизой и за производственными мощностями. Они просят помочь в создании нового или серьезной переработке существующего продукта. К нам обращаются, когда нуждаются в команде, которая поможет развить проект, ориентируясь на историю взаимодействия пользователей с ним и на задачах бизнеса.  Нас выбирают, когда нужно увеличить прибыль. Cправляемся с задачами которые не под силу основной массе подрядчиков.
-                        </div>
+                        </div> 
                         </div>
                         </div>
                     </div>
@@ -129,8 +128,9 @@
     
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/slick.min.js"></script>
   <script src="https://use.fontawesome.com/1295a37c31.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/slick.min.js"></script>
 </body>
 </html>

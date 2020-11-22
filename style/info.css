@@ -1,5 +1,5 @@
 .info__inner {
-    margin-top: 100px;
+    padding-top: 100px;
     margin-bottom: 109px;
 }
 .info__title {
@@ -40,7 +40,7 @@
     width: 100%;
     margin-bottom: 100px;
 }
-.info__banner{
+.info__banner img{
     width: 100%;
     object-fit: cover;
 }
@@ -65,6 +65,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 118px;
+    flex-wrap: wrap;
 }
 .infotask__img {
     max-width: 400px;

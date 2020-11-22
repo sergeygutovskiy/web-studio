@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="style/services.css">
   <link rel="stylesheet" href="style/general.css">
   
+  
 </head>
 <body>
   
@@ -121,6 +122,7 @@
     <?php require "templates/_footer.php"; ?>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="style/slick.css">
   <link rel="stylesheet" href="style/info.css">
   <link rel="stylesheet" href="style/_footer.css">
+  <link rel="stylesheet" href="style/general.css">
+  
   
 </head>
 <body>
@@ -61,6 +63,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="https://use.fontawesome.com/1295a37c31.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
