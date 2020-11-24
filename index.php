@@ -124,10 +124,16 @@
     </div>
 
     <div class="container-fluid">
-        <div class="main-about__images">
-            <img class="main-about__img" src="images/content/aboutus1.jpg">
-            <img class="main-about__img" src="images/content/aboutus1.jpg">
-            <img class="main-about__img" src="images/content/aboutus1.jpg">
+        <div class="main__slider">
+            <div class="main__slider-item">  
+            <img class="main__slider-img" src="images/content/aboutus1.jpg">
+            </div>
+            <div class="main__slider-item">
+            <img class="main__slider-img" src="images/content/aboutus1.jpg">
+            </div>
+            <div class="main__slider-item">
+            <img class="main__slider-img" src="images/content/aboutus1.jpg">
+            </div>
         </div>
     </div>
 </section> 
@@ -246,6 +252,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="js/main.js"></script>
 
 

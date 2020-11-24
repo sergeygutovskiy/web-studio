@@ -21,6 +21,16 @@ $(document).ready(function(){
         nextArrow:'.about__arrow-right',
     });
 
+    $('.main__slider').slick({
+        slidesToShow: 1,
+        slidesToScroll:1,
+        infinite: true,
+        centerMode:true,
+        variableWidth: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+
     $('[data-news-pos]').on('click', function(){
         $('.about__slider').slick('slickGoTo', $(this).attr('data-news-pos'));
     });

@@ -143,9 +143,8 @@ nav {
 	}
 
 	.nav__content {
-		margin: 0 20px;
 		flex-wrap: wrap;
-		padding: 0px;
+		padding: 0px 15px;
 		align-items: inherit;
 	}
 	.nav__phone{
@@ -173,7 +172,7 @@ nav {
 		align-items: center;
 		justify-content: center;
 		position: relative;
-		right: 15px;
+		right: 0px;
 	}
 
 	.nav__menu {
