@@ -11,11 +11,11 @@
 <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
 
 <link rel="stylesheet" href="fonts/font-awesome/css/all.css">
-<link rel="stylesheet" href="style/main.css">
-<link rel="stylesheet" href="style/index.css">
 <link rel="stylesheet" href="style/_navigation.css">
 <link rel="stylesheet" href="style/slick.css">
 <link rel="stylesheet" href="style/general.css">
+<link rel="stylesheet" href="style/index.css">
+<link rel="stylesheet" href="style/main.css">
 
 </head>
 
@@ -27,6 +27,7 @@
 <section class="main">
     <div class="container-main">
         <div class="main__inner">
+            <div class="main__section-top">
             <div class="main__top main__top1">
                 <div class="main__title-wrapper">
                 <div class="general__category general__category-main">Digital-агентство</div>
@@ -35,6 +36,7 @@
                 </div>
                 </div>
                 <a href="#" class="price__link">Узнать стоимость</a>
+            </div>
             </div>
             <div class="main__bottom main__bottom1">
                 
@@ -64,11 +66,13 @@
             </div>
 
 
-            <div class="main__top">
+            <div class="main__section-top">
+            <div class="main__top main__top2">
                 <div class="general__category general__category-main">Наши работы</div>
                 <div class="title__name">
                 Мы погружаемся в бизнес клиента, хорошо понимаем его цели, берем на себя целые направления
                 </div>
+            </div>
             </div>
             <div class="main__examples">
                 <div class="main__examples-container">
@@ -100,7 +104,8 @@
 </section>
 
 
-<section class="main__about">
+ <section class="main__about">
+     <div class="container">
     <div class="main__top main__top-about">
         <div class="main-about__left">
         <div class="general__category general__category-main">
@@ -115,6 +120,7 @@
         <div class="main-about__right">
         Клиенты обращаются к нам за экспертизой и за производственными мощностями. Они просят помочь в создании нового или серьезной переработке существующего продукта. К нам обращаются, когда нуждаются в команде, которая поможет развить проект, ориентируясь на историю взаимодействия пользователей с ним и на задачах бизнеса.  Нас выбирают, когда нужно увеличить прибыль. Cправляемся с задачами которые не под силу основной массе подрядчиков.
         </div>
+        </div>
     </div>
 
     <div class="container-fluid">
@@ -124,7 +130,7 @@
             <img class="main-about__img" src="images/content/aboutus1.jpg">
         </div>
     </div>
-</section>
+</section> 
 
 
 <section class="statistic">
