@@ -213,9 +213,18 @@
                 Или оставьте заявку:
                 </p>
                 <form class="contacts__form">
-                    <input type="text" class="contacts__input" placeholder="Ваше имя">
-                    <input type="text" class="contacts__input" placeholder="Почта">
-                    <input type="text" class="contacts__input" placeholder="Телефон">
+                    <div class="input__wrapper">
+                    <input class="contacts__input" type="text">
+                    <span class="input__placeholder">Ваше имя</span>
+                    </div>
+                    <div class="input__wrapper">
+                    <input class="contacts__input" type="text">
+                    <span class="input__placeholder">Почта</span>
+                    </div>
+                    <div class="input__wrapper">
+                    <input class="contacts__input" type="text">
+                    <span class="input__placeholder">Телефон</span>
+                    </div>
                 </form>
                 <div class="contacts__prompt-wrapper">
                     <p class="contacts__prompt">Как с вами связаться?</p>

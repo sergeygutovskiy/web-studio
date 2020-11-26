@@ -328,24 +328,64 @@
     background-color: transparent;
     border:none;
     border-bottom: 2px solid #000000;
-    margin-bottom: 30px;
     color:#fff;
     font-size: 18px;
     line-height: 27px;
     outline: none;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
-.contacts__input:hover,
+/* .contacts__input:hover{
+    border-width: 0px;
+} */
 .contacts__input:focus{
     border-bottom: 2px solid #7437FF;
 }
+.input__wrapper{
+    margin-bottom: 30px;
+    position: relative;
+    max-width: 320px;
+    width: 100%;
+}
+.input__wrapper::before{
+    content:'';
+    position: absolute;
+    width: 0px;
+    height: 1px;
+    background-color: #7437FF;
+    bottom: -1px;
+    right: 0;
+    left: auto;
+    transition: all .3s linear;
+    z-index: 5;
+} 
 
-.contacts__input::placeholder{
+
+.input__wrapper:hover.input__wrapper::before{
+    width: 100%;
+    left: 0;
+    right: auto;
+    height: 2px;
+}
+
+
+
+.input__placeholder{
+    position: absolute;
     font-weight: bold;
     font-size: 18px;
     line-height: 27px;
     color: #999999;
+    left: 15px;
+    top: 18px;
+    transition: all .3s linear;
+    z-index: -1;
+}
+.contacts__input:focus + .input__placeholder{
+    font-size: 12px;
+    line-height: 14px;
+    transform: translateY(-25px);
+
 }
 .contacts__prompt-wrapper {
     margin-top: 50px;
