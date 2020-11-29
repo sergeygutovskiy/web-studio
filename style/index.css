@@ -384,7 +384,7 @@
 .contacts__input:focus + .input__placeholder{
     font-size: 12px;
     line-height: 14px;
-    transform: translateY(-25px);
+    transform: translateY(-25originpx);
 
 }
 .contacts__prompt-wrapper {

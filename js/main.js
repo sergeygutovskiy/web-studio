@@ -17,8 +17,8 @@ $(document).ready(function(){
         slidesToShow: 1,
         slidesToScroll:1,
         infinite: true,
-        prevArrow:'.about__arrow-left',
-        nextArrow:'.about__arrow-right',
+        prevArrow:'.about__arrow .about__arrow-left',
+        nextArrow:'.about__arrow .about__arrow-right',
     });
 
     $('.main__slider').slick({

@@ -9,12 +9,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="fonts/font-awesome/css/all.css">
-  <link rel="stylesheet" href="style/main.css">
   <link rel="stylesheet" href="style/index.css">
   <link rel="stylesheet" href="style/_navigation.css">
   <link rel="stylesheet" href="style/slick.css">
   <link rel="stylesheet" href="style/general.css">
   <link rel="stylesheet" href="style/about.css">
+  <link rel="stylesheet" href="style/main.css">
   
 </head>
 <body>
@@ -30,7 +30,7 @@
                     <div class="title__name">TEREXOV</div>
                 </div>
                 </div>
-
+            
                 <div class="about__slider-wrapper">
                     <div class="about__slider">
                         <div class="about__slider-item">

@@ -9,11 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="fonts/font-awesome/css/all.css">
-  <link rel="stylesheet" href="style/main.css">
   <link rel="stylesheet" href="style/index.css">
   <link rel="stylesheet" href="style/_navigation.css">
   <link rel="stylesheet" href="style/last.css">
   <link rel="stylesheet" href="style/general.css">
+  <link rel="stylesheet" href="style/main.css">
   
   
 </head>
@@ -22,6 +22,7 @@
 <?php require "templates/_navigation.php"; ?>
 
 <section class="lastprojects">
+    <div class="container">
     <div class="container-last">
         <div class="lastprojects__inner">
             <div class="lastprojects__top">
@@ -39,7 +40,9 @@
                         <a href="" class="lastprojects__link">Посмотреть проект</a>
                     </div>
                     <div class="lastprojects__right">
-                        <img src="images/content/lastprojects1.png" alt="">
+                        <div class="lastprojects__img-wrapper">
+                            <img src="images/content/lastprojects1.png" alt="">
+                        </div>
                     </div>
                 </div>
 
@@ -53,7 +56,9 @@
                         <a href="" class="lastprojects__link">Посмотреть проект</a>
                     </div>
                     <div class="lastprojects__right">
-                        <img src="images/content/lastprojects2.png" alt="">
+                        <div class="lastprojects__img-wrapper">
+                            <img src="images/content/lastprojects2.png" alt="">
+                        </div>
                     </div>
                 </div>
 
@@ -67,13 +72,16 @@
                         <a href="" class="lastprojects__link">Посмотреть проект</a>
                     </div>
                     <div class="lastprojects__right">
+                        <div class="lastprojects__img-wrapper lastprojects__img-phone">
                         <img src="images/content/lastprojects3.png" alt="">
+                        </div>
                     </div>
                 </div>
 
 
             </div>
         </div>
+    </div>
     </div>
 </section>
 
