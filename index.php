@@ -214,16 +214,22 @@
                 </p>
                 <form class="contacts__form">
                     <div class="input__wrapper">
-                    <input class="contacts__input" type="text">
+                    <input class="contacts__input" type="text" autocomplete="off" required>
+                    <label for="name" class="input__label">
                     <span class="input__placeholder">Ваше имя</span>
+                    </label>
                     </div>
                     <div class="input__wrapper">
-                    <input class="contacts__input" type="text">
+                    <input class="contacts__input" type="text" required>
+                    <label class="input__label">
                     <span class="input__placeholder">Почта</span>
+                    </label>
                     </div>
                     <div class="input__wrapper">
-                    <input class="contacts__input" type="text">
+                    <input class="contacts__input" type="text" required>
+                    <label class="input__label">
                     <span class="input__placeholder">Телефон</span>
+                    </label>
                     </div>
                 </form>
                 <div class="contacts__prompt-wrapper">

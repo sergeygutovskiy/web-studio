@@ -67,12 +67,15 @@
     margin-bottom: 118px;
     flex-wrap: wrap;
 }
-.infotask__img {
+.infotask__img-box{
     max-width: 400px;
     width: 100%;
+    height: 100%;
+    margin: 0 10px;
 }
-.infotask__img img{
+.infotask__img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 .info__links {
@@ -128,4 +131,115 @@
     background-size: contain;
     right: -19px;
     top: 5px;
+}
+
+
+@media screen and (max-width: 1366px){
+    .info__title{
+        font-size: 54px;
+        line-height: 64px;
+        margin-bottom: 32px;
+    }
+    .info__subtitle{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .info__link{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .infotask__title{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .infotask__img-box{
+        max-width: 344px;
+    }
+    .info__inner{
+        margin-bottom: 60px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .infotask__title{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .infotask__text{
+        max-width: 443px;
+    }
+    .infotask__img-box{
+        max-width: 220px;
+    }
+    .infotask__images{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 1024px){
+    .info__title{
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 24px;
+    }
+    .info__subtitle{
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 16px;
+    }
+    .info__link{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .infotask{
+        margin-bottom: 90px;
+    }
+    .info__banner{
+        min-height: 75px;
+        margin-bottom: 64px;
+    }
+    .info__banner img{
+        min-height: 75px;
+    }
+}
+@media screen and (max-width: 800px){
+    .infotask{
+        flex-direction: column;
+    }
+    .infotask__title{
+        margin-bottom: 24px;
+    }
+    .infotask__images{
+        flex-wrap: wrap;
+        margin-bottom: 47px;
+    }
+    .infotask__img-box{
+        margin-bottom: 40px;
+    }
+    .infotask{
+        margin-bottom: 60px;
+    }
+    .info__links{
+        display: flex;
+        flex-direction: column;
+    }
+    .website__link-wrapper{
+        transform: translateY(0);
+        justify-content: flex-start;
+        margin-left: 40px;
+        margin-top: 35px;
+    }
+    
+
+}
+
+@media screen and (max-width: 700px){
+    .info__inner{
+        padding-top: 60px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .info__inner .general__top{
+        margin-left: 0;
+    }
 }
