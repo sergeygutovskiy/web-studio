@@ -50,12 +50,7 @@ nav {
 	line-height: 22px;
 	letter-spacing: 0.04em;
 }
-.nav__link > a:hover {
-	
-	color:#6753FF; 
-	transition: all 300ms linear; 
-	
-}
+
 .nav__phone{
 	margin-left: 120px;
 }
