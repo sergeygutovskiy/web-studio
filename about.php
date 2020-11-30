@@ -32,33 +32,30 @@
                 </div>
             
                 <div class="about__slider-wrapper">
+                    <div class="about__slider-container">
+                    <div class="about__slider-box">
                     <div class="about__slider">
-                        <div class="about__slider-item">
-                        <div class="about__slider-box">
                         <div class="about__slider-img">
                             <img src="images/content/slider-1.jpg" alt="">
-                        </div>
-                        <div class="about__slider-text">
-                            Клиенты обращаются к нам за экспертизой и за производственными мощностями. Они просят помочь в создании нового или серьезной переработке существующего продукта. К нам обращаются, когда нуждаются в команде, которая поможет развить проект, ориентируясь на историю взаимодействия пользователей с ним и на задачах бизнеса.  Нас выбирают, когда нужно увеличить прибыль. Cправляемся с задачами которые не под силу основной массе подрядчиков.
-                        </div> 
-                        </div>
                         </div>
 
-                        <div class="about__slider-item">
-                        <div class="about__slider-box">
                         <div class="about__slider-img">
                             <img src="images/content/slider-1.jpg" alt="">
-                        </div>
-                        <div class="about__slider-text">
-                            Клиенты обращаются к нам за экспертизой и за производственными мощностями. Они просят помочь в создании нового или серьезной переработке существующего продукта. К нам обращаются, когда нуждаются в команде, которая поможет развить проект, ориентируясь на историю взаимодействия пользователей с ним и на задачах бизнеса.  Нас выбирают, когда нужно увеличить прибыль. Cправляемся с задачами которые не под силу основной массе подрядчиков.
-                        </div> 
-                        </div>
                         </div>
                     </div>
                     <div class="about__slider-buttons">
                         <button class="about__arrow about__arrow-left" data-news-pos="0" type="button"><img src="images/arrow-left.svg" alt=""></button>
                         <button class="about__arrow about__arrow-right" data-news-pos="1" type="button"><img src="images/arrow-right.svg" alt=""></button>
                     </div>
+                    </div>
+
+                    <div class="about__text-wrapper">
+                    <p class="about__slider-text">
+                            Клиенты обращаются к нам за экспертизой и за производственными мощностями. Они просят помочь в создании нового или серьезной переработке существующего продукта. К нам обращаются, когда нуждаются в команде, которая поможет развить проект, ориентируясь на историю взаимодействия пользователей с ним и на задачах бизнеса.  Нас выбирают, когда нужно увеличить прибыль. Cправляемся с задачами которые не под силу основной массе подрядчиков.
+                    </p> 
+                    </div>
+                    </div>
+        
                 </div>
                 
             </div>

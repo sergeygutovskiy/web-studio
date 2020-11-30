@@ -28,7 +28,7 @@ $(document).ready(function(){
         centerMode:true,
         variableWidth: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1000,
     });
 
     $('[data-news-pos]').on('click', function(){
