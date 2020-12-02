@@ -73,6 +73,7 @@ font-family: 'Oswald', sans-serif; */
 	margin-left: 115px;
 }
 .title__name {
+    margin-top: 10px;
     font-size: 56px;
     line-height: 68px;
     font-family: 'Oswald', sans-serif;
