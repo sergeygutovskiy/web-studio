@@ -161,7 +161,11 @@ nav {
 		font-size: 16px;
 		color: #6753FF;
 	}
-
+	.nav__link > a:hover {
+	
+		color:white;
+		
+	}
 	.nav__radius{
 		background: rgba(116, 55, 255, 0.15);
 		height: 50px;
