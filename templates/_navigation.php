@@ -17,7 +17,7 @@
 				<li class="nav__link"><a href="last.php"> Работы  </a></li>
 				<li class="nav__link"><a href="about.php"> О нас    </a></li>
 				<li class="nav__link"><a href="services.php"> Услуги   </a></li>
-				<li class="nav__link"><a href=""> Контакты </a></li>
+				<li class="nav__link"><a href="contacts.php"> Контакты </a></li>
 				<li class="nav__link nav__phone"><a href=""> <i class="fas fa-phone"></i></a></li>
 			</ul>
 		</div>
