@@ -26,7 +26,7 @@
             <div class="services__inner">
                 <div class="general__top">
                     <div class="general__category">услуги</div>
-                    <div class="title__name">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                    <div class="title__name">Наша компания оказывает полный спектр услуг на IT-рынке</div>
                 </div>
 
                 <div class="services__container">
