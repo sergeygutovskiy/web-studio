@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Услуги студии</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald&display=swap" rel="stylesheet">
@@ -109,7 +109,7 @@
 
                     <div class="services__item">
                         <div class="services__num">12</div>
-                        <div class="services__titl1e">Дизайн сайта</div>
+                        <div class="services__title">Дизайн сайта</div>
                         <div class="services__text">Сделаем продающий макет для вашего будущего сайта (макет входит в стоимость сайта, если заказывать разработку у нас)</div>
                         <div class="services__price">от 5 000₽</div>
                     </div>
