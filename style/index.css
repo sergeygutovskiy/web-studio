@@ -305,6 +305,7 @@
     width: 13px;
     height: 12px;
     background-size: contain;
+    background-repeat: no-repeat;
     right: -19px;
     top: 5px;
 }
@@ -345,10 +346,12 @@
     line-height: 27px;
     outline: none;
     cursor: pointer; 
+    transition: all .3s;
 }
 
 .contacts__input:focus{
     border-bottom: 2px solid #7437FF;
+    transition: all .3s;
 }
 
 .input__wrapper:hover.input__wrapper::before{
@@ -365,6 +368,7 @@
     width: 100%;
     height: 100%;
     pointer-events: none;
+    transition: all .3s linear;
 }
 
 .input__placeholder{
@@ -375,17 +379,15 @@
     color: #999999;
     left: 15px;
     bottom: 0;
-    transition: all .3s linear;
+    transition: all .5s linear;
 }
 .contacts__input:focus + .input__label .input__placeholder{
-    font-size: 12px;
-    line-height: 14px;
-    transform: translateY(-300%);
+    transform: translateY(-40px) scale(0.8);
+    transition: all .3s linear;
 }
 .contacts__input:valid + .input__label .input__placeholder{
-    font-size: 12px;
-    line-height: 14px;
-    transform: translateY(-300%);
+    transform: translateY(-40px) scale(0.8);
+    transition: all .3s linear;
 }
 .contacts__prompt-wrapper {
     margin-top: 50px;

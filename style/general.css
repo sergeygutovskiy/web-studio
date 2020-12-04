@@ -22,7 +22,9 @@ li {
     padding: 0;
     margin: 0;
 }
-
+input{
+    border-radius: 0;
+}
 body {
 	margin: 0;
 	background-color:#22272A;
