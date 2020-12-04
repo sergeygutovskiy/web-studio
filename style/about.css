@@ -418,6 +418,9 @@
     .aboutwork__item:last-child::after{
         display: none;
     }
+    .about__top-wrapper{
+        margin-bottom: 100px;
+    }
 }
 
 @media screen and (max-width: 610px){
@@ -444,6 +447,9 @@
     }
     .about__slider-buttons {
         right: 25px;
+    }
+    .about__top-wrapper{
+        margin-bottom: 70px;
     }
 }
 @media screen and (max-width: 400px){
