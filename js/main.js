@@ -17,9 +17,6 @@ $(document).ready(function(){
         slidesToShow: 1,
         slidesToScroll:1,
         infinite: true,
-        centerMode: false,
-        adaptiveHeight: true,
-        adaptiveWidth: true,
         nextArrow:'.about__arrow .about__arrow-left',
         prevArrow:'.about__arrow .about__arrow-right',
     });
