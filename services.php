@@ -109,7 +109,7 @@
 
                     <div class="services__item">
                         <div class="services__num">12</div>
-                        <div class="services__titl1e">Дизайн сайта</div>
+                        <div class="services__title">Дизайн сайта</div>
                         <div class="services__text">Сделаем продающий макет для вашего будущего сайта (макет входит в стоимость сайта, если заказывать разработку у нас)</div>
                         <div class="services__price">от 5 000₽</div>
                     </div>
