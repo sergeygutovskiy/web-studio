@@ -1,10 +1,10 @@
 
 <nav>
 	<div class="nav__content">
-		<div class="nav__logo">
-			<a href=""></a>
-		</div>
-
+		<a href="/">
+			<div class="nav__logo">
+			</div>
+		</a>
 		<div class="nav__radius">
 			<button class="nav__menu">
 				<div></div>
