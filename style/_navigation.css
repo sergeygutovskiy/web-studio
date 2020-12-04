@@ -127,8 +127,7 @@ nav {
 
 @media (max-width:1000px){
 	.nav__logo{
-		max-width: 88px;
-		width: 100%;
+		width: 88px;
 		height: 39px;
 	}
 	.nav__phone {

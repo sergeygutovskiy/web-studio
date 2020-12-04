@@ -17,6 +17,8 @@ $(document).ready(function(){
         slidesToShow: 1,
         slidesToScroll:1,
         infinite: true,
+        autoplay: true,
+        autoplaySpeed: 1000,
         nextArrow:'.about__arrow .about__arrow-left',
         prevArrow:'.about__arrow .about__arrow-right',
     });
