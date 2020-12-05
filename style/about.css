@@ -124,7 +124,7 @@
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     padding: 0 20px;
-    background: -webkit-linear-gradient(90deg, #7437FF, #9D69EA);
+    background: -webkit-linear-gradient(90deg,   var(--main-color);, #9D69EA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -140,7 +140,7 @@
     font-size: 22px;
     line-height: 28px;
     letter-spacing: 0.04em;
-    color: #7437FF;
+    color:   var(--main-color);;
 }
 .aboutwork__descr-last{
     bottom: -50px;
