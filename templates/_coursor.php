@@ -29,7 +29,7 @@
   .ppk-dot {
 	width: 8px;
 	height: 8px;
-	background-color: #7437FF;
+	background-color:   var(--main-color);;
   }
   
   .ppk-dot-outline {
