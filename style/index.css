@@ -161,6 +161,7 @@
 .mainlink__all-wrapper{
     display: flex;
     justify-content: center;
+    transition: all .7s;
 }
 
 .mainlink__all {
@@ -181,11 +182,10 @@
     transform: translateX(-50%);
     background: rgba(116, 55, 255, 0.5);
     z-index: -1;
-    transition: all .3s;
+    transition: all .7s;
 }
 
 .mainlink__all-wrapper:hover{
-    transition: all .3s;
     transform: scale(1.2);
 }
 
@@ -285,6 +285,7 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:   var(--main-color);;
 }
+
 .statistic__descr {
     font-size: 24px;
     line-height: 28px;

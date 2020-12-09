@@ -41,7 +41,8 @@
                     </div>
                     <div class="lastprojects__right">
                         <div class="lastprojects__img-wrapper">
-                            <img src="images/content/lastprojects1.png" alt="">
+                            <img class="lastprojects__img lastprojects__img-mob lastprojects__img-phone"  src="images/content/ersmmob.png" alt="">
+                            <img class="lastprojects__img lastprojects__img-desc" src="images/content/ersmpc.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -57,7 +58,8 @@
                     </div>
                     <div class="lastprojects__right">
                         <div class="lastprojects__img-wrapper">
-                            <img src="images/content/lastprojects2.png" alt="">
+                        <img class="lastprojects__img lastprojects__img-mob lastprojects__img-phone"  src="images/content/samob.png" alt="">
+                            <img class="lastprojects__img lastprojects__img-desc" src="images/content/sapc.png" alt="">
                         </div>
                     </div>
                 </div>

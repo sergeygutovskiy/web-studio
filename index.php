@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="style/index.css">
 <link rel="stylesheet" href="style/main.css">
 
+
 </head>
 
 <body>
@@ -76,17 +77,17 @@
             </div>
             <div class="main__examples">
                 <div class="main__examples-container">
-                <div class="main__example-item wow slideInDown" data-wow-delay="0.1s" data-wow-offset="200">
+                <div class="main__example-item wow slideInDown" data-wow-delay="0.1s" data-wow-offset="100">
                     <img src="images/content/project1.jpg" alt="">
                     <p class="main__example-descr">Lorem ipsum dolor</p>
                 </div>
 
-                <div class="main__example-item wow slideInDown" data-wow-delay="0.3s" data-wow-offset="200">
+                <div class="main__example-item wow slideInDown" data-wow-delay="0.3s" data-wow-offset="100">
                     <img src="images/content/project1.jpg" alt="">
                     <p class="main__example-descr">Lorem ipsum dolor</p>
                 </div>
 
-                <div class="main__example-item wow slideInDown" data-wow-delay="0.5s" data-wow-offset="200">
+                <div class="main__example-item wow slideInDown" data-wow-delay="0.5s" data-wow-offset="100">
                     <img src="images/content/project1.jpg" alt="">
                     <p class="main__example-descr">Lorem ipsum dolor</p>
                 </div>
@@ -143,35 +144,35 @@
     <div class="container">
         <div class="statistic__inner">
             <div class="statistic__row-top">
-                <div class="statistic__item wow slideInLeft" data-wow-delay="0.1s" data-wow-offset="300">
-                <div class="statistic__number">>100</div>
+                <div class="statistic__item wow fadeInLeft" data-wow-delay=".1s" data-wow-offset="250">
+                <div class="statistic__number count">100</div>
                 <span class="statistic__descr">Проектов</span>
                 </div>
                 
-                <div class="statistic__item wow slideInLeft" data-wow-delay=".3s" data-wow-offset="300">
-                <div class="statistic__number">4</div>
+                <div class="statistic__item wow fadeInLeft" data-wow-delay=".3s" data-wow-offset="250">
+                <div id="num2" class="statistic__number">4</div>
                 <span class="statistic__descr">место в среднем 
 по выдаче сайтов</span>
                 </div>
 
-                <div class="statistic__item wow slideInLeft" data-wow-delay=".5s" data-wow-offset="300">
-                <div class="statistic__number">215</div>
+                <div class="statistic__item wow fadeInLeft" data-wow-delay=".5s" data-wow-offset="250">
+                <div id="num3" class="statistic__number">215</div>
                 <span class="statistic__descr">% в среднем увеличение прибыли</span>
                 </div>
             </div>
             <div class="statistic__row-bottom">
-                <div class="statistic__item wow slideInLeft" data-wow-delay=".7s" data-wow-offset="300">
-                <div class="statistic__number">5</div>
+                <div class="statistic__item wow fadeInLeft" data-wow-delay=".7s" data-wow-offset="250">
+                <div id="num4" class="statistic__number">5</div>
                 <span class="statistic__descr statistic__descr-it">Лет опыта 
 в IT-индустрии</span>
                 </div>
 
-                <div class="statistic__item wow slideInLeft" data-wow-delay=".9s" data-wow-offset="300">
+                <div class="statistic__item wow fadeInLeft" data-wow-delay=".9s" data-wow-offset="250">
                 <div class="statistic__number">11</div>
                 <span class="statistic__descr">КРУТЫХ СОТРУДНИКОВ</span>
                 </div>
 
-                <div class="statistic__item wow slideInLeft" data-wow-delay="1.1s" data-wow-offset="300">
+                <div class="statistic__item wow fadeInLeft" data-wow-delay="1.1s" data-wow-offset="250">
                 <div class="statistic__number">3350</div>
                 <span class="statistic__descr statistic__descr-last">Страниц в ТОП-5</span>
                 </div>
@@ -269,8 +270,9 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/wow.min.js"></script>
-<script>new WOW().init();</script>
+
 <script src="js/main.js"></script>
+
 
 
 
