@@ -171,12 +171,14 @@
     }
     .lastprojects__left{
         margin-right: 200px;
+        margin-top: 25px;
     }
 }
 
 @media (max-width:1050px){
     .lastprojects__left{
         margin-right: 50px;
+        margin-top: 0;
     }
     .lastprojects__right{
         max-width: 400px;
@@ -260,9 +262,10 @@
     }
     .lastprojects__left{
         margin-top: 0;
+        margin-bottom: 35px;
     }
     .lastprojects__item{
-        margin-bottom: 60px;
+        margin-bottom: 78px;
     }
     .lastprojects__right{
         min-height: 156px;
@@ -276,5 +279,9 @@
     .lastprojects__right:hover .lastprojects__img-mob{
         max-width: 250px;
     }
-
+}
+@media (max-width:380px){
+    .lastprojects__left{
+        margin-bottom: 0;
+    }
 }
