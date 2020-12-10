@@ -21,29 +21,56 @@
 .general__category-main{
     margin-bottom: 16px;
 }
+.main__info-link{
+    max-width: 300px;
+    width: 100%  !important;
+    height: 70px;
+}
 .price__link {
-    border: 1px solid   var(--main-color);;    ;
+    padding: 22px 60px;
+    width: 228px;
+    height: 70px;
+    position: relative;
     border-radius: 40px;
-    padding: 24px 60px;
+    background: linear-gradient(#212121, #212121);
+    background-clip: padding-box;
+    transition: all .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button__text{
+    position: absolute;
     font-size: 18px;
     line-height: 22px;
     font-weight: 700;
     letter-spacing: 0.02em;
-    position: relative;
-    transition: all .5s;
+    z-index: 5;
 }
 .price__link::before {
     content: '';
     position: absolute;
     width: 54px;
     height: 54px;
-    background-color: rgba(116, 55, 255, 0.5);
+    background: rgba(255, 255, 51, 0.5);
     border-radius: 50%;
     left: 58px;
     top: 50%;
     transform: translateY(-50%);
-    z-index: -1;
+    z-index: 0;
     transition: all .5s;
+}
+.price__link::after{
+    content: '';
+    position: absolute;
+    top: -4px; 
+    bottom: -4px;
+    left: -4px; 
+    right: -4px;
+    background: linear-gradient(to right, #FFFF33, #EA8069);
+    z-index: -1;
+    border-radius: 40px;
 }
 .price__link:hover{
     border-color: transparent;
@@ -51,6 +78,10 @@
 }
 .price__link:hover::before{
     left: 190px;
+    transition: .5s;
+}
+.contacts__btn.price__link:hover::before{
+    left: 150px;
     transition: .5s;
 }
 
@@ -180,7 +211,8 @@
     top:-20px;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(116, 55, 255, 0.5);
+    background: #FFFF33;
+    opacity: .5;
     z-index: -1;
     transition: all .7s;
 }
@@ -218,7 +250,8 @@
     border-radius: 50%;
     top:-20px;
     left: 0;
-    background: rgba(116, 55, 255, 0.5);
+    background: #FFFF33;
+    opacity: 0.5;
     z-index: -1;
     transition: all .5s;
 }
@@ -280,10 +313,10 @@
     font-size: 144px;
     line-height: 176px;
     text-transform: uppercase;
-    color: #22272A;
-
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:   var(--main-color);;
+    background: linear-gradient(to right, #FFFF33, #EA8069);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 2px transparent;
+    color: #212121;
 }
 
 .statistic__descr {

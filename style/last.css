@@ -69,12 +69,18 @@
     position: absolute;
     width: 56px;
     height: 56px;
-    background-color: rgba(116, 55, 255, 0.5);
+    background: rgba(255, 255, 51, 0.5);
     z-index: 0;
     border-radius: 50%;
     top: 50%;
     left: 0px;
+    transition: all .5s;
     transform: translateY(-50%);
+}
+.lastprojects__link:hover::before{
+    left: 200px;
+    background-color: #fff;
+    opacity: .5;
 }
 .lastprojects__right {
     position: relative;

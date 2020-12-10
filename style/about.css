@@ -47,7 +47,7 @@
     transform: translateX(28%);
     width: 228px;
     height: 228px;
-    background-color: rgba(116, 55, 255, 0.15);
+    background: rgba(255, 255, 51, 0.15);
     border-radius: 50%;
     display: flex;
     justify-content: space-between;
@@ -124,7 +124,7 @@
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     padding: 0 20px;
-    background: -webkit-linear-gradient(90deg,   var(--main-color);, #9D69EA);
+    background: -webkit-linear-gradient(360deg, #FFFF33, #EA8069);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

@@ -36,7 +36,9 @@
                 Разрабатываем <span>сайты</span>, <span>мобильные приложения</span>, <span>дизайн</span> и помогаем бизнесу развиваться
                 </div>
                 </div>
-                <a href="#" class="price__link">Узнать стоимость</a>
+                <a href="#" class="main__info-link price__link">
+                <span class="button__text">Узнать стоимость</span>
+                </a>
             </div>
             </div>
             <div class="main__bottom main__bottom1 wow fadeInDown" data-wow-delay=".5s" data-wow-offset="150">
@@ -244,7 +246,9 @@
                     </div>
                 </div>
 
-                <button class="contacts__btn price__link">Отправить</button>
+                <button class="contacts__btn price__link">
+                <span class="button__text">Отправить</span>
+                </button>
             </div>
         </div>
     </div>

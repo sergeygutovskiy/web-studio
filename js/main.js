@@ -14,14 +14,18 @@ $(document).ready(function(){
     	$(".nav__menu").toggleClass("nav__menu--active");
     });
 
-    
+    $('.nav__link').on('click', function(){
+      console.log(1);
+      $('.nav__link').removeClass('nav__link--active');
+      $(this).addClass('nav__link--active');
+    });
 
     
     $('.about__slider').slick({
         slidesToShow: 1,
         slidesToScroll:1,
         nextArrow:'.about__arrow .about__arrow-left',
-        prevArrow:'.about__arrow .about__arrow-right',
+        prevArrow:'.about__arrow .about__arrow-right'
     });
 
     $('.main__slider').slick({
@@ -40,6 +44,7 @@ $(document).ready(function(){
     //     $('.about__slider').slick('slickGoTo', $(this).attr('data-news-pos'));
     // });
 
+ 
 
     $('.count').each(function() {
         $(this).prop('Counter', 0).animate({
