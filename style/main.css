@@ -232,6 +232,16 @@
 	}
 	.contacts__link-wrapper{
 		flex-wrap: wrap;
+		justify-content: flex-start;
+		
+	}
+	.contact__link-item{
+		display: flex;
+		justify-content: flex-start;	
+	}
+	.contacts__prompt-link{
+		margin: auto;
+		width: 120px;
 	}
 	.main__slider-item{
 		max-width: 450px;

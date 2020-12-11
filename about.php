@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="style/slick.css">
   <link rel="stylesheet" href="style/general.css">
   <link rel="stylesheet" href="style/about.css">
+  <link rel="stylesheet" href="style/_footer.css">
   <link rel="stylesheet" href="style/main.css">
   
 </head>

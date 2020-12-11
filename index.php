@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="style/_navigation.css">
 <link rel="stylesheet" href="style/slick.css">
 <link rel="stylesheet" href="style/animate.css">
+<link rel="stylesheet" href="style/_footer.css">
 <link rel="stylesheet" href="style/general.css">
 <link rel="stylesheet" href="style/index.css">
 <link rel="stylesheet" href="style/main.css">
@@ -237,13 +238,23 @@
                 </form>
                 <div class="contacts__prompt-wrapper">
                     <p class="contacts__prompt">Как с вами связаться?</p>
-                    <div class="contacts__link-wrapper">
+                    <ul class="contacts__link-wrapper">
+                    <li class="contact__link-item">
                     <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay=".7s" data-wow-offset="150">Телефон</a>
+                    </li>
+                    <li class="contact__link-item">
                     <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay=".9s" data-wow-offset="150">Почта </a>
+                     </li>                    
+                    <li class="contact__link-item">
                     <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay="1.1s" data-wow-offset="150">WhatsApp</a>
+                     </li>
+                    <li class="contact__link-item">
                     <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay="1.3s" data-wow-offset="150">Telegram</a>
+                     </li>
+                    <li class="contact__link-item">
                     <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay="1.5s" data-wow-offset="150">Viber</a>
-                    </div>
+                     </li>
+                    </ul>
                 </div>
 
                 <button class="contacts__btn price__link">

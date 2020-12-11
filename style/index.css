@@ -409,7 +409,8 @@
     position: absolute;
     width: 0px;
     height: 1px;
-    background-color:   var(--main-color);;
+    background-color: #FFFF33;
+    opacity: .7;
     bottom: -1px;
     right: 0;
     left: auto;

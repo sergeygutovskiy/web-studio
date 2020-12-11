@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="style/_navigation.css">
   <link rel="stylesheet" href="style/last.css">
   <link rel="stylesheet" href="style/general.css">
+  <link rel="stylesheet" href="style/_footer.css">
   <link rel="stylesheet" href="style/main.css">
   
   
