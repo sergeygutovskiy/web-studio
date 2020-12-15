@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
-<link rel="stylesheet" href="fonts/font-awesome/css/all.css">
+<!-- <link rel="stylesheet" href="fonts/font-awesome/css/all.css"> -->
 <link rel="stylesheet" href="style/_navigation.css">
 <link rel="stylesheet" href="style/slick.css">
 <link rel="stylesheet" href="style/animate.css">
@@ -42,7 +42,7 @@
                 </a>
             </div>
             </div>
-            <div class="main__bottom main__bottom1 wow fadeInDown" data-wow-delay=".5s" data-wow-offset="150">
+            <div class="main__bottom main__bottom1  fadeInDown" data-wow-delay=".5s" data-wow-offset="150"wow>
                 
                 <div class="main__links">
                     <a href="#" class="main__link-item">
@@ -190,7 +190,7 @@
 <section class="contacts">
     <div class="container">
         
-        <div class="general__category general__category-main">
+        <div class="general__category general__category-main contacts__general-title">
         Контакты
         </div>
         <div class="title__name">
@@ -282,7 +282,7 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
 <script src="js/slick.min.js"></script>
 <script src="js/wow.min.js"></script>
 

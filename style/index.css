@@ -284,9 +284,7 @@
     display: block;
     object-fit: cover;
 }
-.slick-arrow{
-    visibility: hidden;
-}
+
 .main-about__img + .main-about__img{
     margin-left: 32px;
     max-width: 776px;
@@ -341,8 +339,10 @@
     justify-content: flex-end;
 }
 
-
-
+/* CONTACTS */
+.contacts__general-title{
+    color: #FFFF33;
+}
 .contacts__inner {
     margin-top: 61px;
     display: flex;
@@ -475,6 +475,7 @@
 .contacts__prompt-wrapper {
     margin-top: 50px;
 }
+
 .contacts__prompt {
     font-weight: 700;
     font-size: 18px;
