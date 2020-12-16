@@ -130,6 +130,10 @@
     object-fit: contain;
     display: block;
     width: inherit;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .lastprojects__right::before{
     content:'';

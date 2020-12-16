@@ -64,19 +64,37 @@
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="lastprojects__item">
                     <div class="lastprojects__left">
                         <div class="lastprojects__title">
                         СДЕК
                         </div>
-                        <div class="lastprojects__subtitle">Website + Design + SEO + ADVERTISING</div>
+                        <div class="lastprojects__subtitle">Website + Design </div>
 
                         <a href="" class="lastprojects__link">Посмотреть проект</a>
                     </div>
                     <div class="lastprojects__right">
-                        <div class="lastprojects__img-wrapper lastprojects__img-phone">
-                        <img src="images/content/lastprojects3.png" alt="">
+                        <div class="lastprojects__img-wrapper">
+                        <img class="lastprojects__img lastprojects__img-mob lastprojects__img-phone"  src="images/content/cdekmob.png" alt="">
+                            <img class="lastprojects__img lastprojects__img-desc" src="images/content/cdek.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lastprojects__item">
+                    <div class="lastprojects__left">
+                        <div class="lastprojects__title">
+                        РКМ
+                        </div>
+                        <div class="lastprojects__subtitle">Website + Design </div>
+
+                        <a href="" class="lastprojects__link">Посмотреть проект</a>
+                    </div>
+                    <div class="lastprojects__right">
+                        <div class="lastprojects__img-wrapper">
+                        <img class="lastprojects__img lastprojects__img-mob lastprojects__img-phone"  src="images/content/rkmmob.png" alt="">
+                            <img class="lastprojects__img lastprojects__img-desc" src="images/content/rkm.png" alt="">
                         </div>
                     </div>
                 </div>
