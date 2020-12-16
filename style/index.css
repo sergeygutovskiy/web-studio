@@ -500,3 +500,294 @@
 }
 
 
+
+@media(max-width: 1366px){
+	.main__section-top{
+		max-width: 871px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.title__name {
+		font-size: 54px;
+		line-height: 70px;
+	}
+	.main__top1{
+		max-width: 871px;
+		width: 100%;
+		margin: 0;
+		margin-bottom: 75px;
+	}
+	.main__top1 .title__name{
+		max-width: 830px;
+		width: 100%;
+		font-size: 54px;
+		line-height: 70px;
+	}
+	
+	.main__link,
+	.main__link-descr{
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.main__link-container{
+		margin-right: 0;
+	}
+	.main__link-container + .main__link-container {
+		margin-left: 140px;
+	}
+
+	.main__top2{
+		max-width: 635px;
+		width: 100%;
+		margin: 0;
+	}
+	.title__name{
+		font-size: 42px;
+		line-height: 55px;
+	}
+	.general__category-main{
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.main__example-descr{
+		font-size: 32px;
+		line-height: 45px;
+	}
+	.main__top-about{
+		justify-content: space-around;
+	}
+	.main__example-descr{
+		font-size: 40px;
+		line-height: 52px;
+	}
+	.main__example-item img{
+		padding: 0 45px;
+	}
+	.main__example-descr {
+		left: 1px;
+		font-size: 36px;
+	}
+	.statistic__descr{
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.statistic__number{
+		font-size: 110px;
+		line-height: 120px;
+	}
+	.statistic__item{
+		margin-bottom: 30px;
+	}
+
+	
+}
+
+@media (max-width:1045px){
+	.main__bottom{
+		flex-direction: column;
+	}
+	.main__links{
+		display: none;
+	}
+	.main__top1{
+		margin-bottom: 102px;
+		display: flex;
+		flex-direction: column;
+
+	}
+	.price__link{
+		align-self: center;
+	}
+	.statistic__row-top{
+		flex-wrap: wrap;
+	}
+	.statistic__row-bottom{
+		flex-wrap: wrap;
+	}
+	.statistic__inner{
+		display: flex;
+	}
+	.statistic__row-bottom{
+		justify-content: flex-start;
+	}
+
+}
+
+
+@media screen and (max-width:1000px){
+	.main__examples-container{
+		flex-direction: column;
+		align-items: center;
+	}
+	.main__example-item{
+		margin-bottom: 40px;
+	}
+	.main__top-about{
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+		padding-bottom: 88px;
+	}
+	.main__about-link{
+		position: absolute;
+		bottom: 0;
+	}
+	.main-about__right{
+		margin-top: -22px;
+	}
+	.main__bottom1 {
+		margin-bottom: 136px;
+	}
+
+}
+
+
+
+@media screen and (max-width:890px){
+	.main__top1 .title__name{
+		font-size: 46px;
+	}
+	.main__link{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.main__link-descr{
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.main__inner {
+		padding-top: 187px;
+	}
+	.main__examples {
+		margin-bottom: 130px;
+	}
+	.statistic__descr{
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.statistic__number{
+		font-size: 90px;
+		line-height: 110px;
+	}
+}
+
+
+@media screen and (max-width: 768px)
+{
+	.main-container {
+		margin: 0 16px;
+	}
+
+	input, input::placeholder {
+		font-size: 14px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+	.input__placeholder{
+		font-size: 16px;
+	}
+	
+}
+
+
+@media screen and (max-width:750px){
+	.statistic__inner{
+		flex-direction: column;
+		align-items: center;
+	}
+	.statistic__row-top{
+		flex-direction: column;
+	}
+	.statistic__row-bottom{
+		flex-direction: column;
+	}
+}
+@media screen and (max-width:700px){
+	.main__top1 .title__name{
+		font-size: 54px;
+		line-height: 70px;
+	}
+	.main__title-wrapper {
+		margin-bottom: 44px;
+	}
+	.main__examples-container{
+		align-items: flex-end;
+	}
+	.main__example-item img{
+		padding: 0;
+	}
+	.main__example-descr{
+		left: -50px;
+	}
+	.main__example-item{
+		max-width: 312px;
+		width: 100%;
+		margin-left: 60px;
+	}
+	.main__examples-container{
+		margin-left: 60px;
+	}
+}	
+
+
+@media screen and (max-width:570px){
+	.main__links-wrapper{
+		flex-direction: column;
+	}
+	.main__link-container + .main__link-container{
+		margin-left: 0;
+	}
+	.main__link-container{
+		margin-bottom: 67px;
+	}
+	.main__inner {
+		padding-top: 147px;
+	}
+	.price__link{
+		font-size: 16px;
+		line-height: 20px;
+		padding: 24px 45px;
+	}
+	.price__link::before{
+		display: none;
+	}
+	.main__bottom1 {
+		margin-bottom: 87px;
+	}	
+	.statistic__inner {
+		margin-bottom: -56px;
+	}
+	.main__top .title__name{
+		font-size: 36px;
+		line-height: 40px;
+	}
+}
+
+@media screen and (max-width:540px){
+	.main__top .title__name{
+		font-size: 28px;
+		line-height: 40px;
+	}
+	.general__category-main{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.main__example-descr{
+		font-size: 24px;
+		line-height: 35px;
+		max-width: 148px;
+		width: 100%;
+	}
+	.main__bottom1 {
+		margin-bottom: 60px;
+	}
+
+}
+
+

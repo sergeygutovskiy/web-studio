@@ -11,8 +11,13 @@ $(document).ready(function(){
     	});
     
     	$("nav").toggleClass("nav--active");
-    	$(".nav__menu").toggleClass("nav__menu--active");
+      $(".nav__menu").toggleClass("nav__menu--active");
+      $("body").toggleClass("body__disabled");
     });
+
+    
+    
+  
 
     $('.nav__link').on('click', function(){
       console.log(1);
@@ -54,9 +59,7 @@ $(document).ready(function(){
         });
       });
 
-
+      new WOW().init();
       
-      });
+});
 
-
-  new WOW().init();
