@@ -24,18 +24,3 @@
 	</div>
 </nav>
 
-
-<!-- <script>
-$(".nav__menu").click(function() {			
-	$(".nav__link").each(function(index) {
-		let current = $(this);
-
-		setTimeout(function() {
-			current.toggleClass("nav__link--active");
-		}, 100 + index * 100);		
-	});
-
-	$("nav").toggleClass("nav--active");
-	$(".nav__menu").toggleClass("nav__menu--active");
-});
-</script> -->

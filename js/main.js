@@ -29,8 +29,8 @@ $(document).ready(function(){
     $('.about__slider').slick({
         slidesToShow: 1,
         slidesToScroll:1,
-        nextArrow:'.about__arrow-left',
-        prevArrow:'.about__arrow-right'
+        nextArrow:'.about__arrow-right',
+        prevArrow:'.about__arrow-left',
     });
 
     $('.main__slider').slick({
@@ -44,20 +44,49 @@ $(document).ready(function(){
         autoplaySpeed: 1000,
     });
 
- 
 
-    $('.count').each(function() {
-        $(this).prop('Counter', 0).animate({
-          Counter: $(this).text()
-        }, 
-        {
-          duration: 3000,
-          easing: 'swing',
-          step: function(now) {
-            $(this).text(Math.ceil(now));
-          }
+
+    var block_show = false;
+ 
+    function scrollTracking(){
+      if (block_show) {
+        return false;
+      }
+     
+      var wt = $(window).scrollTop();
+      var wh = $(window).height();
+      var et = $('.count').offset().top;
+      var eh = $('.count').outerHeight();
+      var dh = $(document).height();   
+     
+      if (wt + wh >= et || wh + wt == dh || eh + et < wh){
+        block_show = true;
+        
+        // Код анимации
+        $('.count').each(function() {     
+          $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+          }, 
+          {
+            duration: 5000,
+            easing: 'swing',
+            step: function(now) {
+              $(this).text(Math.ceil(now));
+            }
+          });
         });
-      });
+      }
+    }
+     
+    $(window).scroll(function(){
+      scrollTracking();
+    });
+      
+    $(document).ready(function(){ 
+      scrollTracking();
+    });
+
+
 
       new WOW().init();
       

@@ -32,6 +32,7 @@
     font-size: 36px;
     line-height: 44px;
     letter-spacing: 0.1em;
+    white-space: nowrap;
 }
 .contacts__social {
     display: flex;
@@ -211,8 +212,10 @@
     border-radius: 40px;
 }
 .price__link:hover{
-    border-color: transparent;
+    background: #212121;
     transition: all .5s;
+    outline: none;
+    border:none;
 }
 .price__link:hover::before{
     left: 190px;

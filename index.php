@@ -14,8 +14,8 @@
 <link rel="stylesheet" href="style/slick.css">
 <link rel="stylesheet" href="style/animate.css">
 <link rel="stylesheet" href="style/_footer.css">
-<link rel="stylesheet" href="style/index.css">
 <link rel="stylesheet" href="style/general.css">
+<link rel="stylesheet" href="style/index.css">
 <link rel="stylesheet" href="style/contacts-form.css">
 <link rel="stylesheet" href="style/main__slider.css">
 
@@ -43,7 +43,7 @@
                 </a>
             </div>
             </div>
-            <div class="main__bottom main__bottom1  fadeInDown" data-wow-delay=".5s" data-wow-offset="150"wow>
+            <div class="main__bottom main__bottom1  fadeInDown" data-wow-delay=".5s" data-wow-offset="100"wow>
                 
                 <div class="main__links">
                     <a href="#" class="main__link-item">
@@ -136,36 +136,49 @@
     <div class="container">
         <div class="statistic__inner">
             <div class="statistic__row-top">
-                <div class="statistic__item wow fadeInLeft" data-wow-delay=".1s" data-wow-offset="250">
+                <div class="statistic__item wow fadeInLeft" data-wow-delay=".1s" data-wow-offset="100">
+                <div class="statistic__number-wrapper statistic__number-big">
+                <span>></span>
                 <div class="statistic__number count">100</div>
+                </div>
                 <span class="statistic__descr">Проектов</span>
                 </div>
                 
-                <div class="statistic__item wow fadeInLeft" data-wow-delay=".3s" data-wow-offset="250">
-                <div id="num2" class="statistic__number">4</div>
-                <span class="statistic__descr">место в среднем 
+                <div class="statistic__item wow fadeInLeft" data-wow-delay=".3s" data-wow-offset="100">
+                <div class="statistic__number-wrapper statistic__number-small">
+                <div class="statistic__number count">4</div>
+                </div>
+                <span class="statistic__descr statistic__descr-small">место в среднем 
 по выдаче сайтов</span>
                 </div>
 
-                <div class="statistic__item wow fadeInLeft" data-wow-delay=".5s" data-wow-offset="250">
-                <div id="num3" class="statistic__number">215</div>
+                <div class="statistic__item wow fadeInLeft" data-wow-delay=".5s" data-wow-offset="100">
+                <div class="statistic__number-wrapper">
+                <div class="statistic__number count">215</div>
+                </div>
                 <span class="statistic__descr">% в среднем увеличение прибыли</span>
                 </div>
             </div>
             <div class="statistic__row-bottom">
-                <div class="statistic__item wow fadeInLeft" data-wow-delay=".7s" data-wow-offset="250">
-                <div id="num4" class="statistic__number">5</div>
+                <div class="statistic__item wow fadeInLeft" data-wow-delay=".7s" data-wow-offset="100">
+                <div class="statistic__number-wrapper statistic__number-small">
+                <div class="statistic__number count">5</div>
+                </div>
                 <span class="statistic__descr statistic__descr-it">Лет опыта 
 в IT-индустрии</span>
                 </div>
 
-                <div class="statistic__item wow fadeInLeft" data-wow-delay=".9s" data-wow-offset="250">
-                <div class="statistic__number">11</div>
+                <div class="statistic__item wow fadeInLeft" data-wow-delay=".9s" data-wow-offset="100">
+                <div class="statistic__number-wrapper statistic__number-small">
+                <div class="statistic__number count">11</div>
+                </div>
                 <span class="statistic__descr">КРУТЫХ СОТРУДНИКОВ</span>
                 </div>
 
-                <div class="statistic__item wow fadeInLeft" data-wow-delay="1.1s" data-wow-offset="250">
-                <div class="statistic__number">3350</div>
+                <div class="statistic__item wow fadeInLeft" data-wow-delay="1.1s" data-wow-offset="100">
+                <div class="statistic__number-wrapper">
+                <div class="statistic__number count">3350</div>
+                </div>
                 <span class="statistic__descr statistic__descr-last">Страниц в ТОП-5</span>
                 </div>
 
