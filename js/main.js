@@ -86,9 +86,9 @@ $(document).ready(function(){
       scrollTracking();
     });
 
-
-
       new WOW().init();
+      
+
       
 });
 

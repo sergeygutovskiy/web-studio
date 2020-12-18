@@ -241,20 +241,38 @@
                 <div class="contacts__prompt-wrapper">
                     <p class="contacts__prompt">Как с вами связаться?</p>
                     <ul class="contacts__link-wrapper">
+
                     <li class="contact__link-item">
-                    <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay=".7s" data-wow-offset="150">Телефон</a>
+                    <label>
+                        <input class="check-box" type="checkbox">
+                        <span class="checked-style contacts__prompt-link wow fadeInDown" data-wow-delay=".7s" data-wow-offset="150" type="checkbox">Телефон</span> 
+                    </label>
                     </li>
                     <li class="contact__link-item">
-                    <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay=".9s" data-wow-offset="150">Почта </a>
-                     </li>                    
+                    <label>
+                        <input class="check-box" type="checkbox">
+                        <span class="checked-style contacts__prompt-link wow fadeInDown" data-wow-delay=".9s" data-wow-offset="150">Почта</span> 
+                    </label>
+                     </li>  
+
                     <li class="contact__link-item">
-                    <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay="1.1s" data-wow-offset="150">WhatsApp</a>
+                    <label>
+                        <input class="check-box" type="checkbox">
+                         <span class="checked-style contacts__prompt-link wow fadeInDown" data-wow-delay="1.1s" data-wow-offset="150">WhatsApp</span> 
+                     </label>
                      </li>
                     <li class="contact__link-item">
-                    <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay="1.3s" data-wow-offset="150">Telegram</a>
-                     </li>
+                    <label>
+                        <input class="check-box" type="checkbox">
+                        <span class="checked-style contacts__prompt-link wow fadeInDown" data-wow-delay="1.3s" data-wow-offset="150">Telegram</span> 
+                    </label>
+                    </li>
+
                     <li class="contact__link-item">
-                    <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay="1.5s" data-wow-offset="150">Viber</a>
+                    <label>
+                        <input class="check-box" type="checkbox">
+                        <span class="checked-style contacts__prompt-link wow fadeInDown" data-wow-delay="1.5s" data-wow-offset="150">Viber</span> 
+                    </label>
                      </li>
                     </ul>
                 </div>
@@ -262,6 +280,18 @@
                 <button class="contacts__btn price__link">
                 <span class="button__text">Отправить</span>
                 </button>
+
+
+
+                <button class="button__test">
+                    Отправить
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                
             </div>
         </div>
     </div>
