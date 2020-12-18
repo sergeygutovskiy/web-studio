@@ -35,14 +35,14 @@
                         <div class="services__num">01</div>
                         <div class="services__title">Landing Page</div>
                         <div class="services__text">Сделаем одностраничный сайт, который будет продавать и развивать ваш бизнес</div>
-                        <div class="services__price">от 15 000₽</div>
+                        <div class="services__price">от 16 000₽</div>
                     </div>
 
                     <div class="services__item">
                         <div class="services__num">02</div>
                         <div class="services__title">Многостраничники</div>
                         <div class="services__text">Сделаем большой и интересный сайт, который будет рассказывать о вашей компании, приводить клиентов много лет </div>
-                        <div class="services__price">от 35 000₽</div>
+                        <div class="services__price">от 55 000₽</div>
                     </div>
 
                     <div class="services__item">
@@ -56,7 +56,7 @@
                         <div class="services__num">04</div>
                         <div class="services__title">Интернет-магазин</div>
                         <div class="services__text">Разрабатываем с нуля либо сделаем крутой редизайн</div>
-                        <div class="services__price">от 50 000₽</div>
+                        <div class="services__price">от 60 000₽</div>
                     </div>
 
                     <div class="services__item">
