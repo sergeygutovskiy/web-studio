@@ -404,6 +404,7 @@
 }
 .contacts__social-link {
     margin-right: 61px;
+    transition: all .5s;
     position: relative;
 }
 .contacts__social-link::after {
@@ -416,6 +417,13 @@
     background-repeat: no-repeat;
     right: -19px;
     top: 5px;
+    transition: all .5s;
+}
+.contacts__social-link:hover{
+    transform: scale(1.1);
+}
+.contacts__social-link:hover::after{
+    top: -7px;
 }
 
 .contacts__form{
