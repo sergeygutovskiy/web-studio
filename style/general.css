@@ -78,9 +78,9 @@ font-family: 'Oswald', sans-serif; */
     text-transform: uppercase;
     color:   var(--main-color);;
 }
-.general__top{
+/* .general__top{
 	margin-left: 115px;
-}
+} */
 .title__name {
     margin-top: 10px;
     font-size: 56px;
@@ -111,6 +111,131 @@ label{
 	border-radius: 24px;
 
 }
+
+
+
+.button__test{
+    color: #fff;
+    box-shadow: 0 30px 50px rgba(0,0,0,1.0);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 40px;
+    background-color: transparent;
+	border:none;
+	cursor: pointer;
+	position: relative;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.button__test:before{
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255, 0.005);
+}
+.button__test:after{
+    content:'';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #fff;
+    opacity: .8;
+    transition: all .5s;
+}
+.button__test:hover{
+    color:#212121;
+}
+.button__test:hover::after{
+    width: 100%;
+}
+.button__test span:nth-child(1){
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2px;
+	width: 100%;
+    background: linear-gradient( to right, #FFFF33, #EA8069);
+	animation: animate-top 2s linear infinite;
+}
+
+.button__test span:nth-child(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 2px;
+	background: linear-gradient( to bottom, #FFFF33, #EA8069);
+	animation: animate-right 2s linear infinite;
+	animation-delay: 1s;
+}
+
+.button__test span:nth-child(3){
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background: linear-gradient( to left, #FFFF33, #EA8069);
+	animation: animate-bottom 2s linear infinite;
+	
+}
+
+.button__test span:nth-child(4){
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 2px;
+	background: linear-gradient( to top, #FFFF33, #EA8069);
+	animation: animate-left 2s linear infinite;
+	animation-delay: 1s;
+}
+
+@keyframes animate-top{
+	0%{
+		transform: translateX(-100%);
+	}
+	100%{
+		transform: translateX(100%);
+	}
+}
+
+@keyframes animate-right{
+	0%{
+		transform: translateY(-100%);
+	}
+	100%{
+		transform: translateY(100%);
+	}
+}
+
+@keyframes animate-bottom{
+	0%{
+		transform: translateX(100%);
+	}
+	100%{
+		transform: translateX(-100%);
+	}
+}
+
+@keyframes animate-left{
+	0%{
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(-100%);
+	}
+}
+
+
 
 @media(max-width: 1366px){
 	.main__section-top{

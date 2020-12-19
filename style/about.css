@@ -95,12 +95,12 @@
     margin-bottom: 100px;
 }
 .aboutus__inner {
-    max-width: 1180px;
+    /* max-width: 1180px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto; */
     display: flex;
     justify-content: space-between;
-    transform: translateX(30px);
+    /* transform: translateX(30px); */
 }
 .about__title {
     font-size: 56px;
@@ -154,9 +154,9 @@
     margin-bottom: 120px;
 }
 .whatcanwedo__inner {
-    max-width: 1040px;
+    /* max-width: 1040px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto; */
     display: flex;
     justify-content: space-between;
 }
@@ -192,7 +192,7 @@
 /* ABOUTPROJECT */
 
 .aboutproject .about__title {
-    margin-left: 150px; 
+    /* margin-left: 150px;  */
     max-width: 544px;
     width: 100%;
 }

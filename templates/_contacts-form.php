@@ -68,8 +68,12 @@
                     </ul>
                 </div>
 
-                <button class="contacts__btn price__link">
-                <span class="button__text">Отправить</span>
+                <button class="button__test">
+                    Отправить
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </button>
             </div>
         </div>
