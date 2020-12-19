@@ -38,9 +38,16 @@
                 Разрабатываем <span>сайты</span>, <span>мобильные приложения</span>, <span>дизайн</span> и помогаем бизнесу развиваться
                 </div>
                 </div>
-                <a href="#" class="main__info-link price__link">
-                <span class="button__text">Узнать стоимость</span>
-                </a>
+                <!-- <a href="#" class="main__info-link price__link"> -->
+                <button class="button__test">
+                Узнать стоимость
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <!-- <span class="button__text">Узнать стоимость</span> -->
+                <!-- </a> -->
             </div>
             </div>
             <div class="main__bottom main__bottom1  fadeInDown" data-wow-delay=".5s" data-wow-offset="100"wow>
@@ -276,10 +283,10 @@
                      </li>
                     </ul>
                 </div>
-
+<!-- 
                 <button class="contacts__btn price__link">
                 <span class="button__text">Отправить</span>
-                </button>
+                </button> -->
 
 
 
@@ -314,7 +321,6 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
 <script src="js/slick.min.js"></script>
 <script src="js/wow.min.js"></script>
 

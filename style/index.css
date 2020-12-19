@@ -1,10 +1,10 @@
 .main__inner {
     padding-top: 230px;
 }
-.main__section-top{
+/* .main__section-top{
     max-width: 1150px;
     margin: 0 auto;
-}
+} */
 
 .main__top1{
     margin-bottom: 130px;
@@ -26,7 +26,7 @@
     width: 100%  !important;
     height: 70px;
 }
-.price__link {
+/* .price__link {
     padding: 22px 60px;
     width: 228px;
     height: 70px;
@@ -39,7 +39,7 @@
     justify-content: center;
     align-items: center;
 
-}
+} */
 .button__text{
     position: absolute;
     font-size: 18px;
@@ -48,6 +48,7 @@
     letter-spacing: 0.02em;
     z-index: 5;
 }
+/* }
 .price__link::before {
     content: '';
     position: absolute;
@@ -79,11 +80,11 @@
 .price__link:hover::before{
     left: 190px;
     transition: .5s;
-}
-.contacts__btn.price__link:hover::before{
+} */
+/* .contacts__btn.price__link:hover::before{
     left: 150px;
     transition: .5s;
-}
+} */
 
 .main__bottom {
     display: flex;
@@ -114,6 +115,9 @@
 .main__link-container {
     margin-right: 140px;
 }
+.main__link-container:last-child{
+    margin-right: 0;
+}
 .main__link {
     font-weight: 500;
     font-size: 20px;
@@ -129,7 +133,7 @@
     position: absolute;
     width: 60px;
     height: 60px;
-    background: rgba(255, 255, 51, 0.15);
+    background: rgba(116, 55, 255, 0.15);
     border-radius: 50%;
     left: -30px;
     bottom: 0;
@@ -232,7 +236,6 @@
 .main-about__left {
     max-width: 513px;
     width: 100%;
-    
 }
 
 .title__name-main {
@@ -419,9 +422,6 @@
     top: 5px;
     transition: all .5s;
 }
-.contacts__social-link:hover{
-    transform: scale(1.1);
-}
 .contacts__social-link:hover::after{
     top: -7px;
 }
@@ -527,16 +527,15 @@
     line-height: 27px;
     font-weight: 700;
 }
-.contacts__btn {
+/* .contacts__btn {
     background-color: transparent;
     color:#fff;
     cursor: pointer;
-}
+} */
 
 
 
 .button__test{
-    margin-top: 100px;
     color: #fff;
     box-shadow: 0 30px 50px rgba(0,0,0,1.0);
     font-size: 14px;
@@ -663,11 +662,11 @@
 
 
 @media(max-width: 1366px){
-	.main__section-top{
+	/* .main__section-top{
 		max-width: 871px;
 		width: 100%;
 		margin: 0 auto;
-	}
+	} */
 	.title__name {
 		font-size: 54px;
 		line-height: 70px;
@@ -805,9 +804,9 @@
 		flex-direction: column;
 
 	}
-	.price__link{
+	/* .price__link{
 		align-self: center;
-	}
+	} */
 
 	.statistic__inner{
 		display: flex;
@@ -982,14 +981,14 @@
 	.main__inner {
 		padding-top: 147px;
 	}
-	.price__link{
+	/* .price__link{
 		font-size: 16px;
 		line-height: 20px;
 		padding: 24px 45px;
 	}
 	.price__link::before{
 		display: none;
-	}
+	} */
 	.main__bottom1 {
 		margin-bottom: 87px;
 	}	

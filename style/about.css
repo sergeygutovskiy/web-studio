@@ -245,6 +245,9 @@
     margin-left: 115px;
 }
 
+.slick-initialized .slick-slide{
+    outline: none;
+}
 
 
 @media screen and (max-width: 1700px){
