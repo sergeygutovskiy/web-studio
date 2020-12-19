@@ -83,17 +83,17 @@
                 <div class="main__examples-container">
                 <div class="main__example-item wow slideInDown" data-wow-delay="0.1s" data-wow-offset="100">
                     <img src="images/content/project1.jpg" alt="">
-                    <p class="main__example-descr">Lorem ipsum dolor</p>
+                    <p class="main__example-descr">Личный сайт А.А.</p>
                 </div>
 
                 <div class="main__example-item wow slideInDown" data-wow-delay="0.3s" data-wow-offset="100">
                     <img src="images/content/project1.jpg" alt="">
-                    <p class="main__example-descr">Lorem ipsum dolor</p>
+                    <p class="main__example-descr">Сайт для СДЕК</p>
                 </div>
 
                 <div class="main__example-item wow slideInDown" data-wow-delay="0.5s" data-wow-offset="100">
                     <img src="images/content/project1.jpg" alt="">
-                    <p class="main__example-descr">Lorem ipsum dolor</p>
+                    <p class="main__example-descr">ЭраСтройМонтаж</p>
                 </div>
 
                 </div>
