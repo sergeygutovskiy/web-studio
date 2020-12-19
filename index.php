@@ -99,7 +99,7 @@
                 </div>
 
                 <div class="mainlink__all-wrapper">
-                <a href="#" class="mainlink__all">Посмотреть все работы</a>
+                <a href="projects.php" class="mainlink__all">Посмотреть все работы</a>
                 </div>
                 
             </div>

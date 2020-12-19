@@ -159,7 +159,7 @@
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     padding: 0 20px;
-    background: -webkit-linear-gradient(90deg,   var(--main-color);, #9D69EA);
+    background: -webkit-linear-gradient(90deg, #9D69EA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

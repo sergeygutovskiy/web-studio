@@ -48,7 +48,8 @@ nav {
 	position: absolute;
 	width: 10px;
 	height: 10px;
-	background-color: #fff;
+	background: rgba(255, 255, 51, 0.5);
+	transform: matrix(-1, 0, 0, 1, 0, 0);
 	opacity: 0.5;
 	border-radius: 50%;
 	top: -8px;

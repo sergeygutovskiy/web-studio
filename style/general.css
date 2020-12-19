@@ -1,6 +1,9 @@
 html {
     box-sizing: border-box;
 }
+:root {
+	--main-color:  #FFFF33;
+  }
 
 *,
 *::before,
