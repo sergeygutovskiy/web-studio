@@ -111,7 +111,9 @@
         <div class="container">
             <div class="aboutus__inner">
                 <div class="about__title">
-                Lorem Ipsum
+                    <div class="whatcanwedo__title-inner">
+                    Lorem Ipsum
+                    </div>
                 </div>
                 <div class="aboutus__right">
                     <div class="aboutus__item">
@@ -141,7 +143,11 @@
    <section class="whatcanwedo">
         <div class="container">
             <div class="whatcanwedo__inner">
-                <div class="whatcanwedo__title">Что Мы можем сделать для вашего бизнеса?</div>
+                <div class="whatcanwedo__title">
+                    <div class="whatcanwedo__title-inner">
+                    Что Мы можем сделать для вашего бизнеса?
+                    </div>
+                </div>
                 <div class="whatcanwedo__right">
                     <div class="whatcanwedo__item">
                         <div class="whatcanwedo__num">01  /</div>

@@ -90,6 +90,9 @@
     opacity: .9;
 }
 
+
+
+
 /* ABOUTUS */
 .aboutus{
     margin-bottom: 100px;
@@ -154,11 +157,11 @@
     margin-bottom: 120px;
 }
 .whatcanwedo__inner {
-    /* max-width: 1040px;
-    width: 100%;
-    margin: 0 auto; */
     display: flex;
     justify-content: space-between;
+}
+.whatcanwedo__title-wrapper{
+    position: relative;
 }
 .whatcanwedo__title {
     font-weight: 500;
@@ -168,6 +171,10 @@
     max-width: 405px;
     width: 100%;
     color: #FFFF33;
+}
+.whatcanwedo__title-inner{
+    position: sticky;
+    top: 200px;
 }
 .whatcanwedo__right {
     max-width: 410px;
@@ -406,9 +413,6 @@
     }
 }
 @media screen and (max-width: 960px){
-    .aboutus__inner{
-        justify-content: space-around;
-    }
     .aboutus__right {
         max-width: 400px;
     }
@@ -418,6 +422,12 @@
     .whatcanwedo__title{
         font-size: 16px;
         line-height: 22px;
+    }
+    .about__text-wrapper{
+        margin-left: 0;
+    }
+    .about__textstat{
+        margin-left: 0;
     }
 }
 
@@ -457,7 +467,7 @@
         margin-bottom: 40px;
     }
     .whatcanwedo__right{
-        margin: 0 auto;
+        margin: 30px auto 0;
     }
     .whatcanwedo__item{
         margin-bottom: 40px;
@@ -467,12 +477,6 @@
 }
 @media screen and (max-width: 800px){
     .about__text{
-        margin-left: 0;
-    }
-    .about__text-wrapper{
-        margin-left: 0;
-    }
-    .about__textstat{
         margin-left: 0;
     }
     .about__slider {
