@@ -37,12 +37,6 @@
                     <div class="input__wrapper">
                     <input class="contacts__input" type="text" required>
                     <label class="input__label">
-                    <span class="input__placeholder">Почта</span>
-                    </label>
-                    </div>
-                    <div class="input__wrapper">
-                    <input class="contacts__input" type="text" required>
-                    <label class="input__label">
                     <span class="input__placeholder">Телефон</span>
                     </label>
                     </div>
@@ -52,23 +46,20 @@
                     <ul class="contacts__link-wrapper">
                     <li class="contact__link-item">
                     <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay=".7s" data-wow-offset="150">Телефон</a>
-                    </li>
+                    </li>                  
                     <li class="contact__link-item">
-                    <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay=".9s" data-wow-offset="150">Почта </a>
-                     </li>                    
-                    <li class="contact__link-item">
-                    <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay="1.1s" data-wow-offset="150">WhatsApp</a>
+                    <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay=".9s" data-wow-offset="150">WhatsApp</a>
                      </li>
                     <li class="contact__link-item">
-                    <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay="1.3s" data-wow-offset="150">Telegram</a>
+                    <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay="1.1s" data-wow-offset="150">Telegram</a>
                      </li>
                     <li class="contact__link-item">
-                    <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay="1.5s" data-wow-offset="150">Viber</a>
+                    <a href="#" class="contacts__prompt-link wow fadeInDown" data-wow-delay="1.3s" data-wow-offset="150">Viber</a>
                      </li>
                     </ul>
                 </div>
 
-                <button class="button__test">
+                <button class="general__button">
                     Отправить
                     <span></span>
                     <span></span>

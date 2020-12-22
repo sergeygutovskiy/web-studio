@@ -113,8 +113,14 @@ label{
 }
 
 
-
-.button__test{
+.general__button-wrapper{
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.general__button{
     color: #fff;
     box-shadow: 0 30px 50px rgba(0,0,0,1.0);
     font-size: 14px;
@@ -125,11 +131,13 @@ label{
 	border:none;
 	cursor: pointer;
 	position: relative;
-    overflow: hidden;
-    transition: all .5s;
+	overflow: hidden;
+	outline: none;
+	transition: all .5s;
+	
 }
 
-.button__test:before{
+.general__button:before{
 	content:'';
 	position: absolute;
 	top: 0;
@@ -138,7 +146,7 @@ label{
 	height: 100%;
 	background-color: rgba(255,255,255, 0.005);
 }
-.button__test:after{
+.general__button:after{
     content:'';
     position: absolute;
     width: 0%;
@@ -150,13 +158,13 @@ label{
     opacity: .8;
     transition: all .5s;
 }
-.button__test:hover{
+.general__button:hover{
     color:#212121;
 }
-.button__test:hover::after{
+.general__button:hover::after{
     width: 100%;
 }
-.button__test span:nth-child(1){
+.general__button span:nth-child(1){
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -166,7 +174,7 @@ label{
 	animation: animate-top 2s linear infinite;
 }
 
-.button__test span:nth-child(2){
+.general__button span:nth-child(2){
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -177,7 +185,7 @@ label{
 	animation-delay: 1s;
 }
 
-.button__test span:nth-child(3){
+.general__button span:nth-child(3){
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -188,7 +196,7 @@ label{
 	
 }
 
-.button__test span:nth-child(4){
+.general__button span:nth-child(4){
 	position: absolute;
 	top: 0;
 	left: 0;
