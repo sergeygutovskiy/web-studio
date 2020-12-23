@@ -174,7 +174,7 @@
 }
 .whatcanwedo__title-inner{
     position: sticky;
-    top: 200px;
+    top: 50px;
 }
 .whatcanwedo__right {
     max-width: 410px;
@@ -271,12 +271,12 @@
 
 @media screen and (max-width: 1550px){
     .about__slider {
-        max-width: 750px;
-        min-height: 500px;
+        /* max-width: 750px;
+        min-height: 500px; */
     }
     .about__slider-img img{
-        max-width: 750px;
-        min-height: 500px;
+        /* max-width: 750px;
+        min-height: 500px; */
         object-fit: cover;
     }
 

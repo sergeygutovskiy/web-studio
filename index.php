@@ -27,7 +27,9 @@
 
 
 
+
 <section class="main">
+
     <div class="container-main">
         <div class="main__inner">
             <div class="main__section-top">
@@ -39,7 +41,7 @@
                 </div>
                 </div>
                 <div class="general__button-wrapper">
-                <a class="button__test">
+                <a class="general__button">
                 Узнать стоимость
                     <span></span>
                     <span></span>
@@ -88,17 +90,17 @@
             <div class="main__examples">
                 <div class="main__examples-container">
                 <div class="main__example-item wow slideInDown" data-wow-delay="0.1s" data-wow-offset="100">
-                    <img src="images/content/project1.jpg" alt="">
+                    <img src="images/content/sapc.png" alt="">
                     <p class="main__example-descr">Личный сайт А.А.</p>
                 </div>
 
                 <div class="main__example-item wow slideInDown" data-wow-delay="0.3s" data-wow-offset="100">
-                    <img src="images/content/project1.jpg" alt="">
+                    <img src="images/content/cdek.png" alt="">
                     <p class="main__example-descr">Сайт для СДЕК</p>
                 </div>
 
                 <div class="main__example-item wow slideInDown" data-wow-delay="0.5s" data-wow-offset="100">
-                    <img src="images/content/project1.jpg" alt="">
+                    <img src="images/content/ersmpc.png" alt="">
                     <p class="main__example-descr">ЭраСтройМонтаж</p>
                 </div>
 
@@ -115,7 +117,8 @@
 </section>
 
 
- <section class="main__about">
+
+<section class="main__about">
      <div class="container">
     <div class="main__top main__top-about">
         <div class="main-about__left">
@@ -208,11 +211,13 @@
 
 
 
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/wow.min.js"></script>
 
 <script src="js/main.js"></script>
+<script src="js/app.js"></script>
 
 
 
