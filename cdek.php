@@ -27,7 +27,7 @@
        <div class="container">
            <div class="info__inner">
                <div class="general__top">
-               <div class="info__title">ЭраСтройМонтаж</div>
+               <div class="info__title">Сдек</div>
                <div class="info__subtitle">Website + Design + SEO</div>
                <a href="#" class="info__link">ersm-spb.ru</a>
                </div>
