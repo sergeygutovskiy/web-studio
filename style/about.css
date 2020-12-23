@@ -174,7 +174,7 @@
 }
 .whatcanwedo__title-inner{
     position: sticky;
-    top: 200px;
+    top: 50vh;
 }
 .whatcanwedo__right {
     max-width: 410px;

@@ -34,8 +34,15 @@
             <div class="main__top main__top1">
                 <div class="main__title-wrapper">
                 <div class="general__category general__category-main">Digital-агентство</div>
-                <div class="title__name wow slideInLeft" data-wow-offset="250">
-                Разрабатываем <span>сайты</span>, <span>мобильные приложения</span>, <span>дизайн</span> и помогаем бизнесу развиваться
+                <div class="title__name">
+                Разрабатываем <span>сайты</span>, <span>мобильные приложения</span>, 
+                
+                <span class="container_text">
+                <span class="text main-title"></span>
+                </span>
+               
+                <br>
+                и помогаем бизнесу развиваться
                 </div>
                 </div>
                 <!-- <a href="#" class="main__info-link price__link"> -->
@@ -311,7 +318,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/wow.min.js"></script>
-
+<script src="js/mega_flex_text.js"></script>
 <script src="js/main.js"></script>
 
 

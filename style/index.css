@@ -922,4 +922,6 @@
 
 }
 
-
+.text{
+    border-bottom: none !important;
+}
