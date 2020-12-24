@@ -183,22 +183,33 @@ function generateBallList (sum) {
   })
 }
 
-mousePosition = {}
-window.addEventListener('mousemove', function (evt) {
-  mousePosition.x = evt.x
-  mousePosition.y = evt.y
+// mousePosition = {}
+// window.addEventListener('mousemove', function (evt) {
+//   mousePosition.x = evt.x
+//   mousePosition.y = evt.y
+// })
+
+// let setAnimation = (function (sum) {
+//   const list = generateBallList(sum)
+//   return function () {
+//     requestAnimationFrame(setAnimation)
+//     c.fillStyle = 'rgba(255, 255, 255, 0.1)'
+//     c.fillRect(0, 0, window.innerWidth, window.innerHeight)
+
+//     list.forEach(v => {v.update()})
+//   }
+// })(30)
+
+// setAnimation()
+
+
+VANTA.HALO({
+  el: "#your-element-selector",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  backgroundColor: 0x212121,
+  size: 0.10
 })
-
-let setAnimation = (function (sum) {
-  const list = generateBallList(sum)
-  return function () {
-    requestAnimationFrame(setAnimation)
-    c.fillStyle = 'rgba(255, 255, 255, 0.1)'
-    c.fillRect(0, 0, window.innerWidth, window.innerHeight)
-
-    list.forEach(v => {v.update()})
-  }
-})(30)
-
-setAnimation()
-
