@@ -27,34 +27,30 @@
 
 
 
+
 <section class="main">
+<div id="live-bg" class="live-bg__wrapper">
+    <div  class="live-bg"></div>
     <div class="container-main">
+          
         <div class="main__inner">
             <div class="main__section-top">
             <div class="main__top main__top1">
                 <div class="main__title-wrapper">
                 <div class="general__category general__category-main">Digital-агентство</div>
-                <div class="title__name">
-                Разрабатываем <span>сайты</span>, <span>мобильные приложения</span>, 
-                
-                <span class="container_text">
-                <span class="text main-title"></span>
-                </span>
-               
-                <br>
-                и помогаем бизнесу развиваться
+                <div class="title__name wow slideInLeft" data-wow-offset="250">
+                Разрабатываем <span>сайты</span>, <span>мобильные приложения</span>, <span>дизайн</span> и помогаем бизнесу развиваться
                 </div>
                 </div>
-                <!-- <a href="#" class="main__info-link price__link"> -->
-                <button class="button__test">
+                <div class="general__button-wrapper">
+                <a class="general__button">
                 Узнать стоимость
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
-                </button>
-                <!-- <span class="button__text">Узнать стоимость</span> -->
-                <!-- </a> -->
+                </a>
+                </div>
             </div>
             </div>
             <div class="main__bottom main__bottom1  fadeInDown" data-wow-delay=".5s" data-wow-offset="100"wow>
@@ -83,7 +79,10 @@
                 </div>
 
             </div>
+            </div>
+            </div>
 
+            <div class="container-main">
 
             <div class="main__section-top">
             <div class="main__top main__top2">
@@ -96,17 +95,17 @@
             <div class="main__examples">
                 <div class="main__examples-container">
                 <div class="main__example-item wow slideInDown" data-wow-delay="0.1s" data-wow-offset="100">
-                    <img src="images/content/project1.jpg" alt="">
+                    <img src="images/content/sapc.png" alt="">
                     <p class="main__example-descr">Личный сайт А.А.</p>
                 </div>
 
                 <div class="main__example-item wow slideInDown" data-wow-delay="0.3s" data-wow-offset="100">
-                    <img src="images/content/project1.jpg" alt="">
+                    <img src="images/content/cdek.png" alt="">
                     <p class="main__example-descr">Сайт для СДЕК</p>
                 </div>
 
                 <div class="main__example-item wow slideInDown" data-wow-delay="0.5s" data-wow-offset="100">
-                    <img src="images/content/project1.jpg" alt="">
+                    <img src="images/content/ersmpc.png" alt="">
                     <p class="main__example-descr">ЭраСтройМонтаж</p>
                 </div>
 
@@ -123,7 +122,8 @@
 </section>
 
 
- <section class="main__about">
+
+<section class="main__about">
      <div class="container">
     <div class="main__top main__top-about">
         <div class="main-about__left">
@@ -155,15 +155,14 @@
                 <span>></span>
                 <div class="statistic__number count">100</div>
                 </div>
-                <span class="statistic__descr">Проектов</span>
+                <span class="statistic__descr statistic__descr-big">Проектов</span>
                 </div>
                 
                 <div class="statistic__item wow fadeInLeft" data-wow-delay=".3s" data-wow-offset="100">
                 <div class="statistic__number-wrapper statistic__number-small">
                 <div class="statistic__number count">4</div>
                 </div>
-                <span class="statistic__descr statistic__descr-small">место в среднем 
-по выдаче сайтов</span>
+                <span class="statistic__descr statistic__descr-small">место в среднем по выдаче сайтов</span>
                 </div>
 
                 <div class="statistic__item wow fadeInLeft" data-wow-delay=".5s" data-wow-offset="100">
@@ -178,8 +177,7 @@
                 <div class="statistic__number-wrapper statistic__number-small">
                 <div class="statistic__number count">5</div>
                 </div>
-                <span class="statistic__descr statistic__descr-it">Лет опыта 
-в IT-индустрии</span>
+                <span class="statistic__descr statistic__descr-it">Лет опыта в IT-индустрии</span>
                 </div>
 
                 <div class="statistic__item wow fadeInLeft" data-wow-delay=".9s" data-wow-offset="100">
@@ -201,104 +199,7 @@
     </div>
 </section>
 
-
-
-<section class="contacts">
-    <div class="container">
-        
-        <div class="general__category general__category-main">
-        Контакты
-        </div>
-        <div class="title__name">
-        Хотите сотрудничать с нами?
-        </div>
-
-        <div class="contacts__inner">
-            <div class="contacts__left">
-                <p class="contacts__title">
-                Свяжитесь с нами:
-                </p>
-                <a href="mailto:info@terexov.agency " class="contacts__mail">info@terexov.agency </a>
-                <a href="tel:+79522467679 " class="contacts__phone">+7 952 246-76-79 </a>
-
-                <div class="contacts__social">
-                    <a href="" class="contacts__social-link wow fadeInDown" data-wow-delay=".1s" data-wow-offset="150">Telegram</a>
-                    <a href="" class="contacts__social-link wow fadeInDown" data-wow-delay=".3s" data-wow-offset="150">WhatsApp</a>
-                    <a href="" class="contacts__social-link wow fadeInDown" data-wow-delay=".5s" data-wow-offset="150">Viber</a>
-                </div>
-            </div>
-
-            <div class="contacts__right">
-                <p class="contacts__title">
-                Или оставьте заявку:
-                </p>
-                <form class="contacts__form">
-                    <div class="input__wrapper">
-                    <input class="contacts__input" type="text" autocomplete="off" required>
-                    <label for="name" class="input__label">
-                    <span class="input__placeholder">Ваше имя</span>
-                    </label>
-                    </div>
-                    <div class="input__wrapper">
-                    <input class="contacts__input" type="text" required>
-                    <label class="input__label">
-                    <span class="input__placeholder">Телефон</span>
-                    </label>
-                    </div>
-                </form>
-                <div class="contacts__prompt-wrapper">
-                    <p class="contacts__prompt">Как с вами связаться?</p>
-                    <ul class="contacts__link-wrapper">
-
-                    <li class="contact__link-item">
-                    <label>
-                        <input class="check-box" type="checkbox">
-                        <span class="checked-style contacts__prompt-link wow fadeInDown" data-wow-delay=".7s" data-wow-offset="150" type="checkbox">Телефон</span> 
-                    </label>
-                    </li>
-
-                    <li class="contact__link-item">
-                    <label>
-                        <input class="check-box" type="checkbox">
-                         <span class="checked-style contacts__prompt-link wow fadeInDown" data-wow-delay="0.9s" data-wow-offset="150">WhatsApp</span> 
-                     </label>
-                     </li>
-                    <li class="contact__link-item">
-                    <label>
-                        <input class="check-box" type="checkbox">
-                        <span class="checked-style contacts__prompt-link wow fadeInDown" data-wow-delay="1.1s" data-wow-offset="150">Telegram</span> 
-                    </label>
-                    </li>
-
-                    <li class="contact__link-item">
-                    <label>
-                        <input class="check-box" type="checkbox">
-                        <span class="checked-style contacts__prompt-link wow fadeInDown" data-wow-delay="1.3s" data-wow-offset="150">Viber</span> 
-                    </label>
-                     </li>
-                    </ul>
-                </div>
-<!-- 
-                <button class="contacts__btn price__link">
-                <span class="button__text">Отправить</span>
-                </button> -->
-
-
-
-                <button class="button__test">
-                    Отправить
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-
-                
-            </div>
-        </div>
-    </div>
-    
-</section>
+<?php require "templates/_contacts-form.php"; ?>
 
 
 <?php require "templates/_footer.php"; ?>
@@ -315,11 +216,30 @@
 
 
 
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/wow.min.js"></script>
-<script src="js/mega_flex_text.js"></script>
+
+<script src="js/three.r119.min.js"></script>
+<script src="js/vanta.halo.min.js"></script>
+<script>
+VANTA.HALO({
+  el: "#live-bg",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  backgroundColor: 0x212121,
+  amplitudeFactor: 1.70,
+  size: 0.6,
+  xOffset: 0.17,
+  yOffset: 0.2,
+})
+</script>
 <script src="js/main.js"></script>
+<script src="js/app.js"></script>
 
 
 
