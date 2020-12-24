@@ -223,7 +223,11 @@
 
 <script src="js/three.r119.min.js"></script>
 <script src="js/vanta.halo.min.js"></script>
+
+
+
 <script>
+if (window.innerWidth > 910) {
 VANTA.HALO({
   el: "#live-bg",
   mouseControls: true,
@@ -237,6 +241,7 @@ VANTA.HALO({
   xOffset: 0.17,
   yOffset: 0.2,
 })
+}
 </script>
 <script src="js/main.js"></script>
 <script src="js/app.js"></script>

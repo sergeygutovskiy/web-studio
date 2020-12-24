@@ -66,7 +66,7 @@ nav {
 }
 .nav__link > a:hover {
 	
-	color:#6753FF; 
+	color: var(--main-color);
 	transition: all 300ms linear; 
 	
 }
@@ -129,6 +129,7 @@ nav {
 	/*height: 100vh;*/
 	/*max-height: 100vh;*/
 	transform: translateY(0);
+	z-index: 10;
 }
 
 
@@ -190,7 +191,7 @@ nav {
 		
 	}
 	.nav__radius{
-		background: rgba(116, 55, 255, 0.15);
+		background: rgba(255, 255, 51, 0.15);
 		height: 50px;
 		width: 50px;
 		border-radius: 100%;

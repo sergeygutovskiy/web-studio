@@ -732,7 +732,10 @@
 		font-size: 90px;
 		line-height: 110px;
     }
-    
+    .container-main{
+        position:relative;
+        z-index: 1;
+    }
 }
 
 
