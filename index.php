@@ -232,7 +232,8 @@ VANTA.HALO({
   minHeight: 200.00,
   minWidth: 200.00,
   backgroundColor: 0x212121,
-  size: 0.5,
+  amplitudeFactor: 1.70,
+  size: 0.6,
   xOffset: 0.17,
   yOffset: 0.2,
 })
