@@ -2,12 +2,14 @@
     padding-top: 124px;
     margin-bottom: 200px;
 }
+
 .services__container {
     margin-top: 200px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .services__item {
     max-width: 350px;
     width: 100%;
@@ -16,6 +18,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .services__num {
     font-weight: 300;
     font-size: 18px;
@@ -23,12 +26,14 @@
     text-transform: uppercase;
     margin-bottom: 52px;
 }
+
 .services__title {
     font-size: 36px;
     line-height: 53px;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 40px;
 }
+
 .services__text {
     font-size: 16px;
     line-height: 27px;
@@ -36,6 +41,7 @@
     width: 100%;
     margin-bottom: 20px;
 }
+
 .services__price {
     font-size: 32px;
     line-height: 47px;
@@ -46,50 +52,56 @@
 
 
 
-@media screen and (max-width: 1300px){
-    .services__inner .title__name{
+@media screen and (max-width: 1300px) {
+    .services__inner .title__name {
         font-size: 54px;
         line-height: 64px;
     }
-    .services__inner .general__category{
+
+    .services__inner .general__category {
         font-size: 18px;
         line-height: 22px;
     }
 
 }
 
-@media screen and (max-width: 1150px){
-    .services__inner .title__name{
+@media screen and (max-width: 1150px) {
+    .services__inner .title__name {
         font-size: 30px;
         line-height: 40px;
         max-width: 460px;
     }
-    .services__inner .general__category{
+
+    .services__inner .general__category {
         font-size: 16px;
         line-height: 20px;
     }
+
     .services__container {
         margin-top: 80px;
     }
-    .services__title{
+
+    .services__title {
         font-size: 28px;
     }
+
     .services__num {
         margin-bottom: 22px;
     }
-    .services__container{
+
+    .services__container {
         justify-content: space-around;
     }
 }
 
-@media screen and (max-width: 780px){
-    .services__inner .general__top{
+@media screen and (max-width: 780px) {
+    .services__inner .general__top {
         margin-left: 0;
     }
 }
 
-@media screen and (max-width: 730px){
-    .services__container{
+@media screen and (max-width: 730px) {
+    .services__container {
         display: flex;
         justify-content: flex-start;
     }
