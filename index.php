@@ -36,7 +36,7 @@
                             <div class="main__title-wrapper">
                                 <div class="general__category general__category-main">Digital-агентство</div>
                                 <div class="title__name wow slideInLeft" data-wow-offset="250">
-                                    Разрабатываем <span>сайты</span>, <span>мобильные приложения</span>, <span>дизайн</span> и помогаем бизнесу развиваться
+                                    Разрабатываем <p class="text"></p> и помогаем бизнесу развиваться
                                 </div>
                             </div>
                             <div class="general__button-wrapper">
