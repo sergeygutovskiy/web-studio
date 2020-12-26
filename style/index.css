@@ -318,7 +318,9 @@
 .statistic__number-small {
     width: 120px;
 }
-
+.statistic__number-first{
+    width: 250px;
+}
 .statistic__number-big {
     max-width: 350px;
 }
@@ -355,7 +357,6 @@
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     color: var(--main-color);
-    ;
     max-width: 204px;
     width: 100%;
 }
@@ -628,6 +629,24 @@
         left: 1px;
         font-size: 36px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .statistic__descr {
         font-size: 20px;
@@ -998,4 +1017,94 @@
 
 .text {
     border-bottom: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+.project__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.project__container {
+    width: 50%;
+    min-height: 400px;
+    overflow: hidden;
+
+}
+.project__container-inner {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all .5s;
+}
+.project__img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.project__img-mob{
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    transition: all .5s;
+}
+.project__img-desc{
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    opacity: 0;
+    transition: all .5s;
+}
+.projects__title {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    color:#000;
+    font-size: 24px;
+    transition: all .3s linear;
+}
+.projects__title1{
+    opacity: 1;
+}
+.projects__title2{
+    opacity: 0;
+    bottom: 0px;
+}
+
+.project__container:hover .project__img-mob{
+    transform: translateX(300%);
+}
+.project__container:hover .project__img-desc{
+    opacity: 1;
+}
+.project__container:hover .project__container-inner{
+    background-color: #22272A;
+}
+.project__container:hover .projects__title{
+    color: #fff;
+}
+
+.project__container:hover .projects__title1{
+    bottom: 30px;
+    opacity: 0;
+}
+.project__container:hover .projects__title2{
+    bottom: 20px;
+    color: #fff;
+    opacity: 1;
 }

@@ -28,6 +28,7 @@
     <section class="main">
         <div id="live-bg" class="live-bg__wrapper">
             <div class="live-bg"></div>
+            
             <div class="container-main">
 
                 <div class="main__inner">
@@ -91,7 +92,7 @@
                 </div>
                 <div class="main__examples">
                     <div class="main__examples-container">
-                        <div class="main__example-item wow slideInDown" data-wow-delay="0.1s" data-wow-offset="100">
+                        <!-- <div class="main__example-item wow slideInDown" data-wow-delay="0.1s" data-wow-offset="100">
                             <img src="images/content/sapc.png" alt="">
                             <p class="main__example-descr">Личный сайт А.А.</p>
                         </div>
@@ -104,8 +105,64 @@
                         <div class="main__example-item wow slideInDown" data-wow-delay="0.5s" data-wow-offset="100">
                             <img src="images/content/ersmpc.png" alt="">
                             <p class="main__example-descr">ЭраСтройМонтаж</p>
-                        </div>
+                        </div> -->
 
+
+                        <div class="project__wrapper">
+                            <a class="project__container" href="#">
+                                <div class="project__container-inner">
+                                    <img src="images/content/cdekmob.png" alt="" class="project__img project__img-mob">
+                                    <img src="images/content/cdek.png" alt="" class="project__img project__img-desc">
+                                    <h3 class="projects__title projects__title1">
+                                        Название сайта
+                                    </h3>
+                                    <h3 class="projects__title projects__title2">
+                                        Смотреть сайт
+                                    </h3>
+                                </div>
+                            </a>
+
+                            <a class="project__container" href="#">
+                                <div class="project__container-inner">
+                                    <img src="images/content/ersmmob.png" alt="" class="project__img project__img-mob">
+                                    <img src="images/content/ersmpc.png" alt="" class="project__img project__img-desc">
+                                    <h3 class="projects__title projects__title1">
+                                        Название сайта
+                                    </h3>
+                                    <h3 class="projects__title projects__title2">
+                                        Смотреть сайт
+                                    </h3>
+                                </div>
+                            </a>
+
+                            <a class="project__container" href="#">
+                                <div class="project__container-inner">
+                                    <img src="images/content/rkmmob.png" alt="" class="project__img project__img-mob">
+                                    <img src="images/content/rkm.png" alt="" class="project__img project__img-desc">
+                                    <h3 class="projects__title projects__title1">
+                                        Название сайта
+                                    </h3>
+                                    <h3 class="projects__title projects__title2">
+                                        Смотреть сайт
+                                    </h3>
+                                </div>
+                            </a>
+
+                            <a class="project__container" href="#">
+                                <div class="project__container-inner">
+                                    <img src="images/content/samob.png" alt="" class="project__img project__img-mob">
+                                    <img src="images/content/sapc.png" alt="" class="project__img project__img-desc">
+                                    <h3 class="projects__title projects__title1">
+                                        Название сайта
+                                    </h3>
+                                    <h3 class="projects__title projects__title2">
+                                        Смотреть сайт
+                                    </h3>
+                                </div>
+                            </a>
+
+
+                        </div>
                     </div>
 
                     <div class="mainlink__all-wrapper">
@@ -147,9 +204,9 @@
                     <div class="statistic__item wow fadeInLeft" data-wow-delay=".1s" data-wow-offset="100">
                         <div class="statistic__number-wrapper statistic__number-big">
                             <span>></span>
-                            <div class="statistic__number count">100</div>
+                            <div class="statistic__number statistic__number-first count">100</div>
                         </div>
-                        <span class="statistic__descr statistic__descr-big">Проектов</span>
+                        <span class="statistic__descr">Проектов</span>
                     </div>
 
                     <div class="statistic__item wow fadeInLeft" data-wow-delay=".3s" data-wow-offset="100">
@@ -204,7 +261,7 @@
     <script src="js/three.r119.min.js"></script>
     <script src="js/vanta.halo.min.js"></script>
 
-    <script>
+    <!-- <script>
         if (window.innerWidth > 910) {
             VANTA.HALO({
                 el: "#live-bg",
@@ -220,7 +277,7 @@
                 yOffset: 0.2,
             })
         }
-    </script>
+    </script> -->
     <script src="js/main.js"></script>
     <script src="js/app.js"></script>
 
