@@ -23,7 +23,8 @@
 <nav>
 	<div class="nav__content">
 		<a href="/">
-			<div class="nav__logo">
+        <div class="nav__logo">
+				<img src="images/content/logo.svg" alt="">
 			</div>
 		</a>
 		<div class="nav__radius">

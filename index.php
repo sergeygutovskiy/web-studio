@@ -90,86 +90,68 @@
                         </div>
                     </div>
                 </div>
-                <div class="main__examples">
-                    <div class="main__examples-container">
-                        <!-- <div class="main__example-item wow slideInDown" data-wow-delay="0.1s" data-wow-offset="100">
-                            <img src="images/content/sapc.png" alt="">
-                            <p class="main__example-descr">Личный сайт А.А.</p>
+    
+
+            <div class="project__wrapper">
+                 <a class="project__container" href="#">
+                     <div class="project__container-inner project__container-inner1">
+                        <img src="images/content/cdekmob.png" alt="" class="project__img project__img-mob">
+                         <img src="images/content/cdek.png" alt="" class="project__img project__img-desc">
+                        <h3 class="projects__title projects__title1">
+                             Название сайта
+                         </h3>
+                         <h3 class="projects__title projects__title2">
+                             Смотреть сайт
+                         </h3>
+                     </div>
+                </a>
+
+                <a class="project__container" href="#">
+                    <div class="project__container-inner project__container-inner2">
+                        <img src="images/content/ersmmob.png" alt="" class="project__img project__img-mob">
+                        <img src="images/content/ersmpc.png" alt="" class="project__img project__img-desc">
+                        <h3 class="projects__title projects__title1">
+                                        Название сайта
+                        </h3>
+                        <h3 class="projects__title projects__title2">
+                                        Смотреть сайт
+                        </h3>
                         </div>
+                        </a>
 
-                        <div class="main__example-item wow slideInDown" data-wow-delay="0.3s" data-wow-offset="100">
-                            <img src="images/content/cdek.png" alt="">
-                            <p class="main__example-descr">Сайт для СДЕК</p>
+                        <a class="project__container" href="#">
+                        <div class="project__container-inner project__container-inner3">
+                        <img src="images/content/rkmmob.png" alt="" class="project__img project__img-mob">
+                        <img src="images/content/rkm.png" alt="" class="project__img project__img-desc">
+                        <h3 class="projects__title projects__title1">
+                                        Название сайта
+                        </h3>
+                        <h3 class="projects__title projects__title2">
+                                        Смотреть сайт
+                        </h3>
                         </div>
+                        </a>
 
-                        <div class="main__example-item wow slideInDown" data-wow-delay="0.5s" data-wow-offset="100">
-                            <img src="images/content/ersmpc.png" alt="">
-                            <p class="main__example-descr">ЭраСтройМонтаж</p>
-                        </div> -->
-
-
-                        <div class="project__wrapper">
-                            <a class="project__container" href="#">
-                                <div class="project__container-inner">
-                                    <img src="images/content/cdekmob.png" alt="" class="project__img project__img-mob">
-                                    <img src="images/content/cdek.png" alt="" class="project__img project__img-desc">
-                                    <h3 class="projects__title projects__title1">
+                        <a class="project__container" href="#">
+                             <div class="project__container-inner project__container-inner4">
+                                 <img src="images/content/samob.png" alt="" class="project__img project__img-mob">
+                                 <img src="images/content/sapc.png" alt="" class="project__img project__img-desc">
+                                 <h3 class="projects__title projects__title1">
                                         Название сайта
-                                    </h3>
-                                    <h3 class="projects__title projects__title2">
+                                 </h3>
+                                 <h3 class="projects__title projects__title2">
                                         Смотреть сайт
-                                    </h3>
-                                </div>
-                            </a>
-
-                            <a class="project__container" href="#">
-                                <div class="project__container-inner">
-                                    <img src="images/content/ersmmob.png" alt="" class="project__img project__img-mob">
-                                    <img src="images/content/ersmpc.png" alt="" class="project__img project__img-desc">
-                                    <h3 class="projects__title projects__title1">
-                                        Название сайта
-                                    </h3>
-                                    <h3 class="projects__title projects__title2">
-                                        Смотреть сайт
-                                    </h3>
-                                </div>
-                            </a>
-
-                            <a class="project__container" href="#">
-                                <div class="project__container-inner">
-                                    <img src="images/content/rkmmob.png" alt="" class="project__img project__img-mob">
-                                    <img src="images/content/rkm.png" alt="" class="project__img project__img-desc">
-                                    <h3 class="projects__title projects__title1">
-                                        Название сайта
-                                    </h3>
-                                    <h3 class="projects__title projects__title2">
-                                        Смотреть сайт
-                                    </h3>
-                                </div>
-                            </a>
-
-                            <a class="project__container" href="#">
-                                <div class="project__container-inner">
-                                    <img src="images/content/samob.png" alt="" class="project__img project__img-mob">
-                                    <img src="images/content/sapc.png" alt="" class="project__img project__img-desc">
-                                    <h3 class="projects__title projects__title1">
-                                        Название сайта
-                                    </h3>
-                                    <h3 class="projects__title projects__title2">
-                                        Смотреть сайт
-                                    </h3>
-                                </div>
+                                 </h3>
+                            </div>
                             </a>
 
 
                         </div>
-                    </div>
+                   
 
                     <div class="mainlink__all-wrapper">
                         <a href="projects.php" class="mainlink__all">Посмотреть все работы</a>
                     </div>
-
-                </div>
 
             </div>
         </div>
