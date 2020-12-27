@@ -43,9 +43,9 @@
                           <div class="main__animated-wrapper">
                           <h1 class="main__name">TEREXOV</h1>
                                 <div class="main__animated-title">
-                                  <div><h1 class="main__title-item main__title-item1">Разрабатываем <h1></div> 
-                                  <div><h1 class="main__title-item main__title-item2"><p class="text"></p> <h1></div> 
-                                  <div><h1 class="main__title-item main__title-item3">и помогаем бизнесу развиваться<h1></div> 
+                                  <div class="main__title-item main__title-item1">Разрабатываем </div> 
+                                  <div class="main__title-item main__title-item2"><p class="text"></p></div> 
+                                  <div class="main__title-item main__title-item3">и помогаем бизнесу развиваться</div> 
                                 </div>
                           </div>
 
