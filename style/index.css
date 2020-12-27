@@ -2,6 +2,7 @@
 .main{
     position: relative;
     z-index: 5;
+    margin-bottom: 100px;
 }
 
 .container-main {
@@ -655,6 +656,128 @@
     line-height: 27px;
     font-weight: 700;
 }
+
+
+
+  
+ 
+  .main__animated-wrapper{
+      margin-top: 50px;
+  }
+  .main__name {
+    font-size: 70px;
+    color: white;
+    margin: 0;
+    animation: fadeOut 3s ease both;
+    position: absolute;
+  }
+  .main__animated-title {
+    text-align: center;
+  }
+  .main__title-item1,
+  .main__title-item2,
+  .main__title-item3,
+  .contact-link {
+    font-size: 70px;
+    line-height: 91px;
+    color: black;
+    -webkit-text-stroke: 1px white;
+    margin: 0;
+    height: 90px;
+    transition: 0.3s;
+    text-align: left;
+  }
+  .main__title-item1:hover,
+  .main__title-item2:hover,
+  .main__title-item3:hover {
+    color: white;
+  }
+  
+  .main__title-item1 {
+    animation: fadeInFirst 1s ease both;
+    animation-delay: 2.5s;
+  }
+  .main__title-item2 {
+    animation: fadeInSecond 1.5s ease both;
+    animation-delay: 2.5s;
+  }
+  .main__title-item3 {
+    animation: fadeInThird 1.5s ease both;
+    animation-delay: 2.5s;
+  }
+
+  @keyframes pageLoad {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    90% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+      display: none;
+    }
+  }
+  
+  @keyframes fadeInFirst {
+    0% {
+      opacity: 0;
+      display: none;
+      transform: scale(0);
+    }
+    40% {
+      opacity: 0;
+      transform: translate(0, 200%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+  
+  @keyframes fadeInSecond {
+    0% {
+      opacity: 0;
+      display: none;
+      transform: scale(0);
+    }
+    40% {
+      opacity: 0;
+      transform: translate(0, 150%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+  @keyframes fadeInThird {
+    0% {
+      opacity: 0;
+      display: none;
+      transform: scale(0);
+    }
+    40% {
+      opacity: 0;
+      transform: translate(0, -150%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+  
+
 
 @media(max-width: 1366px) {
     .title__name {

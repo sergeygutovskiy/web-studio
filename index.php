@@ -36,9 +36,20 @@
                         <div class="main__top main__top1">
                             <div class="main__title-wrapper">
                                 <div class="general__category general__category-main">Digital-агентство</div>
-                                <div class="title__name wow slideInLeft" data-wow-offset="250">
+                                <!-- <div class="title__name wow slideInLeft" data-wow-offset="250">
                                     Разрабатываем <p class="text"></p> и помогаем бизнесу развиваться
+                                </div> -->
+
+                          <div class="main__animated-wrapper">
+                          <h1 class="main__name">TEREXOV</h1>
+                                <div class="main__animated-title">
+                                  <div><h1 class="main__title-item main__title-item1">Разрабатываем <h1></div> 
+                                  <div><h1 class="main__title-item main__title-item2"><p class="text"></p> <h1></div> 
+                                  <div><h1 class="main__title-item main__title-item3">и помогаем бизнесу развиваться<h1></div> 
                                 </div>
+                          </div>
+
+
                             </div>
                             <div class="general__button-wrapper">
                                 <a class="general__button">
