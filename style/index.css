@@ -294,10 +294,10 @@
     content:'';
     position: absolute;
     width: 31px;
-    height: 4px;
+    height: 2px;
     left: -26px;
-    top: 72%;
-    transform: translateY(-72%);
+    top: 50%;
+    transform: translateY(-50%);
     background-color: #FFFF33;
     transition: all .3s linear;
 }
