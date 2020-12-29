@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Проект СДЕК студии terexov</title>
+    <title>Проект Сотниковой студии terexov</title>
     <link rel="icon" href="\images\content\favicon.svg">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -28,9 +28,9 @@
         <div class="container">
             <div class="info__inner">
                 <div class="general__top">
-                    <div class="info__title">Сдек</div>
-                    <div class="info__subtitle">Website + Design + SEO</div>
-                    <a href="https://logist-cdek.ru" class="info__link">logist-cdek.ru</a>
+                    <div class="info__title">Личный сайт Сотниковой</div>
+                    <div class="info__subtitle">Website + Design  </div>
+                    <a href="https://annasotnikova.com" class="info__link">annasotnikova.com</a>
                 </div>
             </div>
         </div>
@@ -40,31 +40,46 @@
         <div class="container">
             <div class="container-fluid">
                 <div class="info__banner">
-                    <img src="/images/content/projects2x/main-cdek.png" alt="">
+                    <img src="/images/content/projects2x/sotnikova-main.png" alt="">
                 </div>
             </div>
 
             <div class="infotask">
                 <div class="infotask__title">Главная</div>
-                <div class="infotask__text">Все элементы дизайна были нарисованы от руки, учитывая коропративные шрифты компании, удобное расположение всех элементов помогает пользователю хорошо ориентироваться на сайте</div>
+                <div class="infotask__text">Кратко. Четко. Все по делу. Удобный и понятный интерфейс помогает найти все, что надо. Возможность поменять язык в реальном времени, быстрый поиск, доступ в личный кабинет помгают пользователю лучше ориентироваться на сайте.</div>
             </div>
 
             <div class="container-fluid">
                 <div class="info__banner">
-                    <img src="/images/content/projects2x/calc-cdek.png" alt="">
+                    <img src="/images/content/projects2x/sotnikova-book.png" alt="">
                 </div>
             </div>
 
             <div class="infotask">
-                <div class="infotask__title">Калькулятор</div>
-                <div class="infotask__text">Создали калькулятор, который помогает пользователям сразу оценивать стоимость доставки в реальном времени благодаря нескольким параметрам</div>
+                <div class="infotask__title">Магазин</div>
+                <div class="infotask__text">Полноценный интернет-магазин помогает купить книгу за одну минуту, все покупки отображаются в личном кабинете. На странице товара всегда представлены рекомендованные товары</div>
+            </div>
+            
+            <div class="container-fluid">
+                <div class="info__banner">
+                    <img src="/images/content/projects2x/sotnikova-books.png" alt="">
+                </div>
+            </div>
+
+            
+
+            <div class="infotask">
+                <div class="infotask__title">Интерфейс</div>
+                <div class="infotask__text">Удобное расположение всех блоков дает интуитивно понятный интерфейс, всегда можно вернуться назад, всегда можно перейти в интересующий вас раздел</div>
             </div>
 
             <div class="container-fluid">
                 <div class="info__banner">
-                    <img src="/images/content/projects2x/facts-cdek.png" alt="">
+                    <img src="/images/content/projects2x/sotnikova-check.png" alt="">
                 </div>
             </div>
+
+            
 
             <div class="info__links">
                 <a class="goback" href="#">Ко всем проектам</a>
