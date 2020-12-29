@@ -29,7 +29,7 @@
             <div class="info__inner">
                 <div class="general__top">
                     <div class="info__title">Личный сайт Сотниковой</div>
-                    <div class="info__subtitle">Website + Design  </div>
+                    <div class="info__subtitle">Website + Design </div>
                     <a href="https://annasotnikova.com" class="info__link">annasotnikova.com</a>
                 </div>
             </div>
@@ -57,20 +57,20 @@
 
             <div class="infotask">
                 <div class="infotask__title">Магазин</div>
-                <div class="infotask__text">Полноценный интернет-магазин помогает купить книгу за одну минуту, все покупки отображаются в личном кабинете. На странице товара всегда представлены рекомендованные товары</div>
+                <div class="infotask__text">Полноценный интернет-магазин помогает купить книгу за одну минуту, все покупки отображаются в личном кабинете. На странице товара всегда представлены рекомендованные товары.</div>
             </div>
-            
+
             <div class="container-fluid">
                 <div class="info__banner">
                     <img src="/images/content/projects2x/sotnikova-books.png" alt="">
                 </div>
             </div>
 
-            
+
 
             <div class="infotask">
                 <div class="infotask__title">Интерфейс</div>
-                <div class="infotask__text">Удобное расположение всех блоков дает интуитивно понятный интерфейс, всегда можно вернуться назад, всегда можно перейти в интересующий вас раздел</div>
+                <div class="infotask__text">Удобное расположение всех блоков дает интуитивно понятный интерфейс, всегда можно вернуться назад, всегда можно перейти в интересующий вас раздел.</div>
             </div>
 
             <div class="container-fluid">
@@ -79,7 +79,7 @@
                 </div>
             </div>
 
-            
+
 
             <div class="info__links">
                 <a class="goback" href="#">Ко всем проектам</a>
