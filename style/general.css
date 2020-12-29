@@ -124,7 +124,8 @@ label{
 }
 .general__button{
     color: #fff;
-    box-shadow: 0 30px 50px rgba(0,0,0,1.0);
+	/* box-shadow: 0 30px 50px rgba(0,0,0,1.0); */
+	box-shadow: -4px 18px 50px -8px #000000;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
