@@ -296,8 +296,8 @@
     width: 31px;
     height: 4px;
     left: -26px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 72%;
+    transform: translateY(-72%);
     background-color: #FFFF33;
     transition: all .3s linear;
 }
