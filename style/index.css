@@ -11,7 +11,7 @@
 }
 
 .main__inner {
-    padding-top: 230px;
+    padding-top: 190px;
 }
 
 .main__top1 {
@@ -694,7 +694,7 @@
   .main__title-item3,
   .contact-link {
     font-size: 70px;
-    line-height: 65px;
+    line-height: 80px;
     /* color: black;
     -webkit-text-stroke: 1px white;
     margin: 0;

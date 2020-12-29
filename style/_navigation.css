@@ -119,7 +119,7 @@ nav {
 }
 
 .nav--active {
-	background-color: #6753FF;
+	background-color:#22272A;;
 }
 
 .nav--active .nav__logo>a {
@@ -134,7 +134,7 @@ nav {
 	height: 100vh;
 	transform: translateY(0);
 	z-index: 10;
-	background-color: #6753FF;
+	background-color:#22272A;;
 	transition: all .5s linear;
 }
 
