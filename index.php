@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="style/_navigation.css">
     <link rel="stylesheet" href="style/slick.css">
     <link rel="stylesheet" href="style/animate.css">
@@ -29,7 +29,7 @@
     <section class="main">
         <div id="live-bg" class="live-bg__wrapper">
             <div class="live-bg"></div>
-            
+
             <div class="container-main">
 
                 <div class="main__inner">
@@ -41,14 +41,16 @@
                                     Разрабатываем <p class="text"></p> и помогаем бизнесу развиваться
                                 </div> -->
 
-                          <div class="main__animated-wrapper">
-                          <h1 class="main__name">TEREXOV</h1>
-                                <div class="main__animated-title">
-                                  <div class="main__title-item main__title-item1">Разрабатываем </div> 
-                                  <div class="main__title-item main__title-item2"><p class="text"></p></div> 
-                                  <div class="main__title-item main__title-item3">и помогаем бизнесу развиваться</div> 
+                                <div class="main__animated-wrapper">
+                                    <h1 class="main__name">TEREXOV</h1>
+                                    <div class="main__animated-title">
+                                        <div class="main__title-item main__title-item1">Разрабатываем </div>
+                                        <div class="main__title-item main__title-item2">
+                                            <p class="text"></p>
+                                        </div>
+                                        <div class="main__title-item main__title-item3">и помогаем бизнесу развиваться</div>
+                                    </div>
                                 </div>
-                          </div>
 
 
                             </div>
@@ -103,68 +105,68 @@
                         </div>
                     </div>
                 </div>
-    
 
-            <div class="project__wrapper">
-                 <a class="project__container" href="#">
-                     <div class="project__container-inner project__container-inner1">
-                        <img src="images/content/cdekmob.png" alt="" class="project__img project__img-mob">
-                         <img src="images/content/cdek.png" alt="" class="project__img project__img-desc">
-                        <h3 class="projects__title projects__title1">
-                             Название сайта
-                         </h3>
-                         <h3 class="projects__title projects__title2">
-                             Смотреть сайт
-                         </h3>
-                     </div>
-                </a>
 
-                <a class="project__container" href="#">
-                    <div class="project__container-inner project__container-inner2">
-                        <img src="images/content/ersmmob.png" alt="" class="project__img project__img-mob">
-                        <img src="images/content/ersmpc.png" alt="" class="project__img project__img-desc">
-                        <h3 class="projects__title projects__title1">
-                                        Название сайта
-                        </h3>
-                        <h3 class="projects__title projects__title2">
-                                        Смотреть сайт
-                        </h3>
+                <div class="project__wrapper">
+                    <a class="project__container" href="projects/сdek.php">
+                        <div class="project__container-inner project__container-inner1">
+                            <img src="images/content/cdekmob.png" alt="" class="project__img project__img-mob">
+                            <img src="images/content/cdek.png" alt="" class="project__img project__img-desc">
+                            <h3 class="projects__title projects__title1">
+                                СДЕК
+                            </h3>
+                            <h3 class="projects__title projects__title2">
+                                Смотреть сайт
+                            </h3>
                         </div>
-                        </a>
+                    </a>
 
-                        <a class="project__container" href="#">
+                    <a class="project__container" href="#">
+                        <div class="project__container-inner project__container-inner2">
+                            <img src="images/content/ersmmob.png" alt="" class="project__img project__img-mob">
+                            <img src="images/content/ersmpc.png" alt="" class="project__img project__img-desc">
+                            <h3 class="projects__title projects__title1">
+                                ЭраСтройМонтаж
+                            </h3>
+                            <h3 class="projects__title projects__title2">
+                                Смотреть сайт
+                            </h3>
+                        </div>
+                    </a>
+
+                    <a class="project__container" href="#">
                         <div class="project__container-inner project__container-inner3">
-                        <img src="images/content/rkmmob.png" alt="" class="project__img project__img-mob">
-                        <img src="images/content/rkm.png" alt="" class="project__img project__img-desc">
-                        <h3 class="projects__title projects__title1">
-                                        Название сайта
-                        </h3>
-                        <h3 class="projects__title projects__title2">
-                                        Смотреть сайт
-                        </h3>
+                            <img src="images/content/rkmmob.png" alt="" class="project__img project__img-mob">
+                            <img src="images/content/rkm.png" alt="" class="project__img project__img-desc">
+                            <h3 class="projects__title projects__title1">
+                                РКМ
+                            </h3>
+                            <h3 class="projects__title projects__title2">
+                                Смотреть сайт
+                            </h3>
                         </div>
-                        </a>
+                    </a>
 
-                        <a class="project__container" href="#">
-                             <div class="project__container-inner project__container-inner4">
-                                 <img src="images/content/samob.png" alt="" class="project__img project__img-mob">
-                                 <img src="images/content/sapc.png" alt="" class="project__img project__img-desc">
-                                 <h3 class="projects__title projects__title1">
-                                        Название сайта
-                                 </h3>
-                                 <h3 class="projects__title projects__title2">
-                                        Смотреть сайт
-                                 </h3>
-                            </div>
-                            </a>
-
-
+                    <a class="project__container" href="projects/sotnikova.php">
+                        <div class="project__container-inner project__container-inner4">
+                            <img src="images/content/samob.png" alt="" class="project__img project__img-mob">
+                            <img src="images/content/sapc.png" alt="" class="project__img project__img-desc">
+                            <h3 class="projects__title projects__title1">
+                                Сотникова
+                            </h3>
+                            <h3 class="projects__title projects__title2">
+                                Смотреть сайт
+                            </h3>
                         </div>
-                   
+                    </a>
 
-                    <div class="mainlink__all-wrapper">
-                        <a href="projects.php" class="mainlink__all">Посмотреть все работы</a>
-                    </div>
+
+                </div>
+
+
+                <div class="mainlink__all-wrapper">
+                    <a href="projects.php" class="mainlink__all">Посмотреть все работы</a>
+                </div>
 
             </div>
         </div>
