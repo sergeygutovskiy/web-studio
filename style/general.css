@@ -102,16 +102,27 @@ label{
 	top: 0;
 	left: 0;
 	overflow: hidden;
+	padding-bottom: 5px;
+	transition: all .3s linear;
 	clip:rect(0 0 0 0);
 }
 .checked-style{
 	padding: 10px;
 	cursor: pointer;
+	position: relative;
 }
-.check-box:checked + .checked-style{
-	background-color: #3a6178;
-	border-radius: 24px;
-
+.checked-style::before{
+	content:'';
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	background-color: #EA8069;
+	bottom: 0;
+	left: -10px;
+	transition: all .3s linear;
+}
+.check-box:checked + .checked-style::before{
+	width: 108%;
 }
 
 

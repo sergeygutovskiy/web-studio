@@ -54,12 +54,14 @@
     text-transform: uppercase;
     color: #6E7191;
 }
+.lastprojects__link-wrapper{
+    margin-top: auto;
+}
 .lastprojects__link {
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    margin-top: auto;
     position: relative;
     padding-left: 25px;
     white-space: nowrap;
@@ -67,20 +69,16 @@
 .lastprojects__link::before{
     content:'';
     position: absolute;
-    width: 56px;
-    height: 56px;
-    background: rgba(255, 255, 51, 0.5);
-    z-index: 0;
-    border-radius: 50%;
-    top: 50%;
+    width: 31px;
+    height: 2px;
     left: 0px;
-    transition: all .5s;
+    top: 50%;
     transform: translateY(-50%);
+    background-color: #FFFF33;
+    transition: all .3s linear;
 }
 .lastprojects__link:hover::before{
-    left: 200px;
-    background-color: #fff;
-    opacity: .5;
+    width: 110%;
 }
 .lastprojects__right {
     position: relative;

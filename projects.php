@@ -65,8 +65,9 @@
                         ЭраСтройМонтаж
                         </div>
                         <div class="lastprojects__subtitle">Website + Design + SEO</div>
-
-                        <a href="" class="lastprojects__link">Посмотреть проект</a>
+                        <div class="lastprojects__link-wrapper">
+                        <a href="#" class="lastprojects__link">Посмотреть проект</a>
+                        </div>
                     </div>
                     <div class="lastprojects__right">
                         <div class="lastprojects__img-wrapper">
@@ -83,7 +84,9 @@
                         </div>
                         <div class="lastprojects__subtitle">Website + Design </div>
 
-                        <a href="" class="lastprojects__link">Посмотреть проект</a>
+                        <div class="lastprojects__link-wrapper">
+                        <a href="#" class="lastprojects__link">Посмотреть проект</a>
+                        </div>
                     </div>
                     <div class="lastprojects__right">
                         <div class="lastprojects__img-wrapper">
@@ -100,7 +103,9 @@
                         </div>
                         <div class="lastprojects__subtitle">Website + Design </div>
 
-                        <a href="" class="lastprojects__link">Посмотреть проект</a>
+                        <div class="lastprojects__link-wrapper">
+                        <a href="#" class="lastprojects__link">Посмотреть проект</a>
+                        </div>
                     </div>
                     <div class="lastprojects__right">
                         <div class="lastprojects__img-wrapper">
@@ -117,7 +122,9 @@
                         </div>
                         <div class="lastprojects__subtitle">Website + Design </div>
 
-                        <a href="" class="lastprojects__link">Посмотреть проект</a>
+                        <div class="lastprojects__link-wrapper">
+                        <a href="#" class="lastprojects__link">Посмотреть проект</a>
+                        </div>
                     </div>
                     <div class="lastprojects__right">
                         <div class="lastprojects__img-wrapper">
