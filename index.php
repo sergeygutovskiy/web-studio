@@ -80,12 +80,12 @@
                         <div class="main__links-wrapper">
                             <div class="main__link-container">
 
-                                <a href="" class="main__link">Наше портфолио</a>
+                                <a href="projects.php" class="main__link">Наше портфолио</a>
                                 <p class="main__link-descr">Реализовали более 100 проектов</p>
                             </div>
 
                             <div class="main__link-container">
-                                <a href="" class="main__link">Услуги</a>
+                                <a href="services.php" class="main__link">Услуги</a>
                                 <p class="main__link-descr">Предложим лучшее решение для вас</p>
                             </div>
                         </div>
