@@ -114,7 +114,7 @@
             <div class="aboutus__inner">
                 <div class="about__title">
                     <div class="whatcanwedo__title-inner">
-                    Lorem Ipsum
+                    Почему мы?
                     </div>
                 </div>
                 <div class="aboutus__right">
@@ -170,7 +170,7 @@
 
                     <div class="whatcanwedo__item">
                         <div class="whatcanwedo__num">04  /</div>
-                        <div class="whatcanwedo__descr">Увеличим продажи, привлечь клиентов</div>
+                        <div class="whatcanwedo__descr">Увеличим продажи, привлечём клиентов</div>
                     </div>
                 </div>
             </div>

@@ -27,8 +27,7 @@
     <?php require "templates/_navigation.php"; ?>
 
     <section class="main">
-        <div id="live-bg" class="live-bg__wrapper">
-            <div class="live-bg"></div>
+        
 
             <div class="container-main">
 
@@ -55,7 +54,7 @@
 
                             </div>
                             <div class="general__button-wrapper">
-                                <a class="general__button">
+                                <a href="about.php" class="general__button">
                                     Узнать стоимость
                                     <span></span>
                                     <span></span>
@@ -169,7 +168,7 @@
                 </div>
 
             </div>
-        </div>
+        
     </section>
 
     <section class="main__about">
@@ -255,26 +254,7 @@
     <script src="js/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
 
-    <script src="js/three.r119.min.js"></script>
-    <script src="js/vanta.halo.min.js"></script>
-
-    <!-- <script>
-        if (window.innerWidth > 910) {
-            VANTA.HALO({
-                el: "#live-bg",
-                mouseControls: true,
-                touchControls: true,
-                gyroControls: false,
-                minHeight: 200.00,
-                minWidth: 200.00,
-                backgroundColor: 0x22272A,
-                amplitudeFactor: 1.70,
-                size: 0.6,
-                xOffset: 0.17,
-                yOffset: 0.2,
-            })
-        }
-    </script> -->
+    
     <script src="js/main.js"></script>
     <script src="js/app.js"></script>
 

@@ -96,7 +96,7 @@
     font-size: 20px;
     line-height: 24px;
     text-transform: uppercase;
-    color: var(--main-color);
+   
     position: relative;
     transition: all .5s;
     display: inline-block;
@@ -839,10 +839,7 @@
         line-height: 24px;
     }
 
-    .main__link-container {
-        margin-right: 0;
-    }
-
+  
     .main__link-container+.main__link-container {
         margin-left: 140px;
     }
