@@ -1,3 +1,23 @@
+// СЛАЙДЕРЫ
+$('.about__slider').slick({
+  slidesToShow: 1,
+  slidesToScroll:1,
+  nextArrow:'.about__arrow-right',
+  prevArrow:'.about__arrow-left',
+});
+
+$('.main__slider').slick({
+  slidesToShow: 1,
+  slidesToScroll:1,
+  infinite: true,
+  centerMode:true,
+  variableWidth: true,
+  autoplay: true,
+  arrows:false,
+  autoplaySpeed: 1000,
+});
+
+
 $(document).ready(function(){
 
 
@@ -16,32 +36,10 @@ $(document).ready(function(){
     });
 
     
-    
-  
-
     $('.nav__link').on('click', function(){
       console.log(1);
       $('.nav__link').removeClass('nav__link--active');
       $(this).addClass('nav__link--active');
-    });
-
-    
-    $('.about__slider').slick({
-        slidesToShow: 1,
-        slidesToScroll:1,
-        nextArrow:'.about__arrow-right',
-        prevArrow:'.about__arrow-left',
-    });
-
-    $('.main__slider').slick({
-        slidesToShow: 1,
-        slidesToScroll:1,
-        infinite: true,
-        centerMode:true,
-        variableWidth: true,
-        autoplay: true,
-        arrows:false,
-        autoplaySpeed: 1000,
     });
 
 
@@ -163,27 +161,5 @@ const next = () => {
 }
 
 next()
-
-
-
-
       
-
-      
-
-
-
 });
-
-
-
-VANTA.HALO({
-  el: "#your-element-selector",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  backgroundColor: 0x212121,
-  size: 0.10
-})

@@ -1,6 +1,7 @@
 <footer class="footer">
         <div class="container">
             <div class="footer__inner">
+                <div class="footer__top">
                 <div class="footer__left">
                 <a href="/">
 			    <div class="nav__logo footer__logo">
@@ -13,8 +14,6 @@
                     <li class="footer__item"><a class="footer__link" href="#">Услуги</a></li>
                     <li class="footer__item"><a class="footer__link" href="#">Контакты</a></li>
                 </ul>
-
-                <div class="footer__copy">© 2015–2020 terexov digital studio</div>
                 </div>
 
                 <div class="footer__right">
@@ -28,13 +27,13 @@
                     <a class="footer__mail" href="mailto:info@terexov.agency">
                     info@terexov.agency
                     </a>
-
-
-                    <a class="footer__politics" href="#">
-                    Политика конфиденциальности
-                    </a>
                 </div>
-                
+                </div>
+
+                <div class="footer__bottom">
+                <div class="footer__copy">© 2015–2020 terexov digital studio</div>
+                <a class="footer__politics" href="#">Политика конфиденциальности</a>
+                </div>
         </div>
      </div>
 </footer>
