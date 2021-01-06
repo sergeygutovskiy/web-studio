@@ -66,7 +66,7 @@
                         </div>
                         <div class="lastprojects__subtitle">Website + Design + SEO</div>
                         <div class="lastprojects__link-wrapper">
-                        <a href="#" class="lastprojects__link">Посмотреть проект</a>
+                        <a href="projects/ersm.php" class="lastprojects__link">Посмотреть проект</a>
                         </div>
                     </div>
                     <div class="lastprojects__right">
@@ -85,7 +85,7 @@
                         <div class="lastprojects__subtitle">Website + Design </div>
 
                         <div class="lastprojects__link-wrapper">
-                        <a href="#" class="lastprojects__link">Посмотреть проект</a>
+                        <a href="projects/sotnikova.php" class="lastprojects__link">Посмотреть проект</a>
                         </div>
                     </div>
                     <div class="lastprojects__right">
@@ -104,7 +104,7 @@
                         <div class="lastprojects__subtitle">Website + Design </div>
 
                         <div class="lastprojects__link-wrapper">
-                        <a href="#" class="lastprojects__link">Посмотреть проект</a>
+                        <a href="projects/cdek.php" class="lastprojects__link">Посмотреть проект</a>
                         </div>
                     </div>
                     <div class="lastprojects__right">
@@ -123,7 +123,7 @@
                         <div class="lastprojects__subtitle">Website + Design </div>
 
                         <div class="lastprojects__link-wrapper">
-                        <a href="#" class="lastprojects__link">Посмотреть проект</a>
+                        <a href="projects/po-rkm.php" class="lastprojects__link">Посмотреть проект</a>
                         </div>
                     </div>
                     <div class="lastprojects__right">
