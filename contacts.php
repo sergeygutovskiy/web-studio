@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="style/_footer.css">
   <link rel="stylesheet" href="style/general.css">
   <link rel="stylesheet" href="style/_footer.css">
-  <link rel="stylesheet" href="style/main.css">
+
   <link rel="stylesheet" href="style/contacts.css">
 
   

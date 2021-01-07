@@ -105,12 +105,12 @@
     
 
             <div class="project__wrapper">
-                 <a class="project__container" href="#">
+                 <a class="project__container" href="/projects/cdek.php">
                      <div class="project__container-inner project__container-inner1">
                         <img src="images/content/cdekmob.png" alt="" class="project__img project__img-mob">
                          <img src="images/content/cdek.png" alt="" class="project__img project__img-desc">
                         <h3 class="projects__title projects__title1">
-                             Название сайта
+                             СДЕК
                          </h3>
                          <h3 class="projects__title projects__title2">
                              Смотреть сайт
@@ -118,12 +118,12 @@
                      </div>
                 </a>
 
-                <a class="project__container" href="#">
+                <a class="project__container" href="/projects/ersm.php">
                     <div class="project__container-inner project__container-inner2">
                         <img src="images/content/ersmmob.png" alt="" class="project__img project__img-mob">
                         <img src="images/content/ersmpc.png" alt="" class="project__img project__img-desc">
                         <h3 class="projects__title projects__title1">
-                                        Название сайта
+                                       ЭраСтройМонтаж
                         </h3>
                         <h3 class="projects__title projects__title2">
                                         Смотреть сайт
@@ -131,12 +131,12 @@
                         </div>
                         </a>
 
-                        <a class="project__container" href="#">
+                        <a class="project__container" href="/projects/po-rkm.php">
                         <div class="project__container-inner project__container-inner3">
                         <img src="images/content/rkmmob.png" alt="" class="project__img project__img-mob">
                         <img src="images/content/rkm.png" alt="" class="project__img project__img-desc">
                         <h3 class="projects__title projects__title1">
-                                        Название сайта
+                                        РКМ
                         </h3>
                         <h3 class="projects__title projects__title2">
                                         Смотреть сайт
@@ -144,12 +144,12 @@
                         </div>
                         </a>
 
-                        <a class="project__container" href="#">
+                        <a class="project__container" href="/projects/sotnikova.php">
                              <div class="project__container-inner project__container-inner4">
                                  <img src="images/content/samob.png" alt="" class="project__img project__img-mob">
                                  <img src="images/content/sapc.png" alt="" class="project__img project__img-desc">
                                  <h3 class="projects__title projects__title1">
-                                        Название сайта
+                                        Сотникова
                                  </h3>
                                  <h3 class="projects__title projects__title2">
                                         Смотреть сайт

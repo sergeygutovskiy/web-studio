@@ -9,10 +9,10 @@
 			    </div>
 		        </a>
                 <ul class="footer__menu">
-                    <li class="footer__item"><a class="footer__link" href="#">Работы</a></li>
-                    <li class="footer__item"><a class="footer__link" href="#">О нас</a></li>
-                    <li class="footer__item"><a class="footer__link" href="#">Услуги</a></li>
-                    <li class="footer__item"><a class="footer__link" href="#">Контакты</a></li>
+                    <li class="footer__item"><a class="footer__link" href="/projects.php">Работы</a></li>
+                    <li class="footer__item"><a class="footer__link" href="/about.php">О нас</a></li>
+                    <li class="footer__item"><a class="footer__link" href="/services.php">Услуги</a></li>
+                    <li class="footer__item"><a class="footer__link" href="/contacts.php">Контакты</a></li>
                 </ul>
                 </div>
 
