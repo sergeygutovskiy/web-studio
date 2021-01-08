@@ -38,6 +38,7 @@
     line-height: 36px;
     letter-spacing: 0.05em;
     font-family: 'Oswald', sans-serif; 
+    white-space: nowrap;
 }
 
 .footer__right{
@@ -132,7 +133,7 @@
         margin-top: 0;
     }
 
-    .footer{
+    .services .footer{
         padding-top: 0;
     }
 }

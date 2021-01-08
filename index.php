@@ -23,22 +23,15 @@
 </head>
 
 <body>
-    <?php require "templates/_navigation.php"; ?>
-
-    <section class="main">
-        <div id="live-bg" class="live-bg__wrapper">
-            <div class="live-bg"></div>
-            
-            <div class="container-main">
-
-                <div class="main__inner">
-                    <div class="main__section-top">
+    
+    
+    <section class="top">
+        <?php require "templates/_navigation.php"; ?>
+        <div class="container container1">
+        <div class="main__section-top top__inner">
                         <div class="main__top main__top1">
                             <div class="main__title-wrapper">
                                 <div class="general__category general__category-main">Digital-агентство</div>
-                                <!-- <div class="title__name wow slideInLeft" data-wow-offset="250">
-                                    Разрабатываем <p class="text"></p> и помогаем бизнесу развиваться
-                                </div> -->
 
                           <div class="main__animated-wrapper">
                           <h1 class="main__name">TEREXOV</h1>
@@ -62,6 +55,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="main__inner">
                     <div class="main__bottom main__bottom1  fadeInDown" data-wow-delay=".5s" data-wow-offset="100" wow>
 
                         <div class="main__links">
@@ -90,9 +85,15 @@
 
                     </div>
                 </div>
+        </div>
+    </section>
+
+    <section class="main">
+            <div class="container">
+
             </div>
 
-            <div class="container-main">
+            <div class="container">
 
                 <div class="main__section-top">
                     <div class="main__top main__top2">
