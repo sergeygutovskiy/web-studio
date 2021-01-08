@@ -32,7 +32,7 @@
 
                 <div class="footer__bottom">
                 <div class="footer__copy">© 2015–2020 terexov digital studio</div>
-                <a class="footer__politics" href="#">Политика конфиденциальности</a>
+                <a class="footer__politics" href="/polit.php">Политика конфиденциальности</a>
                 </div>
         </div>
      </div>

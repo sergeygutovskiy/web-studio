@@ -52,7 +52,7 @@
 
                             </div>
                             <div class="general__button-wrapper">
-                                <a href="about.php" class="general__button">
+                                <a href="contacts.php" class="general__button">
                                     Узнать стоимость
                                     <span></span>
                                     <span></span>

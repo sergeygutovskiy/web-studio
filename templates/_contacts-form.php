@@ -17,12 +17,11 @@
                 <a href="tel:+79522467679 " class="contacts__phone">+7 952 246-76-79 </a>
 
                 <div class="contacts__social">
-                    <a href="" class="contacts__social-link wow fadeInDown" data-wow-delay=".1s" data-wow-offset="150">Telegram</a>
-                    <a href="" class="contacts__social-link wow fadeInDown" data-wow-delay=".3s" data-wow-offset="150">WhatsApp</a>
-                    <a href="" class="contacts__social-link wow fadeInDown" data-wow-delay=".5s" data-wow-offset="150">Viber</a>
+                    <a href="https://tlgg.ru/terexovagency" class="contacts__social-link wow fadeInDown" data-wow-delay=".1s" data-wow-offset="150">Telegram</a>
+                    <a href="https://api.whatsapp.com/send?phone=+79522467679&amp;text= Хотим%20крутой%20сайт" class="contacts__social-link wow fadeInDown" data-wow-delay=".3s" data-wow-offset="150">WhatsApp</a>
+                    <a href="viber://add?number=+79522467679" class="contacts__social-link wow fadeInDown" data-wow-delay=".1s" data-wow-offset="150">Viber</a>
                 </div>
             </div>
-
             <div class="contacts__right">
                 <p class="contacts__title">
                 Или оставьте заявку:
