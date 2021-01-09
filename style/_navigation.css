@@ -254,6 +254,8 @@ nav {
 		line-height: 30px;
 		font-size: 24px;
 		color: #FFFFFF;
+		opacity: 0;
+		transition: opacity 250ms linear;
 	}
 
 	.nav__link--active>a {
