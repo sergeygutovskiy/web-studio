@@ -688,7 +688,7 @@
     font-size: 70px;
     color: white;
     margin: 0;
-    /* animation: fadeOut 3s ease both; */
+    animation: fadeOut 3s ease both;
     position: absolute;
   }
   .main__animated-title {
@@ -735,19 +735,19 @@
   }
   
   .main__title-item1 {
-    /* animation: fadeInFirst 1s ease both; */
+    animation: fadeInFirst 1s ease both;
     animation-delay: 2.5s;
   }
   .main__title-item2 {
-    /* animation: fadeInSecond 1.5s ease both; */
+    animation: fadeInSecond 1.5s ease both;
     animation-delay: 2.5s;
   }
   .main__title-item3 {
-    /* animation: fadeInThird 1.5s ease both; */
+    animation: fadeInThird 1.5s ease both;
     animation-delay: 2.5s;
   }
 
-  /* @keyframes pageLoad {
+@keyframes pageLoad {
     0% {
       opacity: 0;
     }
@@ -817,7 +817,6 @@
       transform: translate(0, 0);
     }
   }
-   */
 
 
 
