@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="style/_navigation.css">
     <link rel="stylesheet" href="style/slick.css">
-    <!-- <link rel="stylesheet" href="style/animate.css"> -->
+    <link rel="stylesheet" href="style/animate.css">
     <link rel="stylesheet" href="style/_footer.css">
     <link rel="stylesheet" href="style/general.css">
     <link rel="stylesheet" href="style/index.css">
@@ -251,12 +251,12 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
-    <!-- <script src="js/wow.min.js"></script> -->
+    <script src="js/wow.min.js"></script>
 
     
     <script src="js/main.js"></script>
     <script src="js/app.js"></script>
-    <!-- <script>
+    <script>
         
 // Анимация текста 
 
@@ -331,7 +331,7 @@ const next = () => {
 }
 
 next()
-    </script> -->
+    </script>
 
     <script>
 
