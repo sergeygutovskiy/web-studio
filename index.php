@@ -256,7 +256,7 @@
     
     <script src="js/main.js"></script>
     <script src="js/app.js"></script>
-    <script>
+    <!-- <script>
         
 // Анимация текста 
 
@@ -331,7 +331,7 @@ const next = () => {
 }
 
 next()
-    </script>
+    </script> -->
 
     <script>
 
