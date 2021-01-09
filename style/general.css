@@ -38,7 +38,7 @@ body {
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
-	animation: pageLoad 3s ease both;
+	animation: pageLoad 2s ease both;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
