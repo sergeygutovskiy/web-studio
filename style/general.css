@@ -179,7 +179,8 @@ label{
     transition: all .5s;
 }
 .general__button:hover{
-    color:#212121;
+	background-color:#212121;
+	color: #fff;
 }
 .general__button:hover::after{
     width: 100%;
