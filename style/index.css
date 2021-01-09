@@ -747,7 +747,7 @@
     animation-delay: 2.5s;
   }
 
-  @keyframes pageLoad {
+  /* @keyframes pageLoad {
     0% {
       opacity: 0;
     }
@@ -817,7 +817,7 @@
       transform: translate(0, 0);
     }
   }
-  
+   */
 
 
 
