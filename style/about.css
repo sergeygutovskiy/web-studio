@@ -270,13 +270,7 @@
 }
 
 @media screen and (max-width: 1550px){
-    .about__slider {
-        /* max-width: 750px;
-        min-height: 500px; */
-    }
     .about__slider-img img{
-        /* max-width: 750px;
-        min-height: 500px; */
         object-fit: cover;
     }
 
@@ -591,4 +585,15 @@
 
 @media screen and (max-width: 400px){
     
+}
+
+
+.general__top{
+    opacity: 0;
+    transform: translateX(-120%);
+    transition: all .3s linear 1s;
+}
+.general__top._active{
+    opacity: 1;
+    transform: translateX(0%);
 }

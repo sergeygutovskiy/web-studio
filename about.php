@@ -49,11 +49,11 @@
 
 
 
-    <section class="about">
+    <section class="about _anim-items">
         <div class="container-about">
             <div class="about__inner">
                 <div class="container">
-                <div class="general__top">
+                <div class="general__top _active">
                     <div class="general__category">О студии</div>
                     <div class="title__name">TEREXOV</div>
                 </div>

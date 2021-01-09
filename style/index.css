@@ -688,7 +688,7 @@
     font-size: 70px;
     color: white;
     margin: 0;
-    animation: fadeOut 3s ease both;
+    /* animation: fadeOut 3s ease both; */
     position: absolute;
   }
   .main__animated-title {
@@ -698,8 +698,8 @@
   .main__title-item2,
   .main__title-item3,
   .contact-link {
-    font-size: 90px;
-    line-height: 90px;
+    font-size: 70px;
+    line-height: 70px;
     /* color: black;
     -webkit-text-stroke: 1px white;
     margin: 0;
@@ -735,15 +735,15 @@
   }
   
   .main__title-item1 {
-    animation: fadeInFirst 1s ease both;
+    /* animation: fadeInFirst 1s ease both; */
     animation-delay: 2.5s;
   }
   .main__title-item2 {
-    animation: fadeInSecond 1.5s ease both;
+    /* animation: fadeInSecond 1.5s ease both; */
     animation-delay: 2.5s;
   }
   .main__title-item3 {
-    animation: fadeInThird 1.5s ease both;
+    /* animation: fadeInThird 1.5s ease both; */
     animation-delay: 2.5s;
   }
 
@@ -1313,6 +1313,19 @@
 }
 
  */
+
+/* ANIMATION */
+
+.main__link-item{
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all .3s ease 5s;
+}
+.main__link-item._active{
+    opacity: 1;
+    transform: translateX(0%);
+}
+
 
 
 
