@@ -13,7 +13,6 @@
 
     <link rel="stylesheet" href="style/_navigation.css">
     <link rel="stylesheet" href="style/slick.css">
-    <link rel="stylesheet" href="style/animate.css">
     <link rel="stylesheet" href="style/_footer.css">
     <link rel="stylesheet" href="style/general.css">
     <link rel="stylesheet" href="style/index.css">
@@ -24,10 +23,11 @@
 
 <body>
     
+    <?php require "templates/_navigation.php"; ?>
     
     <section class="top">
-        <?php require "templates/_navigation.php"; ?>
         <div class="container container1">
+
         <div class="main__section-top top__inner">
                         <div class="main__top main__top1">
                             <div class="main__title-wrapper">
@@ -55,18 +55,19 @@
                             </div>
                         </div>
                     </div>
+        </div>
 
-                    <div class="main__inner">
-                    <div class="main__bottom main__bottom1  fadeInDown" data-wow-delay=".5s" data-wow-offset="100" wow>
+        <div class="container main__inner">
+                    <div class="main__bottom main__bottom1">
 
                         <div class="main__links">
                             <a href="#" class="main__link-item _anim-items">
                                 <img class="main__link-img" src="images/viber.svg" alt="">
                             </a>
-                            <a href="#" class="main__link-item">
+                            <a href="#" class="main__link-item _anim-items">
                                 <img class="main__link-img" src="images/whatsapp.svg" alt="">
                             </a>
-                            <a href="#" class="main__link-item">
+                            <a href="#" class="main__link-item _anim-items">
                                 <img class="main__link-img" src="images/telegram.svg" alt="">
                             </a>
                         </div>
@@ -85,7 +86,7 @@
 
                     </div>
                 </div>
-        </div>
+
     </section>
 
     <section class="main">
@@ -96,7 +97,7 @@
             <div class="container">
 
                 <div class="main__section-top">
-                    <div class="main__top main__top2">
+                    <div class="main__top main__top2 _anim-items">
                         <div class="general__category general__category-main">Наши работы</div>
                         <div class="title__name">
                             Мы погружаемся в бизнес клиента, хорошо понимаем его цели, берем на себя целые направления
@@ -106,7 +107,7 @@
     
 
             <div class="project__wrapper">
-                 <a class="project__container" href="/projects/cdek.php">
+                 <a class="project__container _anim-items _anim-no-hide" href="/projects/cdek.php">
                      <div class="project__container-inner project__container-inner1">
                         <img src="images/content/cdekmob.png" alt="" class="project__img project__img-mob">
                          <img src="images/content/cdek.png" alt="" class="project__img project__img-desc">
@@ -119,7 +120,7 @@
                      </div>
                 </a>
 
-                <a class="project__container" href="/projects/ersm.php">
+                <a class="project__container _anim-items _anim-no-hide" href="/projects/ersm.php">
                     <div class="project__container-inner project__container-inner2">
                         <img src="images/content/ersmmob.png" alt="" class="project__img project__img-mob">
                         <img src="images/content/ersmpc.png" alt="" class="project__img project__img-desc">
@@ -132,7 +133,7 @@
                         </div>
                         </a>
 
-                        <a class="project__container" href="/projects/po-rkm.php">
+                        <a class="project__container _anim-items _anim-no-hide" href="/projects/po-rkm.php">
                         <div class="project__container-inner project__container-inner3">
                         <img src="images/content/rkmmob.png" alt="" class="project__img project__img-mob">
                         <img src="images/content/rkm.png" alt="" class="project__img project__img-desc">
@@ -145,7 +146,7 @@
                         </div>
                         </a>
 
-                        <a class="project__container" href="/projects/sotnikova.php">
+                        <a class="project__container _anim-items _anim-no-hide" href="/projects/sotnikova.php">
                              <div class="project__container-inner project__container-inner4">
                                  <img src="images/content/samob.png" alt="" class="project__img project__img-mob">
                                  <img src="images/content/sapc.png" alt="" class="project__img project__img-desc">
@@ -196,7 +197,7 @@
         <div class="container">
             <div class="statistic__inner">
                 <div class="statistic__row-top">
-                    <div class="statistic__item wow fadeInLeft" data-wow-delay=".1s" data-wow-offset="100">
+                    <div class="statistic__item _anim-items _anim-no-hide">
                         <div class="statistic__number-wrapper statistic__number-big">
                             <span>></span>
                             <div class="statistic__number statistic__number-first count">100</div>
@@ -204,14 +205,14 @@
                         <span class="statistic__descr">Проектов</span>
                     </div>
 
-                    <div class="statistic__item wow fadeInLeft" data-wow-delay=".3s" data-wow-offset="100">
+                    <div class="statistic__item _anim-items _anim-no-hide">
                         <div class="statistic__number-wrapper statistic__number-small">
                             <div class="statistic__number count">4</div>
                         </div>
                         <span class="statistic__descr statistic__descr-small">место в среднем по выдаче сайтов</span>
                     </div>
 
-                    <div class="statistic__item wow fadeInLeft" data-wow-delay=".5s" data-wow-offset="100">
+                    <div class="statistic__item _anim-items _anim-no-hide">
                         <div class="statistic__number-wrapper">
                             <div class="statistic__number count">215</div>
                         </div>
@@ -219,21 +220,21 @@
                     </div>
                 </div>
                 <div class="statistic__row-bottom">
-                    <div class="statistic__item wow fadeInLeft" data-wow-delay=".7s" data-wow-offset="100">
+                    <div class="statistic__item _anim-items _anim-no-hide">
                         <div class="statistic__number-wrapper statistic__number-small">
                             <div class="statistic__number count">5</div>
                         </div>
                         <span class="statistic__descr statistic__descr-it">Лет опыта в IT-индустрии</span>
                     </div>
 
-                    <div class="statistic__item wow fadeInLeft" data-wow-delay=".9s" data-wow-offset="100">
+                    <div class="statistic__item _anim-items _anim-no-hide">
                         <div class="statistic__number-wrapper statistic__number-small">
                             <div class="statistic__number count">11</div>
                         </div>
                         <span class="statistic__descr">КРУТЫХ СОТРУДНИКОВ</span>
                     </div>
 
-                    <div class="statistic__item wow fadeInLeft" data-wow-delay="1.1s" data-wow-offset="100">
+                    <div class="statistic__item _anim-items _anim-no-hide">
                         <div class="statistic__number-wrapper">
                             <div class="statistic__number count">3350</div>
                         </div>
@@ -251,9 +252,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    
     <script src="js/main.js"></script>
     <script src="js/app.js"></script>
     <!-- <script>

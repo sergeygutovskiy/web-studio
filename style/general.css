@@ -135,7 +135,7 @@ label{
 
 .general__button-wrapper{
 	position: relative;
-	overflow: hidden;
+	overflow: visible;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -155,7 +155,6 @@ label{
 	overflow: hidden;
 	outline: none;
 	transition: all .5s;
-	
 }
 
 .general__button:before{

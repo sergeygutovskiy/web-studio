@@ -63,10 +63,12 @@
                     <div class="lastprojects__container">
                         <div class="lastprojects__item">
                             <div class="lastprojects__left">
+                                <div class="lastprojects__left-wrapper _anim-items">
                                 <div class="lastprojects__title">
                                     ЭраСтройМонтаж
                                 </div>
                                 <div class="lastprojects__subtitle">Website + Design + SEO</div>
+                                </div>
                                 <div class="lastprojects__link-wrapper">
                                     <a href="projects/ersm.php" class="lastprojects__link">Посмотреть проект</a>
                                 </div>
