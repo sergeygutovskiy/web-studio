@@ -107,7 +107,7 @@
     
 
             <div class="project__wrapper">
-                 <a class="project__container _anim-items _anim-no-hide" href="/projects/cdek.php">
+                 <a class="project__container" href="/projects/cdek.php">
                      <div class="project__container-inner project__container-inner1">
                         <img src="images/content/cdekmob.png" alt="" class="project__img project__img-mob">
                          <img src="images/content/cdek.png" alt="" class="project__img project__img-desc">
@@ -120,7 +120,7 @@
                      </div>
                 </a>
 
-                <a class="project__container _anim-items _anim-no-hide" href="/projects/ersm.php">
+                <a class="project__container" href="/projects/ersm.php">
                     <div class="project__container-inner project__container-inner2">
                         <img src="images/content/ersmmob.png" alt="" class="project__img project__img-mob">
                         <img src="images/content/ersmpc.png" alt="" class="project__img project__img-desc">
@@ -133,7 +133,7 @@
                         </div>
                         </a>
 
-                        <a class="project__container _anim-items _anim-no-hide" href="/projects/po-rkm.php">
+                        <a class="project__container" href="/projects/po-rkm.php">
                         <div class="project__container-inner project__container-inner3">
                         <img src="images/content/rkmmob.png" alt="" class="project__img project__img-mob">
                         <img src="images/content/rkm.png" alt="" class="project__img project__img-desc">
@@ -146,7 +146,7 @@
                         </div>
                         </a>
 
-                        <a class="project__container _anim-items _anim-no-hide" href="/projects/sotnikova.php">
+                        <a class="project__container" href="/projects/sotnikova.php">
                              <div class="project__container-inner project__container-inner4">
                                  <img src="images/content/samob.png" alt="" class="project__img project__img-mob">
                                  <img src="images/content/sapc.png" alt="" class="project__img project__img-desc">

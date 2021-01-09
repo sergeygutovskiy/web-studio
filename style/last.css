@@ -150,16 +150,6 @@
 
 
 /* ANIMATION */
-.lastprojects__left-wrapper{
-    opacity: 0;
-    transform: translateX(-50%);
-    transition: all .5s linear;
-}
-.lastprojects__left-wrapper._active{
-    opacity: 1;
-    transform: translateX(0);
-    transition: all .5s linear .3s;
-}
 
 
 

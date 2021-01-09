@@ -5,7 +5,7 @@
 
 .about__top-wrapper{
     display: flex;
-    margin-top: 168px;
+    margin-top: 100px;
     margin-bottom: 160px;
 }
 .about__slider-wrapper {
@@ -196,43 +196,6 @@
     margin-right: 10px;
 
 }
-/* ABOUTPROJECT */
-
-.aboutproject .about__title {
-    /* margin-left: 150px;  */
-    max-width: 544px;
-    width: 100%;
-}
-.aboutproject__box {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 130px;
-}
-.aboutproject__item {
-    margin-right: 204px;
-    margin-bottom: 124px;
-    white-space: nowrap;
-    position: relative;
-    padding-left: 30px;
-    color: #fff;
-    opacity: .7;
-    max-width: 240px;
-    width: 100%;
-}
-
-.aboutproject__item::before{
-    content:'';
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background: rgba(255, 255, 51, 0.25);
-    opacity: .7;
-    top: -20px;
-    left: 0;
-
-
-}
 /* ABOUTBANNER */
 .aboutbanner__inner{
     margin-bottom: 150px;
@@ -275,12 +238,6 @@
 
 }
 
-@media screen and (max-width:1470px){
-    .aboutproject__item {
-        margin-right: 130px;
-        margin-bottom: 85px;
-    }
-}
 
 @media screen and (max-width: 1400px){
     .about__title{
@@ -336,14 +293,6 @@
     }
     .about__inner .general__top {
         margin-left: 57px;
-    }
-    .aboutproject__box{
-        margin-left: 150px;
-        margin-top:90px;
-    }
-    .aboutproject__item{
-        margin-right: 151px;
-        margin-bottom: 76px;
     }
     .about__slider-img img{
         min-height: 400px;
@@ -402,10 +351,6 @@
     .about__inner .general__category{
         font-size: 16px;
         line-height: 20px;
-    }
-
-    .aboutproject__item{
-        margin-right: 50px;
     }
 }
 @media screen and (max-width: 960px){
@@ -486,15 +431,6 @@
         right: 27px;
     }
 
-    .aboutproject .about__title{
-        margin-left: 0;
-    }
-    .aboutproject__box{
-        margin: 76px 0 60px 0;
-    }
-    .aboutproject__item{
-        margin-bottom: 52px;
-    }
     .aboutbanner__inner{
         margin-bottom: 60px;
     }

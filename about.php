@@ -177,53 +177,6 @@
         </div>
     </section>
 
-    <section class="aboutproject">
-        <div class="container">
-            <div class="aboutproject__inner">
-                <div class="about__title">
-                Под каждый проект уделяем 5-15 человек
-                </div>
-                <div class="aboutproject__box">
-                    <div class="aboutproject__item">
-                    Руководитель проекта
-                    </div>
-
-                    <div class="aboutproject__item">
-                    Backend-разработчик
-                    </div>
-
-                    <div class="aboutproject__item">
-                    Backend-разработчик
-                    </div>
-
-                    <div class="aboutproject__item">
-                    Frontend-разработчик
-                    </div>
-
-                    <div class="aboutproject__item">
-                    Frontend-разработчик
-                    </div>
-
-                    <div class="aboutproject__item">
-                    Тестировщик
-                    </div>
-
-                    <div class="aboutproject__item">
-                    Дизайнер
-                    </div>
-
-                    <div class="aboutproject__item">
-                    Дизайнер
-                    </div>
-
-                    <div class="aboutproject__item">
-                    Аналитик
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
  <section class="aboutbanner">
         <div class="container-fluid">
             <div class="aboutbanner__inner">
