@@ -353,6 +353,7 @@
     position: relative;
     padding-left: 28px;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .main__about-link::after {
@@ -822,7 +823,7 @@
   .main__title-item3,
   .contact-link{
     font-size: 60px;
-    line-height: 60px;
+    line-height: 68px;
   }
   .main__title-wrapper{
       margin-bottom: 50px;
@@ -958,7 +959,7 @@
     }
     .main__title-item1, .main__title-item2, .main__title-item3, .contact-link {
         font-size: 34px;
-        line-height: 34px;
+        line-height: 39px;
     }
     .main__title-wrapper {
         margin-bottom: 60px;
@@ -977,14 +978,15 @@
     .main__links {
         display: none;
     }
+    .main__links-wrapper{
+        width: 100%;
+        justify-content: flex-start;
+    }
 
     .main__top1 {
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
-    }
-    .main__inner{
-        padding-top: 40px;
     }
 
     .statistic__inner {
@@ -1011,7 +1013,6 @@
 
     .main__top-about {
         flex-direction: column;
-        align-items: center;
         position: relative;
         padding-bottom: 88px;
     }
@@ -1075,16 +1076,12 @@
         line-height: 15px;
         max-width: 150px;
     }
-
-    .main__inner{
-        padding-top: 88px;
-    }
     .main__name{
         font-size: 50px;
     }
     .main__title-item1, .main__title-item2, .main__title-item3, .contact-link {
         font-size: 36px;
-        line-height: 36px;
+        line-height: 40px;
     }
 
     .main__title-wrapper {
@@ -1162,7 +1159,7 @@
 
     .main__title-item1, .main__title-item2, .main__title-item3, .contact-link{
         font-size: 27px;
-        line-height: 27px;
+        line-height: 30px;
     }
 }
 
@@ -1210,9 +1207,6 @@
         margin-bottom: 67px;
     }
 
-    .main__inner{
-        padding-top: 30px;
-    }
     .main__link-container{
         margin-right: 10px;
     }
@@ -1286,7 +1280,7 @@
     }
     .main__title-item1, .main__title-item2, .main__title-item3, .contact-link {
         font-size: 26px;
-        line-height: 26px;
+        line-height: 30px;
     }
     .main__animated-title{
         height: 140px;

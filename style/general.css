@@ -123,7 +123,7 @@ label{
 	position: absolute;
 	width: 0%;
 	height: 2px;
-	background-color: #EA8069;
+	background-color: var(--main-color);
 	bottom: 0;
 	left: -10px;
 	transition: all .3s linear;
@@ -264,6 +264,9 @@ label{
 	}
 }
 
+
+
+
 @media screen and (max-width:1500px){
 	.container{
 		padding: 0 80px;
@@ -385,7 +388,6 @@ label{
 	}
 	.main__top-about{
 		flex-direction: column;
-		align-items: center;
 		position: relative;
 		padding-bottom: 88px;
 	}
@@ -395,9 +397,6 @@ label{
 	}
 	.main-about__right{
 		margin-top: -22px;
-	}
-	.main__bottom1 {
-		margin-bottom: 136px;
 	}
 	.main__slider-item{
 		max-width: 550px;
@@ -609,6 +608,20 @@ label{
 		margin: 0 5px;
 	}
 }
+
+
+/* ANIMATION */
+/* .title__name{
+	opacity: 0;
+	transform: translateY(20%);
+	transition: all .5s linear;
+	transition: opacity .8s linear;
+} 
+.title__name._active{
+	opacity: 1 !important;
+	transform: translateY(0%);
+	transition: all .5s linear .5s;
+} */
 
 
 

@@ -12,10 +12,10 @@
   <link rel="stylesheet" href="fonts/font-awesome/css/all.css">
   <link rel="stylesheet" href="style/index.css">
   <link rel="stylesheet" href="style/_navigation.css">
-  <link rel="stylesheet" href="style/general.css">
-
+  
   <link rel="stylesheet" href="style/_footer.css">
   <link rel="stylesheet" href="style/services.css">
+  <link rel="stylesheet" href="style/general.css">
   
   
 </head>
@@ -55,7 +55,7 @@
             <div class="services__inner">
                 <div class="general__top">
                     <div class="general__category">услуги</div>
-                    <div class="title__name">Наша компания оказывает полный спектр услуг на IT-рынке</div>
+                    <div class="title__name _anim-items">Наша компания оказывает полный спектр услуг на IT-рынке</div>
                 </div>
 
                 <div class="services__container">

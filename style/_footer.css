@@ -39,6 +39,11 @@
     letter-spacing: 0.05em;
     font-family: 'Oswald', sans-serif; 
     white-space: nowrap;
+    transition: all .5s linear;
+    color: #fff;
+}
+.footer__link:hover{
+    color: #FFFF33;
 }
 
 .footer__right{

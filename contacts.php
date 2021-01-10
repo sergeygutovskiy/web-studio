@@ -58,7 +58,7 @@
 
 <section class="contacts contacts__properties">
     <div class="container">
-        <div class="title__name">
+        <div class="title__name _anim-items">
         Контакты
         </div>
 

@@ -55,7 +55,7 @@
                 <div class="container">
                 <div class="general__top _active">
                     <div class="general__category">О студии</div>
-                    <div class="title__name">TEREXOV</div>
+                    <div class="title__name _anim-items">TEREXOV</div>
                 </div>
                 </div>
 
