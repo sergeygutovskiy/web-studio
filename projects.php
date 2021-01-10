@@ -58,7 +58,7 @@
                 <div class="lastprojects__inner">
                     <div class="lastprojects__top">
                         <div class="general__category">Работы</div>
-                        <div class="lastprojects-title__name title__name _anim-items">Последние проекты</div>
+                        <div class="lastprojects-title__name title__name _active">Последние проекты</div>
                     </div>
                     <div class="lastprojects__container">
                         <div class="lastprojects__item">
@@ -149,44 +149,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="js/main.js"></script>
 
-    <script>
-        const animItems = document.querySelectorAll('._anim-items');
-
-if (animItems.length > 0) {
-  window.addEventListener('scroll', animOnScroll);
-  function animOnScroll(){
-    for (let index = 0; index < animItems.length; index++) {
-      const animItem = animItems[index];
-      const animItemHeight = animItem.offsetHeight;
-      const animItemOffset = offset(animItem).top;
-      const animStart = 4;
-
-      let animItemPoint = window.innerHeight - animItemHeight / animStart;
-      if (animItemHeight > window.innerHeight) {
-        animItemPoint = window.innerHeight - window.innerHeight / animStart;
-      }
-
-      if((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
-        animItem.classList.add('_active');
-      } else {
-        if(!animItem.classList.contains('_anim-no-hide')){
-            animItem.classList.remove('_active');
-        }
-      }
-    }
-  }
-
-  function offset(el) {
-    const rect = el.getBoundingClientRect(),
-      scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-      scrollTop = window.pageYOffset  || document.documentElement.scrollTop;
-    return { top: rect.top + scrollTop, left: rect.left + scrollLeft}
-  }
-  setTimeout(() => {
-    animOnScroll();
-  }, 300);
-} 
-    </script>
 </body>
 
 </html>
