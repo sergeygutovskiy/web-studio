@@ -19,7 +19,8 @@
   <link rel="stylesheet" href="style/_footer.css">
   <meta charset="utf-8">
   <link rel="stylesheet" href="style/contacts.css">
-
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="/js/common.js"></script>
   
   
 </head>
@@ -131,7 +132,7 @@
 
 
 
-                <button class="general__button">
+                <button class="general__button" form="form">
                     Отправить
                     <span></span>
                     <span></span>
@@ -150,9 +151,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="https://use.fontawesome.com/1295a37c31.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  
   <script src="js/wow.min.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/common.js"></script>
+  
 </body>
 </html>
