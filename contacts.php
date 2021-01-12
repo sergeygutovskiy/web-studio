@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="style/_footer.css">
   <link rel="stylesheet" href="style/general.css">
   <link rel="stylesheet" href="style/_footer.css">
-
+  <meta charset="utf-8">
   <link rel="stylesheet" href="style/contacts.css">
 
   
@@ -82,15 +82,15 @@
 
             <div class="contacts__right">
                 
-            <form class="contacts__form">
+            <form class="contacts__form" id="form">
                     <div class="input__wrapper">
-                    <input class="contacts__input" type="text" autocomplete="off" required>
+                    <input class="contacts__input" type="text" autocomplete="off" required name="name">
                     <label for="name" class="input__label">
                     <span class="input__placeholder">Ваше имя</span>
                     </label>
                     </div>
                     <div class="input__wrapper">
-                    <input class="contacts__input" type="text" required>
+                    <input class="contacts__input" type="text" required name="phone">
                     <label class="input__label">
                     <span class="input__placeholder">Телефон</span>
                     </label>
@@ -153,5 +153,6 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/common.js"></script>
 </body>
 </html>

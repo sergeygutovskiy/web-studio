@@ -68,7 +68,7 @@
                         </div>
 
                         <div class="about__slider-img">
-                            <img src="images/content/slider-1.jpg" alt="">
+                            <img src="images/content/slider-2.jpg" alt="">
                         </div>
                     </div>
                     <div class="about__slider-buttons">

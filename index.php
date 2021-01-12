@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+    <meta charset="utf-8">
     <link rel="stylesheet" href="style/_navigation.css">
     <link rel="stylesheet" href="style/slick.css">
     <link rel="stylesheet" href="style/_footer.css">
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/contacts-form.css">
     <link rel="stylesheet" href="style/main__slider.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -199,9 +199,9 @@
             <div class="statistic__inner">
                 <div class="statistic__row-top">
                     <div class="statistic__item _anim-items _anim-no-hide">
-                        <div class="statistic__number-wrapper statistic__number-big">
+                        <div class="statistic__number-wrapper statistic__number-small">
                             <span>></span>
-                            <div class="statistic__number statistic__number-first count">100</div>
+                            <div class="statistic__number statistic__number-first count">30</div>
                         </div>
                         <span class="statistic__descr">Проектов</span>
                     </div>
@@ -215,9 +215,10 @@
 
                     <div class="statistic__item _anim-items _anim-no-hide">
                         <div class="statistic__number-wrapper">
-                            <div class="statistic__number count">215</div>
+                        <span>></span>
+                            <div class="statistic__number count">90</div>
                         </div>
-                        <span class="statistic__descr">% в среднем увеличение прибыли</span>
+                        <span class="statistic__descr statistic__descr-it">% клиентов возвращается снова</span>
                     </div>
                 </div>
                 <div class="statistic__row-bottom">
@@ -251,7 +252,7 @@
 
     <?php require "templates/_footer.php"; ?>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/app.js"></script>
