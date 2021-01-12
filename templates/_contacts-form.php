@@ -1,3 +1,4 @@
+<script src="js/common.js"></script>
 <section class="contacts">
     <div class="container">
         
@@ -26,15 +27,15 @@
                 <p class="contacts__title">
                 Или оставьте заявку:
                 </p>
-                <form class="contacts__form">
+                <form class="contacts__form" id="form">
                     <div class="input__wrapper">
-                    <input class="contacts__input" type="text" autocomplete="off" required>
+                    <input class="contacts__input" type="text" autocomplete="off" required name="name">
                     <label for="name" class="input__label">
                     <span class="input__placeholder">Ваше имя</span>
                     </label>
                     </div>
                     <div class="input__wrapper">
-                    <input class="contacts__input" type="text" required>
+                    <input class="contacts__input" type="text" required name="phone">
                     <label class="input__label">
                     <span class="input__placeholder">Телефон</span>
                     </label>
@@ -75,7 +76,7 @@
 
 
 
-                <button class="general__button">
+                <button class="general__button" form="form">
                     Отправить
                     <span></span>
                     <span></span>
