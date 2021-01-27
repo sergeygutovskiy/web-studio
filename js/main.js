@@ -1,4 +1,5 @@
-$(document).ready(function(){
+window.addEventListener('DOMContentLoaded', () => {
+  $(document).ready(function(){
 
 
     $(".nav__menu").click(function() {			
@@ -99,3 +100,4 @@ $(document).ready(function(){
       animOnScroll();
     }, 300);
   } 
+});
