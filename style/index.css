@@ -1293,20 +1293,6 @@
 
 /* ANIMATION */
 
-/* .main__link-item{
-    opacity: 0;
-    transform: translateX(-100%);
-    transition: all .3s ease 5s;
-}
-.main__link-item._active{
-    opacity: 1;
-    transform: translateX(0%);
-}
- */
-
-
-
-
  .main__link-item:nth-child(1)._active{
      opacity: 1;
      transition: all 1s ease .5s;

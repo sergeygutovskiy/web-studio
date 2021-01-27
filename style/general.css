@@ -610,15 +610,16 @@ label{
 
 
 /* ANIMATION */
-/* .lastprojects-title__name{
-	opacity: 0;
-	transform: translateY(120%);
-} 
-.lastprojects-title__name._active{
-	opacity: 1;
-	transform: translateY(0px);
-	transition: all 1s linear 1s;
-} */
+.title__name{
+    opacity: 0;
+    transform: translateY(50%);
+    transition: all .8S;
+}
+.title__name._active{
+    opacity: 1;
+    transform: translateY(0%);
+    transition: all .5s linear 1s;
+}
 
 
 

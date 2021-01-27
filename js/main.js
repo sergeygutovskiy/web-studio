@@ -78,7 +78,7 @@ $(document).ready(function(){
         if (animItemHeight > window.innerHeight) {
           animItemPoint = window.innerHeight - window.innerHeight / animStart;
         }
-  
+        
         if((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
           animItem.classList.add('_active');
         } else {
@@ -88,7 +88,7 @@ $(document).ready(function(){
         }
       }
     }
-  
+    
     function offset(el) {
       const rect = el.getBoundingClientRect(),
         scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
