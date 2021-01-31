@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>О студии</title>
-  <link rel="icon" href="images\content\favicon.svg">
+  <link rel="icon" href="images/content/favicon.svg">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald&display=swap" rel="stylesheet">
@@ -29,10 +29,10 @@
 			</div>
 		</a>
 		<div class="nav__radius">
-			<button class="nav__menu">
+			<div class="nav__menu">
 				<div></div>
 				<div></div>
-			</button>
+			</div>
 		</div>
 
 		<div class="nav__links-container">
@@ -41,7 +41,7 @@
 				<li class="nav__link nav__link--active"><a href="about.php"> О нас    </a></li>
 				<li class="nav__link"><a href="services.php"> Услуги   </a></li>
 				<li class="nav__link"><a href="contacts.php"> Контакты </a></li>
-				<li class="nav__link nav__phone"><a href="tel:+7 952 246-76-79">+7 952 246-76-79</a></li>
+				<li class="nav__link nav__phone"><a href="tel:+79522467679">+7 952 246-76-79</a></li>
 			</ul>
 		</div>
 	</div>
@@ -202,5 +202,6 @@
   <script src="https://use.fontawesome.com/1295a37c31.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/slider.js"></script>
 </body>
 </html>

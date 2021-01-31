@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Как связаться с нами</title>
-  <link rel="icon" href="images\content\favicon.svg">
+  <link rel="icon" href="images/content/favicon.svg">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald&display=swap" rel="stylesheet">
@@ -13,11 +13,9 @@
   <link rel="stylesheet" href="style/index.css">
   <link rel="stylesheet" href="style/_navigation.css">
   <link rel="stylesheet" href="style/slick.css">
-  <link rel="stylesheet" href="style/animate.css">
   <link rel="stylesheet" href="style/_footer.css">
   <link rel="stylesheet" href="style/general.css">
   <link rel="stylesheet" href="style/_footer.css">
-  <meta charset="utf-8">
   <link rel="stylesheet" href="style/contacts.css">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="/js/common.js"></script>
@@ -35,10 +33,10 @@
 			</div>
 		</a>
 		<div class="nav__radius">
-			<button class="nav__menu">
+			<div class="nav__menu">
 				<div></div>
 				<div></div>
-			</button>
+			</div>
 		</div>
 
 		<div class="nav__links-container">
@@ -47,7 +45,7 @@
 				<li class="nav__link"><a href="about.php"> О нас    </a></li>
 				<li class="nav__link"><a href="services.php"> Услуги   </a></li>
 				<li class="nav__link nav__link--active"><a href="contacts.php"> Контакты </a></li>
-				<li class="nav__link nav__phone"><a href="tel:+7 952 246-76-79">+7 952 246-76-79</a></li>
+				<li class="nav__link nav__phone"><a href="tel:+79522467679">+7 952 246-76-79</a></li>
 			</ul>
 		</div>
 	</div>
@@ -104,27 +102,27 @@
                     <li class="contact__link-item">
                     <label>
                         <input class="check-box" type="checkbox">
-                        <span class="checked-style contacts__prompt-link wow fadeInDown" data-wow-delay=".7s" data-wow-offset="150" type="checkbox">Телефон</span> 
+                        <span class="checked-style contacts__prompt-link" >Телефон</span> 
                     </label>
                     </li>
 
                     <li class="contact__link-item">
                     <label>
                         <input class="check-box" type="checkbox">
-                         <span class="checked-style contacts__prompt-link wow fadeInDown" data-wow-delay="0.9s" data-wow-offset="150">WhatsApp</span> 
+                         <span class="checked-style contacts__prompt-link">WhatsApp</span> 
                      </label>
                      </li>
                     <li class="contact__link-item">
                     <label>
                         <input class="check-box" type="checkbox">
-                        <span class="checked-style contacts__prompt-link wow fadeInDown" data-wow-delay="1.1s" data-wow-offset="150">Telegram</span> 
+                        <span class="checked-style contacts__prompt-link">Telegram</span> 
                     </label>
                     </li>
 
                     <li class="contact__link-item">
                     <label>
                         <input class="check-box" type="checkbox">
-                        <span class="checked-style contacts__prompt-link wow fadeInDown" data-wow-delay="1.3s" data-wow-offset="150">Viber</span> 
+                        <span class="checked-style contacts__prompt-link">Viber</span> 
                     </label>
                      </li>
                     </ul>
@@ -151,8 +149,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="https://use.fontawesome.com/1295a37c31.js"></script>
-  
-  <script src="js/wow.min.js"></script>
   <script src="js/main.js"></script>
   
 </body>
