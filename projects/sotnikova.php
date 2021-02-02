@@ -82,7 +82,7 @@
 
 
             <div class="info__links">
-                <a class="goback" href="/projects.php">Ко всем проектам</a>
+                <a class="goback" href="#">Ко всем проектам</a>
             </div>
         </div>
     </section>
