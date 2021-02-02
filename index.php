@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
 
     <title>Digital-агентство terexov</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="icon" href="images\content\favicon.svg">
+    <link rel="icon" href="images/content/favicon.svg">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -256,99 +256,23 @@
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/app.js"></script>
-    <!-- <script>
-        
-// Анимация текста 
-
-class TextScramble {
-  constructor(el) {
-    this.el = el
-    this.chars = '!<>-_\\/[]{}—=+*^?#________'
-    this.update = this.update.bind(this)
-  }
-  setText(newText) {
-    const oldText = this.el.innerText
-    const length = Math.max(oldText.length, newText.length)
-    const promise = new Promise((resolve) => this.resolve = resolve)
-    this.queue = []
-    for (let i = 0; i < length; i++) {
-      const from = oldText[i] || ''
-      const to = newText[i] || ''
-      const start = Math.floor(Math.random() * 40)
-      const end = start + Math.floor(Math.random() * 40)
-      this.queue.push({ from, to, start, end })
-    }
-    cancelAnimationFrame(this.frameRequest)
-    this.frame = 0
-    this.update()
-    return promise
-  }
-  update() {
-    let output = ''
-    let complete = 0
-    for (let i = 0, n = this.queue.length; i < n; i++) {
-      let { from, to, start, end, char } = this.queue[i]
-      if (this.frame >= end) {
-        complete++
-        output += to
-      } else if (this.frame >= start) {
-        if (!char || Math.random() < 0.28) {
-          char = this.randomChar()
-          this.queue[i].char = char
-        }
-        output += `<span class="dud">${char}</span>`
-      } else {
-        output += from
-      }
-    }
-    this.el.innerHTML = output
-    if (complete === this.queue.length) {
-      this.resolve()
-    } else {
-      this.frameRequest = requestAnimationFrame(this.update)
-      this.frame++
-    }
-  }
-  randomChar() {
-    return this.chars[Math.floor(Math.random() * this.chars.length)]
-  }
-}
-const phrases = [
-  'сайты',
-  'приложения',
-  'дизайн'
-]
-
-const el = document.querySelector('.text')
-const fx = new TextScramble(el)
-
-let counter = 0
-const next = () => {
-  fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 800)
-  })
-  counter = (counter + 1) % phrases.length
-}
-
-next()
-    </script> -->
+    <script src="js/slider.js"></script>
+    <script src="js/word-animation.js"></script>
+    
 
     <script>
-
-        
-
-    var block_show = false;
+    let block_show = false;
  
  function scrollTracking(){
    if (block_show) {
      return false;
    }
   
-   var wt = $(window).scrollTop();
-   var wh = $(window).height();
-   var et = $('.count').offset().top;
-   var eh = $('.count').outerHeight();
-   var dh = $(document).height();   
+   let wt = $(window).scrollTop();
+   let wh = $(window).height();
+   let et = $('.count').offset().top;
+   let eh = $('.count').outerHeight();
+   let dh = $(document).height();   
   
    if (wt + wh >= et || wh + wt == dh || eh + et < wh){
      block_show = true;

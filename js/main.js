@@ -1,4 +1,5 @@
-$(document).ready(function(){
+window.addEventListener('DOMContentLoaded', () => {
+  $(document).ready(function(){
 
 
     $(".nav__menu").click(function() {			
@@ -29,31 +30,11 @@ $(document).ready(function(){
       scrollTracking();
     });
       
-    $(document).ready(function(){ 
-      scrollTracking();
-    });
+    // $(document).ready(function(){ 
+    //   scrollTracking();
+    // });
 
 });
-
-
-// СЛАЙДЕРЫ
-    $('.about__slider').slick({
-        slidesToShow: 1,
-        slidesToScroll:1,
-        nextArrow:'.about__arrow-right',
-        prevArrow:'.about__arrow-left',
-    });
-
-    $('.main__slider').slick({
-        slidesToShow: 1,
-        slidesToScroll:1,
-        infinite: true,
-        centerMode:true,
-        variableWidth: true,
-        autoplay: true,
-        arrows:false,
-        autoplaySpeed: 1000,
-    });
 
 
 
@@ -78,7 +59,7 @@ $(document).ready(function(){
         if (animItemHeight > window.innerHeight) {
           animItemPoint = window.innerHeight - window.innerHeight / animStart;
         }
-  
+        
         if((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
           animItem.classList.add('_active');
         } else {
@@ -88,7 +69,7 @@ $(document).ready(function(){
         }
       }
     }
-  
+    
     function offset(el) {
       const rect = el.getBoundingClientRect(),
         scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
@@ -99,3 +80,4 @@ $(document).ready(function(){
       animOnScroll();
     }, 300);
   } 
+});

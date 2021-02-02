@@ -30,7 +30,7 @@
                 <div class="general__top">
                     <div class="info__title">Сдек</div>
                     <div class="info__subtitle">Website + Design + SEO</div>
-                    <a href="https://logist-cdek.ru" class="info__link">logist-cdek.ru</a>
+                    <a href="https://logist-cdek.ru" target="_blank" class="info__link">logist-cdek.ru</a>
                 </div>
             </div>
         </div>

@@ -1,5 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
-  class TextScramble {
+// Анимация текста 
+
+class TextScramble {
     constructor(el) {
       this.el = el
       this.chars = '!<>-_\\/[]{}—=+*^?#________'
@@ -53,11 +55,9 @@ window.addEventListener('DOMContentLoaded', () => {
     }
   }
   const phrases = [
-    'дизайн',
-    'брендинг',
-    'логотипы',
-    'презентации',
-    
+    'сайты',
+    'приложения',
+    'дизайн'
   ]
   
   const el = document.querySelector('.text')
@@ -66,10 +66,10 @@ window.addEventListener('DOMContentLoaded', () => {
   let counter = 0
   const next = () => {
     fx.setText(phrases[counter]).then(() => {
-      setTimeout(next, 1500)
+      setTimeout(next, 800)
     })
     counter = (counter + 1) % phrases.length
   }
   
-  next()
+  next();
 });
