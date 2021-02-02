@@ -507,6 +507,7 @@
     }
     .about__slider-img img{
         min-height: 180px;
+        height: 180px;
     }
     .about__text{
         max-width: 312px;
