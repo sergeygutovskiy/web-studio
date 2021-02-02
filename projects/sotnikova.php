@@ -30,7 +30,7 @@
                 <div class="general__top">
                     <div class="info__title">Личный сайт Сотниковой</div>
                     <div class="info__subtitle">Website + Design </div>
-                    <a href="https://annasotnikova.com" class="info__link">annasotnikova.com</a>
+                    <a href="https://annasotnikova.com" target="_blank" class="info__link">annasotnikova.com</a>
                 </div>
             </div>
         </div>

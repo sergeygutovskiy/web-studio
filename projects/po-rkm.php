@@ -30,7 +30,7 @@
                 <div class="general__top">
                     <div class="info__title">РКМ</div>
                     <div class="info__subtitle">Website + Design </div>
-                    <a href="https://po-rkm.ru" class="info__link">po-rkm.ru</a>
+                    <a href="https://po-rkm.ru" target="_blank" class="info__link">po-rkm.ru</a>
                 </div>
             </div>
         </div>
