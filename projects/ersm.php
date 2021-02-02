@@ -30,7 +30,7 @@
                 <div class="general__top">
                     <div class="info__title">ЭраСтройМонтаж</div>
                     <div class="info__subtitle">Website + Design </div>
-                    <a href="https://annasotnikova.com" target="_blank" class="info__link">ersm-spb.ru</a>
+                    <a href="https://ersm-spb.ru/" target="_blank" class="info__link">ersm-spb.ru</a>
                 </div>
             </div>
         </div>
